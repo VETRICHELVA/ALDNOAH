@@ -1,6 +1,9 @@
 """Generate realistic demo expenses with planted, labelled anomalies.
 
-Writes data/demo_expenses.csv and data/labels.csv. Deterministic (seed 7). Stdlib only.
+`python data/generate.py`   → data/demo_expenses.csv + data/labels.csv  (Jul–Oct 2026, seed 7)
+`python data/generate.py 2` → data/demosentinal2.csv + data/labels2.csv (Mar–Jun 2026, seed 23)
+Variant 2 uses other ids and an earlier period, so it can be imported on its own or as older history.
+Deterministic. Stdlib only.
 """
 import csv
 import math
@@ -12,12 +15,26 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from sentinel.policies_default import default_policy_map  # noqa: E402
 
-random.seed(7)
+VARIANTS = {
+    1: dict(seed=7, pick=11, start=date(2026, 7, 1), end=date(2026, 10, 7), shift=0, base=240000, sid=251000,
+            csv="demo_expenses.csv", labels="labels.csv",
+            holi={date(2026, 8, 15), date(2026, 8, 28), date(2026, 10, 2)}),
+    2: dict(seed=23, pick=29, start=date(2026, 3, 24), end=date(2026, 6, 30), shift=-105, base=340000, sid=351000,
+            csv="demosentinal2.csv", labels="labels2.csv",
+            holi={date(2026, 4, 3), date(2026, 4, 14), date(2026, 5, 1)}),
+}
+V = VARIANTS[int(sys.argv[1]) if len(sys.argv) > 1 else 1]
+random.seed(V["seed"])
 OUT = Path(__file__).resolve().parent
 POL = default_policy_map()
-START, END = date(2026, 7, 1), date(2026, 10, 7)
+START, END = V["start"], V["end"]
 DAYS = (END - START).days + 1
-HOLI = {date(2026, 8, 15), date(2026, 8, 28), date(2026, 10, 2)}
+HOLI = V["holi"]
+
+
+def D(y, m, d):
+    """Scenario date, moved into this variant's period (shift is whole weeks, so weekdays are kept)."""
+    return date(y, m, d) + timedelta(days=V["shift"])
 
 DEPTS = {
     "Engineering": ["Priya Raman", "Karthik Subramanian", "Ananya Iyer", "Rohan Deshpande", "Sneha Kulkarni",
@@ -82,7 +99,7 @@ for d, names in DEPTS.items():
 EMP = {e["name"]: e for e in emps}
 
 rows, labels = [], {}
-seq = [240000]
+seq = [V["base"]]
 
 
 def next_id():
@@ -163,24 +180,24 @@ def wd(d):
 
 
 # --- required scenarios (fixed ids) ---------------------------------------
-add(EMP["Priya Raman"], "Travel", 18500, wd(date(2026, 10, 5)), merchant="IndiGo", approval="pending",
-    purpose="Client visit – Mumbai", label="policy_violation", tid="TXN-251001", pay="Corporate card")
-add(EMP["Rahul Menon"], "Office Supplies", 5400, date(2026, 10, 7), merchant="Amazon", approval="pending",
-    purpose="Laptop docking station", label="policy_violation", tid="TXN-251002")
-add(EMP["Rahul Menon"], "Office Supplies", 5400, date(2026, 10, 7), merchant="Amazon", approval="pending",
-    purpose="Laptop docking station", label="duplicate", tid="TXN-251003")
-add(EMP["Karthik Subramanian"], "Training & Conferences", 18500, wd(date(2026, 9, 24)), merchant="Great Learning",
-    approval="pending", purpose="Leadership programme fee", label="employee_anomaly", tid="TXN-251004")
-add(EMP["Arjun Nair"], "Software Subscription", 32000, wd(date(2026, 9, 16)), merchant="Atlassian",
-    approval="pending", purpose="Jira and Confluence annual plan", label="category_anomaly", tid="TXN-251005")
-add(EMP["Imran Sheikh"], "Travel", 8500, wd(date(2026, 9, 9)), merchant="Air India", receipt=False,
-    approval="approved", purpose="Plant visit – Chennai", label="missing_receipt", tid="TXN-251006")
-add(EMP["Ananya Iyer"], "Training & Conferences", 30000, wd(date(2026, 9, 2)), merchant="NASSCOM",
+add(EMP["Priya Raman"], "Travel", 18500, wd(D(2026, 10, 5)), merchant="IndiGo", approval="pending",
+    purpose="Client visit – Mumbai", label="policy_violation", tid=f"TXN-{V['sid'] + 1}", pay="Corporate card")
+add(EMP["Rahul Menon"], "Office Supplies", 5400, D(2026, 10, 7), merchant="Amazon", approval="pending",
+    purpose="Laptop docking station", label="policy_violation", tid=f"TXN-{V['sid'] + 2}")
+add(EMP["Rahul Menon"], "Office Supplies", 5400, D(2026, 10, 7), merchant="Amazon", approval="pending",
+    purpose="Laptop docking station", label="duplicate", tid=f"TXN-{V['sid'] + 3}")
+add(EMP["Karthik Subramanian"], "Training & Conferences", 18500, wd(D(2026, 9, 24)), merchant="Great Learning",
+    approval="pending", purpose="Leadership programme fee", label="employee_anomaly", tid=f"TXN-{V['sid'] + 4}")
+add(EMP["Arjun Nair"], "Software Subscription", 32000, wd(D(2026, 9, 16)), merchant="Atlassian",
+    approval="pending", purpose="Jira and Confluence annual plan", label="category_anomaly", tid=f"TXN-{V['sid'] + 5}")
+add(EMP["Imran Sheikh"], "Travel", 8500, wd(D(2026, 9, 9)), merchant="Air India", receipt=False,
+    approval="approved", purpose="Plant visit – Chennai", label="missing_receipt", tid=f"TXN-{V['sid'] + 6}")
+add(EMP["Ananya Iyer"], "Training & Conferences", 30000, wd(D(2026, 9, 2)), merchant="NASSCOM",
     approval="approved", purpose="Annual conference – NASSCOM Product Conclave", label="unusual_legitimate",
-    tid="TXN-251007", pay="Corporate card")
+    tid=f"TXN-{V['sid'] + 7}", pay="Corporate card")
 
 # --- additional planted anomalies -----------------------------------------
-pick = random.Random(11)
+pick = random.Random(V["pick"])
 for cat, lo, hi, m in [("Meals", 3200, 4800, "The Leela Palace"), ("Accommodation", 11000, 14500, "Taj Hotels"),
                        ("Client Entertainment", 8200, 9800, "Toit Brewpub"), ("Telecom & Internet", 4200, 5100, "Airtel"),
                        ("Meals", 3600, 4200, "Barbeque Nation"), ("Accommodation", 12000, 13500, "ITC Hotels")]:
@@ -233,8 +250,8 @@ for cat, m, lo, hi, purpose in [("Gambling", "Dream11", 2000, 5000, "Fantasy lea
     e = pick.choice(emps)
     add(e, cat, round(pick.uniform(lo, hi), -1), rand_date("Meals"), merchant=m, purpose=purpose, label="restricted")
 
-for name, cat, start in [("Siddharth Rao", "Travel", date(2026, 8, 3)), ("Ravi Shankar", "Travel", date(2026, 9, 14)),
-                         ("Kavya Reddy", "Accommodation", date(2026, 8, 24))]:
+for name, cat, start in [("Siddharth Rao", "Travel", D(2026, 8, 3)), ("Ravi Shankar", "Travel", D(2026, 9, 14)),
+                         ("Kavya Reddy", "Accommodation", D(2026, 8, 24))]:
     lim = POL[cat]["max_amount"]
     for k, f in enumerate((0.98, 0.97, 0.99)):
         add(EMP[name], cat, round(lim * f, -1), start + timedelta(days=k * 2), approval="pending",
@@ -250,10 +267,10 @@ for e in pick.sample(emps, 30):
             break
 
 rows.sort(key=lambda r: (r["date"], r["transaction_id"]))
-with open(OUT / "demo_expenses.csv", "w", newline="") as f:
+with open(OUT / V["csv"], "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(rows[0]))
     w.writeheader(); w.writerows(rows)
-with open(OUT / "labels.csv", "w", newline="") as f:
+with open(OUT / V["labels"], "w", newline="") as f:
     w = csv.writer(f); w.writerow(["transaction_id", "label"])
     w.writerows(sorted(labels.items()))
 planted = sum(v != "normal" for v in labels.values())

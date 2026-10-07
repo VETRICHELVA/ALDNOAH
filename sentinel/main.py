@@ -633,13 +633,13 @@ def report(rtype: Literal["spend", "policy", "anomaly", "employee", "vendor", "d
 
 @app.get("/api/evaluation")
 def evaluation(s=Depends(db), _=Depends(user_of())):
-    path = analysis.DATA / "labels.csv"
-    if not path.exists():
-        return {"available": False}
     from .eval import evaluate
-    labels = {r["transaction_id"]: r["label"] for r in csv.DictReader(path.open())}
-    if not s.scalar(select(func.count()).select_from(Transaction).where(Transaction.external_id.in_(list(labels)))):
-        return {"available": False}  # labels only describe the demo dataset
+    labels = {r["transaction_id"]: r["label"] for path in sorted(analysis.DATA.glob("labels*.csv"))
+              for r in csv.DictReader(path.open())}
+    loaded = set(s.scalars(select(Transaction.external_id).where(Transaction.external_id.in_(list(labels)))))
+    if not loaded:
+        return {"available": False}  # labels only describe the generated demo datasets
+    labels = {t: l for t, l in labels.items() if t in loaded}
     findings = {f.transaction.external_id: {"risk_score": f.risk_score, "severity": f.severity,
                                             "anomaly_types": f.anomaly_types}
                 for f in s.scalars(select(Finding)).unique()}
