@@ -1,5 +1,5 @@
 """API flow on a fresh SQLite DB: login, roles, upload validation, review workflow, audit."""
-import os, tempfile
+import json, os, tempfile
 os.environ["DATABASE_URL"] = "sqlite:///" + tempfile.mktemp(suffix=".db")
 from fastapi.testclient import TestClient  # noqa: E402
 from sentinel.main import app  # noqa: E402
@@ -101,3 +101,41 @@ def test_absent_receipt_and_approval_columns_are_unknown_not_missing():
         assert e["receipt_present"] is None and e["approval_status"] == "unknown"
         types = (e["finding"] or {}).get("anomaly_types", [])
         assert "missing_receipt" not in types and "missing_approval" not in types
+
+
+def test_insights_fall_back_to_rules_without_api_key(monkeypatch):
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    monkeypatch.delenv("ANTHROPIC_AUTH_TOKEN", raising=False)
+    mgr = client("priya.sharma@sentinel.demo")
+    csv_data = ("transaction_id,employee_id,employee_name,department,date,amount,currency,merchant,category,receipt_present\n"
+                "T-INS-1,E970,Rhea Das,Finance,2026-09-01,9000,INR,Dream11,Gambling,yes\n")
+    mgr.post("/api/expenses/upload", files={"file": ("ins.csv", csv_data)})
+    fid = mgr.get("/api/anomalies", params={"q": "T-INS-1", "tab": "all"}).json()["items"][0]["id"]
+    r = mgr.get(f"/api/anomalies/{fid}/insights").json()
+    assert r["source"] == "rules" and r["suggested_decision"] == "escalate"
+    assert r["questions"] and r["would_clear"] and "fraud" not in json.dumps(r).lower()
+    assert "total" in r["past_decisions"]
+
+
+def test_insights_use_claude_when_key_present(monkeypatch):
+    import anthropic
+    from types import SimpleNamespace
+    from sentinel import insights as ins
+    sent = {}
+
+    class FakeMessages:
+        def create(self, **kw):
+            sent.update(kw)
+            out = {"summary": "Unusual amount.", "questions": ["Was it approved?"], "would_clear": ["Approval"],
+                   "suggested_decision": "request_evidence", "decision_reason": "Approval is not recorded."}
+            return SimpleNamespace(stop_reason="end_turn", content=[SimpleNamespace(type="text", text=json.dumps(out))])
+
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "test")
+    monkeypatch.setattr(anthropic, "Anthropic", lambda **kw: SimpleNamespace(messages=FakeMessages()))
+    ins._cache.clear()
+    mgr = client("priya.sharma@sentinel.demo")
+    fid = mgr.get("/api/anomalies", params={"tab": "all"}).json()["items"][0]["id"]
+    r = mgr.get(f"/api/anomalies/{fid}/insights").json()
+    assert r["source"] == "claude" and r["summary"] == "Unusual amount." and "past_decisions" in r
+    assert sent["model"] == "claude-opus-5-5" and sent["output_config"]["format"]["type"] == "json_schema"
+    assert "never call the expense fraud" in sent["system"].lower()

@@ -115,3 +115,10 @@ export type Settings = {
   risk: { weights: { code: string; label: string; weight: number }[]; thresholds: { high: number; medium: number; low: number } };
   retention_days: number;
 };
+
+export type Insights = {
+  source: "claude" | "rules"; model?: string;
+  summary: string; questions: string[]; would_clear: string[];
+  suggested_decision: "approve" | "reject" | "request_evidence" | "escalate"; decision_reason: string;
+  past_decisions: { signal: string; total: number; by_status: Record<string, number> };
+};

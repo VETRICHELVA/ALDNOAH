@@ -4,6 +4,7 @@ import { useParams, useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useEffect, useRef, useState } from "react";
 import { AuditList } from "@/components/AuditList";
 import { AmountRuler, KV, Tally } from "@/components/evidence";
+import { InsightsPanel } from "@/components/insights";
 import { canReview, useMe } from "@/components/Me";
 import { Panel, Region, Skeleton, Status, useApi } from "@/components/ui";
 import { ApiError, post } from "@/lib/api";
@@ -74,6 +75,8 @@ function Detail({ f, query, onChange }: { f: FindingDetail; query: string; onCha
             <p className="mt-2 text-[16px] max-w-[70ch]">{f.explanation}</p>
             {f.confidence_note && <p className="mt-1 text-[13px] text-warning">{f.confidence_note}</p>}
           </section>
+
+          <InsightsPanel findingId={f.id} status={f.status} />
 
           <div className="grid gap-5 lg:grid-cols-2">
             <Panel title="Why flagged">

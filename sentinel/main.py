@@ -256,6 +256,17 @@ def get_anomaly(fid: int, p=Depends(qparams), s=Depends(db), _=Depends(user_of()
     return finding_detail(s, f, p)
 
 
+@app.get("/api/anomalies/{fid}/insights")
+def anomaly_insights(fid: int, s=Depends(db), _=Depends(user_of())):
+    from .insights import insights
+    f = s.get(Finding, fid)
+    if not f:
+        raise HTTPException(404, "Finding not found.")
+    resolved = [{"id": x.id, "status": x.status, "primary_code": x.signals[0]["code"] if x.signals else None}
+                for x in s.scalars(select(Finding).where(Finding.status.in_(RESOLVED))).unique()]
+    return insights(finding_detail(s, f, None), resolved)
+
+
 ReviewActionT = Literal["approve", "reject", "mark_legitimate", "request_evidence", "assign", "escalate"]
 TRANSITIONS = {"approve": ("approved", False), "reject": ("rejected", True), "mark_legitimate": ("legitimate", True),
                "request_evidence": ("evidence_requested", False), "assign": ("in_review", False),
