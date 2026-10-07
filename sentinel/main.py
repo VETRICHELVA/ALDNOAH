@@ -604,6 +604,8 @@ def evaluation(s=Depends(db), _=Depends(user_of())):
         return {"available": False}
     from .eval import evaluate
     labels = {r["transaction_id"]: r["label"] for r in csv.DictReader(path.open())}
+    if not s.scalar(select(func.count()).select_from(Transaction).where(Transaction.external_id.in_(list(labels)))):
+        return {"available": False}  # labels only describe the demo dataset
     findings = {f.transaction.external_id: {"risk_score": f.risk_score, "severity": f.severity,
                                             "anomaly_types": f.anomaly_types}
                 for f in s.scalars(select(Finding)).unique()}
