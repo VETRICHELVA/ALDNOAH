@@ -33,7 +33,7 @@ export type Policy = {
 
 export type Expense = ExpenseRow & {
   currency: string; payment_method: string; location: string;
-  business_purpose: string; receipt_present: boolean; receipt_id: string | null;
+  business_purpose: string; receipt_present: boolean | null; receipt_id: string | null;
   approval_status: string; import_id: number; policy: Policy | null;
 };
 

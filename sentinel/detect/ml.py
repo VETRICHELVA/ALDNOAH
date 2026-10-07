@@ -21,7 +21,7 @@ def run(ctx: Ctx) -> dict[int, list[dict]]:
         [t["date"].weekday() for t in ctx.t],
         [len(ctx.by_emp_merch[(t["employee_id"], t["merchant_key"])]) for t in ctx.t],
         ctx.days_prev,
-        [float(t["receipt_present"]) for t in ctx.t],
+        [float(t["receipt_present"] is not False) for t in ctx.t],  # unknown counts as neutral
     ])
     score = -IsolationForest(n_estimators=200, contamination="auto", random_state=42).fit(X).score_samples(X)
     p97, top = float(np.percentile(score, 97)), float(score.max())

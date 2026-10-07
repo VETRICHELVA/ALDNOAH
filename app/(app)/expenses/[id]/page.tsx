@@ -65,7 +65,7 @@ export default function ExpenseDetail() {
                   {t.receipt_present ? (
                     <KV rows={[["Status", <span key="s" className="text-success">✓ Attached</span>], ["Receipt ID", <span key="r" className="font-mono">{t.receipt_id ?? "—"}</span>],
                       ["Extracted vendor", t.merchant], ["Extracted amount", money(t.amount)], ["Extracted date", date(t.date)]]} />
-                  ) : <p className="text-danger">✕ Missing</p>}
+                  ) : t.receipt_present === null ? <p className="text-muted">? Unknown — the import did not include receipt information.</p> : <p className="text-danger">✕ Missing</p>}
                 </div>
               </Panel>
             </aside>

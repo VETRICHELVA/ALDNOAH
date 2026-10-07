@@ -12,9 +12,9 @@ ALIASES = {"food": "Meals", "meal": "Meals", "flights": "Travel", "flight": "Tra
            "cab": "Local Transport", "taxi": "Local Transport", "software": "Software Subscription",
            "saas": "Software Subscription", "stationery": "Office Supplies", "conference": "Training & Conferences",
            "training": "Training & Conferences", "telecom": "Telecom & Internet", "internet": "Telecom & Internet",
-           "entertainment": "Client Entertainment", "personal": "Personal Expenses"}
+           "entertainment": "Client Entertainment", "transport": "Local Transport", "personal": "Personal Expenses"}
 TRUE = {"yes", "true", "1", "y"}
-FALSE = {"no", "false", "0", "n", ""}
+FALSE = {"no", "false", "0", "n"}
 MAX_AMOUNT = 10_000_000
 
 
@@ -79,8 +79,13 @@ def parse_amount(v) -> float | None:
 
 
 def parse_bool(v):
+    """True / False / None (blank or column absent = unknown). Raises ValueError on anything else."""
     s = str(v if v is not None else "").strip().lower()
-    return True if s in TRUE else False if s in FALSE else None
+    if s == "":
+        return None
+    if s in TRUE | FALSE:
+        return s in TRUE
+    raise ValueError(s)
 
 
 def merchant_key(m: str) -> str:
@@ -115,9 +120,10 @@ def validate(raw_rows: list[dict], categories: list[str], existing_ids: set[str]
         tid = get("transaction_id")
         if tid and (tid in seen or tid in existing_ids):
             errs.append(("transaction_id", f"Transaction ID {tid} appears more than once or was already imported."))
-        receipt = parse_bool(r.get("receipt_present"))
-        if receipt is None:
-            errs.append(("receipt_present", f"receipt_present '{get('receipt_present')}' must be yes or no."))
+        try:
+            receipt = parse_bool(r.get("receipt_present"))
+        except ValueError:
+            errs.append(("receipt_present", f"receipt_present '{get('receipt_present')}' must be yes, no or blank."))
         seen.add(tid)
         if errs:
             raw = {k: ("" if v is None else str(v)) for k, v in r.items()}
@@ -131,6 +137,6 @@ def validate(raw_rows: list[dict], categories: list[str], existing_ids: set[str]
             "payment_method": get("payment_method"), "location": get("location"),
             "business_purpose": get("business_purpose"), "receipt_present": receipt,
             "receipt_id": get("receipt_id") or None,
-            "approval_status": (get("approval_status") or "pending").lower().replace(" ", "_"),
+            "approval_status": (get("approval_status") or "unknown").lower().replace(" ", "_"),
         })
     return valid, errors

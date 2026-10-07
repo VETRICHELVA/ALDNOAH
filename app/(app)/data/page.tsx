@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { canManage, useMe } from "@/components/Me";
 import { PageHeader, Panel, Region, useApi } from "@/components/ui";
-import { ApiError, post } from "@/lib/api";
+import { ApiError, del, post } from "@/lib/api";
 import { dateTime, num } from "@/lib/format";
 import type { ImportResult } from "@/lib/types";
 
@@ -13,6 +13,36 @@ export default function Data() {
   const [busy, setBusy] = useState(false);
   const [result, setResult] = useState<ImportResult | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [notice, setNotice] = useState<string | null>(null);
+
+  async function remove(path: string, question: string, done: (n: number) => string) {
+    if (!window.confirm(question)) return;
+    setBusy(true);
+    setNotice(null);
+    setError(null);
+    try {
+      const r = await del<{ deleted: number }>(path);
+      setResult(null);
+      setNotice(done(r.deleted));
+      history.reload();
+    } catch (err) {
+      setError(err instanceof ApiError ? `Nothing was deleted. ${err.detail}` : "Nothing was deleted: the server could not be reached. Try again.");
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  function deleteImport(r: ImportResult) {
+    remove(`/imports/${r.id}`,
+      `Delete ${r.filename}? This permanently removes its ${num(r.rows_valid)} expenses, their findings and review decisions. Analysis re-runs on the remaining data.`,
+      (n) => `Deleted ${r.filename}: ${num(n)} expenses removed. Analysis re-ran on the remaining data.`);
+  }
+
+  function deleteAll() {
+    remove("/expenses",
+      "Delete ALL uploaded expense data? Every expense, finding, review decision and import record will be permanently removed. Users, policies and the audit log are kept.",
+      (n) => `All expense data deleted (${num(n)} expenses). Upload a file to start again.`);
+  }
 
   async function upload(e: React.FormEvent) {
     e.preventDefault();
@@ -50,6 +80,7 @@ export default function Data() {
               <button className="btn btn-primary" disabled={busy}>{busy ? "Importing and analysing…" : "Upload and analyse"}</button>
             </div>
             {error && <p role="alert" className="text-danger text-[13px]">{error}</p>}
+            {notice && <p role="status" className="text-success text-[13px]">{notice}</p>}
             {result && (
               <div role="status" className="border-t border-border pt-3 space-y-2">
                 <p className="text-[15px]">
@@ -80,7 +111,7 @@ export default function Data() {
             <div className="overflow-x-auto">
               <table className="tbl">
                 <caption className="sr-only">Import history</caption>
-                <thead><tr><th scope="col">Imported</th><th scope="col">File</th><th scope="col">By</th><th scope="col" className="num">Rows</th><th scope="col" className="num">Valid</th><th scope="col" className="num">Need attention</th><th scope="col"><span className="sr-only">Error report</span></th></tr></thead>
+                <thead><tr><th scope="col">Imported</th><th scope="col">File</th><th scope="col">By</th><th scope="col" className="num">Rows</th><th scope="col" className="num">Valid</th><th scope="col" className="num">Need attention</th><th scope="col"><span className="sr-only">Error report</span></th>{canManage(me) && <th scope="col"><span className="sr-only">Delete</span></th>}</tr></thead>
                 <tbody>
                   {rows.map((r) => (
                     <tr key={r.id}>
@@ -88,6 +119,7 @@ export default function Data() {
                       <td className="num">{num(r.rows_total)}</td><td className="num">{num(r.rows_valid)}</td>
                       <td className={`num ${r.rows_rejected ? "text-warning" : ""}`}>{num(r.rows_rejected)}</td>
                       <td>{r.rows_rejected > 0 && <a className="link" href={`/api/imports/${r.id}/errors.csv`}>Error report</a>}</td>
+                      {canManage(me) && <td className="text-right"><button type="button" className="btn btn-quiet btn-danger" disabled={busy} onClick={() => deleteImport(r)} aria-label={`Delete import ${r.filename}`}>Delete</button></td>}
                     </tr>
                   ))}
                 </tbody>
@@ -96,6 +128,14 @@ export default function Data() {
           )}
         </Region>
       </Panel>
+      {canManage(me) && (
+        <Panel title="Delete data" className="mt-5">
+          <div className="px-4 pb-4 flex flex-wrap items-center justify-between gap-3">
+            <p className="text-[13px] text-muted max-w-2xl">Permanently remove every uploaded expense with its findings, review decisions and import records. Users, policies and the audit log are kept. To remove a single file, use Delete in the import history above.</p>
+            <button type="button" className="btn btn-danger" disabled={busy} onClick={deleteAll}>Delete all expense data</button>
+          </div>
+        </Panel>
+      )}
     </>
   );
 }

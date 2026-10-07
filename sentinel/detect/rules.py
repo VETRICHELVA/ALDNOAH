@@ -14,10 +14,10 @@ def run(ctx: Ctx) -> dict[int, list[dict]]:
         if lim and amt > lim:
             s.append(sig("policy_limit", min(1, 0.5 + (amt / lim - 1)), 0.95, current=amt, limit=lim,
                          over_pct=round((amt / lim - 1) * 100, 1), category=t["category"]))
-        if p.get("receipt_required") and not t["receipt_present"]:
+        if p.get("receipt_required") and t["receipt_present"] is False:
             s.append(sig("missing_receipt", 1, 0.95, category=t["category"]))
         thr = p.get("approval_threshold")
-        if thr and amt >= thr and t["approval_status"] != "approved":
+        if thr and amt >= thr and t["approval_status"] not in ("approved", "unknown"):
             s.append(sig("missing_approval", 1, 0.95, threshold=thr,
                          approver=p.get("approver_role") or "Manager", status=t["approval_status"]))
         d = t["date"]

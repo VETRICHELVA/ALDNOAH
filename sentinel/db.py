@@ -92,7 +92,7 @@ class Transaction(Base):
     payment_method: Mapped[str] = mapped_column(String(100), default="")
     location: Mapped[str] = mapped_column(String(100), default="")
     business_purpose: Mapped[str] = mapped_column(Text, default="")
-    receipt_present: Mapped[bool] = mapped_column(Boolean, default=False)
+    receipt_present: Mapped[bool | None] = mapped_column(Boolean)  # None = not provided in import
     receipt_id: Mapped[str | None] = mapped_column(String(100))
     approval_status: Mapped[str] = mapped_column(String(30), default="pending")
     review_status: Mapped[str] = mapped_column(String(20), default="pending")

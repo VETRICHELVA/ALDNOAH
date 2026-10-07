@@ -65,3 +65,39 @@ def test_export_escapes_formulas():
     mgr.post("/api/expenses/upload", files={"file": ("y.csv", csv_data)})
     out = mgr.get("/api/expenses/export.csv", params={"q": "T-INJ-1"}).text
     assert "'=HYPERLINK" in out
+
+
+def test_delete_import_and_all_data():
+    mgr = client("priya.sharma@sentinel.demo")
+    csv_data = ("transaction_id,employee_id,employee_name,department,date,amount,currency,merchant,category,receipt_present\n"
+                "T-DEL-1,E950,Asha Nair,Finance,2026-09-01,900,INR,Swiggy,Meals,no\n")
+    imp = mgr.post("/api/expenses/upload", files={"file": ("del.csv", csv_data)}).json()
+    before = mgr.get("/api/expenses", params={"q": "T-DEL-1"}).json()["total"]
+    assert before == 1
+    assert client("viewer@sentinel.demo").delete(f"/api/imports/{imp['id']}").status_code == 403
+    r = mgr.delete(f"/api/imports/{imp['id']}")
+    assert r.status_code == 200 and r.json()["deleted"] == 1
+    assert mgr.get("/api/expenses", params={"q": "T-DEL-1"}).json()["total"] == 0
+    assert all(i["id"] != imp["id"] for i in mgr.get("/api/imports").json())
+    assert mgr.delete(f"/api/imports/{imp['id']}").status_code == 404
+    # delete everything, including reviewed findings
+    r = mgr.delete("/api/expenses")
+    assert r.status_code == 200 and r.json()["analysis"]["transactions"] == 0
+    assert mgr.get("/api/expenses").json()["total"] == 0 and mgr.get("/api/anomalies", params={"tab": "all"}).json()["total"] == 0
+    assert mgr.get("/api/imports").json() == []
+    assert any(row[4] == "delete_all" for row in mgr.get("/api/reports/audit").json()["rows"])
+
+
+def test_absent_receipt_and_approval_columns_are_unknown_not_missing():
+    mgr = client("priya.sharma@sentinel.demo")
+    csv_data = ("transaction_id,employee_id,employee_name,department,date,amount,currency,merchant,category\n"
+                "T-MIN-1,E960,Kavya Rao,Finance,2026-09-01,40000,INR,Zoho Corporation,Software\n"
+                "T-MIN-2,E960,Kavya Rao,Finance,2026-09-02,300,INR,Ola,Transport\n")
+    r = mgr.post("/api/expenses/upload", files={"file": ("min.csv", csv_data)}).json()
+    assert r["rows_valid"] == 2, r["errors_preview"]
+    items = mgr.get("/api/expenses", params={"q": "T-MIN"}).json()["items"]
+    for it in items:
+        e = mgr.get(f"/api/expenses/{it['id']}").json()
+        assert e["receipt_present"] is None and e["approval_status"] == "unknown"
+        types = (e["finding"] or {}).get("anomaly_types", [])
+        assert "missing_receipt" not in types and "missing_approval" not in types

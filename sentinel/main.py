@@ -12,7 +12,7 @@ import jwt
 from fastapi import Depends, FastAPI, File, HTTPException, Query, Request, Response, UploadFile
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
-from sqlalchemy import func, or_, select
+from sqlalchemy import delete as sa_delete, func, or_, select
 
 from . import analysis, ingest
 from .db import (RESOLVED, UNRESOLVED, AuditLog, Employee, Department, Finding, Import, Policy, ReviewAction,
@@ -98,7 +98,7 @@ def policy_status(t: Transaction, pol: dict) -> str:
         return "restricted"
     if p.get("max_amount") and t.amount > p["max_amount"]:
         return "over_limit"
-    if p.get("receipt_required") and not t.receipt_present:
+    if p.get("receipt_required") and t.receipt_present is False:
         return "missing_receipt"
     return "within"
 
@@ -403,7 +403,7 @@ def export_expenses(p=Depends(eparams), s=Depends(db), _=Depends(user_of("FINANC
                          t.merchant, t.category, t.amount, policy_status(t, pol),
                          t.finding and t.finding.risk_score, t.finding and t.finding.severity,
                          t.finding and t.finding.primary_label, t.finding and t.finding.status, t.review_status,
-                         "yes" if t.receipt_present else "no"] for t in items])
+                         {True: "yes", False: "no"}.get(t.receipt_present, "unknown")] for t in items])
 
 
 @app.get("/api/expenses/{tid}")
@@ -448,6 +448,40 @@ def import_errors(iid: int, s=Depends(db), _=Depends(user_of())):
     cols = ingest.REQUIRED + ingest.OPTIONAL
     return csv_response(f"import-{iid}-errors.csv", ["row", "field", "error"] + cols,
                         [[e["row"], e["field"], e["message"]] + [e["raw"].get(c, "") for c in cols] for e in i.errors or []])
+
+
+def delete_expenses(s, where) -> int:
+    """Delete matching transactions with their findings and review actions; re-analyse what remains.
+    Audit logs are kept: they record that the deletion happened."""
+    tids = select(Transaction.id).where(where)
+    fids = select(Finding.id).where(Finding.transaction_id.in_(tids))
+    s.execute(sa_delete(ReviewAction).where(ReviewAction.finding_id.in_(fids)))
+    s.execute(sa_delete(Finding).where(Finding.transaction_id.in_(tids)))
+    n = s.execute(sa_delete(Transaction).where(where)).rowcount
+    s.execute(sa_delete(Employee).where(~Employee.id.in_(select(Transaction.employee_id))))
+    s.execute(sa_delete(Department).where(~Department.id.in_(select(Employee.department_id))))
+    s.expire_all()
+    return n
+
+
+@app.delete("/api/imports/{iid}")
+def delete_import(iid: int, s=Depends(db), u=Depends(user_of("FINANCE_MANAGER"))):
+    i = s.get(Import, iid)
+    if not i:
+        raise HTTPException(404, "Import not found. It may already have been deleted.")
+    n = delete_expenses(s, Transaction.import_id == iid)
+    s.delete(i)
+    s.flush()
+    audit(s, u.id, "import", iid, "delete", filename=i.filename, expenses_deleted=n)
+    return {"deleted": n, "analysis": analysis.run(s)}
+
+
+@app.delete("/api/expenses")
+def delete_all_expenses(s=Depends(db), u=Depends(user_of("FINANCE_MANAGER"))):
+    n = delete_expenses(s, Transaction.id.is_not(None))
+    s.execute(sa_delete(Import))
+    audit(s, u.id, "expenses", None, "delete_all", expenses_deleted=n)
+    return {"deleted": n, "analysis": analysis.run(s)}
 
 
 @app.post("/api/analysis/run")

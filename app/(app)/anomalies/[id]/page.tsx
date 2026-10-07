@@ -125,7 +125,7 @@ function Detail({ f, query, onChange }: { f: FindingDetail; query: string; onCha
                   <KV rows={[
                     ["Category", ctx.policy.category],
                     ["Limit", ctx.policy.max_amount != null ? `${money(ctx.policy.max_amount)} · this expense ${money(t.amount)}` : "No limit"],
-                    ["Receipt", ctx.policy.receipt_required ? (t.receipt_present ? "Required · attached" : "Required · missing") : "Not required"],
+                    ["Receipt", ctx.policy.receipt_required ? (t.receipt_present ? "Required · attached" : t.receipt_present === null ? "Required · not in import" : "Required · missing") : "Not required"],
                     ["Approval", ctx.policy.approval_threshold != null ? `${ctx.policy.approver_role ?? "Manager"} above ${money(ctx.policy.approval_threshold)} · status ${t.approval_status}` : "Not required"],
                     ["Restricted", ctx.policy.restricted ? "Yes — not normally reimbursable" : "No"],
                   ]} />
@@ -208,7 +208,7 @@ function Detail({ f, query, onChange }: { f: FindingDetail; query: string; onCha
               {t.receipt_present ? (
                 <KV rows={[["Status", <span key="s" className="text-success">✓ Attached</span>], ["Receipt ID", <span key="r" className="font-mono">{t.receipt_id ?? "—"}</span>],
                   ["Vendor", t.merchant], ["Amount", money(t.amount)], ["Date", date(t.date)]]} />
-              ) : <p className="text-danger">✕ Missing — no receipt was submitted with this expense.</p>}
+              ) : t.receipt_present === null ? <p className="text-muted">? Unknown — the import did not include receipt information.</p> : <p className="text-danger">✕ Missing — no receipt was submitted with this expense.</p>}
               <p className="text-muted mt-2">Receipt images are not stored in this version; details come from the imported record.</p>
             </div>
           </Panel>
