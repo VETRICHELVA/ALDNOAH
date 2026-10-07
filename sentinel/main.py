@@ -1,6 +1,7 @@
 """Expense Sentinel API. Contract: docs/api-contract.md."""
 import csv
 import io
+import logging
 import os
 import statistics
 from collections import defaultdict
@@ -10,14 +11,15 @@ from typing import Literal
 import bcrypt
 import jwt
 from fastapi import Depends, FastAPI, File, HTTPException, Query, Request, Response, UploadFile
-from fastapi.responses import StreamingResponse
+from fastapi.responses import JSONResponse, StreamingResponse
 from pydantic import BaseModel
 from sqlalchemy import delete as sa_delete, func, or_, select
 
 from . import analysis, ingest
-from .db import (RESOLVED, UNRESOLVED, AuditLog, Employee, Department, Finding, Import, Policy, ReviewAction,
+from .db import (CONFIG_ERROR, RESOLVED, UNRESOLVED, AuditLog, Employee, Department, Finding, Import, Policy, ReviewAction,
                  SessionLocal, Transaction, User, audit, now)
 
+log = logging.getLogger("sentinel")
 app = FastAPI(title="Expense Sentinel API", docs_url="/api/docs", openapi_url="/api/openapi.json")
 SECRET = os.environ.get("JWT_SECRET", "dev-only-secret-change-me-0123456789abcdef")
 SECURE_COOKIE = os.environ.get("VERCEL") == "1"
@@ -28,9 +30,35 @@ MAX_UPLOAD = 4 * 1024 * 1024
 _seeded = False
 
 
+@app.exception_handler(Exception)
+def unhandled(request: Request, exc: Exception):
+    log.exception("Unhandled error on %s %s", request.method, request.url.path)
+    return JSONResponse(status_code=500, content={"detail": f"Server error ({type(exc).__name__}). Check the server logs."})
+
+
+@app.get("/api/health")
+def health():
+    """Configuration check for deployments. Reports presence of settings, never their values."""
+    out = {"database_configured": CONFIG_ERROR is None, "config_error": CONFIG_ERROR,
+           "jwt_secret_set": bool(os.environ.get("JWT_SECRET")),
+           "ai_insights": "claude" if os.environ.get("ANTHROPIC_API_KEY") else "rules"}
+    if CONFIG_ERROR is None:
+        try:
+            with SessionLocal() as s:
+                analysis.ensure_seeded(s)
+                out |= {"database": s.bind.dialect.name, "database_ok": True,
+                        "users": s.scalar(select(func.count()).select_from(User))}
+        except Exception as e:
+            log.exception("Database check failed")
+            out |= {"database_ok": False, "database_error": f"{type(e).__name__}: {str(e).splitlines()[0][:300]}"}
+    return out
+
+
 # ---------- session / auth ----------
 def db():
     global _seeded
+    if CONFIG_ERROR:
+        raise HTTPException(503, f"Server is not configured: {CONFIG_ERROR}")
     s = SessionLocal()
     try:
         if not _seeded:

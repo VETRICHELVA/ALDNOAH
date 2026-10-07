@@ -7,7 +7,11 @@ from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship,
 
 
 def _url() -> str:
-    url = os.environ.get("DATABASE_URL") or os.environ.get("POSTGRES_URL") or "sqlite:///./sentinel.db"
+    url = os.environ.get("DATABASE_URL") or os.environ.get("POSTGRES_URL")
+    if not url:
+        if os.environ.get("VERCEL"):  # read-only filesystem: SQLite cannot work there
+            raise RuntimeError("DATABASE_URL is not set. Connect a Postgres database (Vercel → Storage → Neon) and redeploy.")
+        url = "sqlite:///./sentinel.db"
     if url.startswith("postgres://"):
         url = "postgresql://" + url[len("postgres://"):]
     if url.startswith("postgresql://"):
@@ -15,7 +19,11 @@ def _url() -> str:
     return url
 
 
-engine = create_engine(_url(), pool_pre_ping=True)
+try:
+    engine = create_engine(_url(), pool_pre_ping=True)
+    CONFIG_ERROR = None
+except Exception as e:  # surfaced by /api/health and every request instead of an opaque crash
+    engine, CONFIG_ERROR = None, str(e)
 SessionLocal = sessionmaker(engine, expire_on_commit=False)
 
 
