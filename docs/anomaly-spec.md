@@ -19,11 +19,11 @@ Signal { code, label, layer: rule|stats|ml, strength s ∈ [0,1], weight w,
 | `restricted_category` | Restricted category | rule | 40 | policy.restricted | 1 | 0.95 |
 | `duplicate_exact` | Exact duplicate | rule | 30 | earlier txn with same employee, merchant key, amount, date | 1 | 0.95 |
 | `duplicate_near` | Possible duplicate | rule | 15 | earlier txn same employee + merchant key, \|Δamount\| ≤ 2 %, Δdays ≤ 3 (and not exact) | 1 − Δamt% ·10 − Δdays·0.1, floor 0.5 | 0.75 |
-| `employee_amount` | Unusual for this employee | stats | 20 | robust z vs employee-category history > 3.5 (fallback: employee overall), n_prior ≥ 5 | 0.5 + 0.5·clip((z−3.5)/6.5) | hist(n) |
+| `employee_amount` | Unusual for this employee | stats | 20 | robust z vs employee-category history > 3.5 ∧ amount ≥ 2× employee-category median, n_prior ≥ 5 (no fallback to overall history: too noisy) | 0.5 + 0.5·clip((z−3.5)/6.5) | hist(n) |
 | `category_amount` | Unusual for this category | stats | 15 | amount > Q3 + 3·IQR of category (company-wide), category n ≥ 20 | 0.5 + 0.5·clip((x−fence)/fence) | hist(n) |
 | `missing_receipt` | Missing receipt | rule | 20 | policy.receipt_required ∧ ¬receipt_present | 1 | 0.95 |
 | `missing_approval` | Approval missing | rule | 10 | amount ≥ approval_threshold ∧ approval_status ≠ approved | 1 | 0.95 |
-| `threshold_split` | Possible threshold splitting | stats | 10 | ≥ 2 other txns by employee in category within ±7 days at 85–100 % of limit, this one also 85–100 % | min(1, count/3) | 0.7 |
+| `threshold_split` | Possible threshold splitting | stats | 20 | ≥ 2 other txns by employee in category within ±7 days at 85–100 % of limit, this one also 85–100 % | min(1, count/3) | 0.7 |
 | `new_merchant` | Unusual merchant | stats | 8 | first txn with merchant for employee ∧ amount > employee p90, n_prior ≥ 5 | 1 | hist(n) |
 | `frequency` | Unusual frequency | stats | 8 | employee 7-day count > company p95 of 7-day counts ∧ ≥ 4 | 1 | 0.7 |
 | `ml_isolation` | Unusual combination of features | ml | 10 | Isolation Forest score in top 3 % | 0.5 + 0.5·clip((score−p97)/(max−p97)) | 0.6 |

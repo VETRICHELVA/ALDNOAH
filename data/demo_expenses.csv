@@ -1,0 +1,1207 @@
+transaction_id,employee_id,employee_name,department,date,amount,currency,merchant,category,payment_method,location,business_purpose,receipt_present,receipt_id,policy_limit,approval_status
+TXN-240443,E1010,Neha Agarwal,Sales,2026-07-01,4310.00,INR,Mainland China,Client Entertainment,Cash,Kochi,Dinner with client stakeholders,yes,RCP-800560,6000,approved
+TXN-241064,E1024,Farhan Qureshi,Marketing,2026-07-01,502.00,INR,Swiggy,Meals,UPI,Hyderabad,Working lunch with team,yes,RCP-435475,2500,pending
+TXN-241315,E1030,Harish Chandran,Finance,2026-07-01,1240.00,INR,Croma,Office Supplies,Cash,Mumbai,Keyboard and mouse,yes,RCP-453078,5000,approved
+TXN-241416,E1032,Prakash Hegde,Finance,2026-07-01,590.00,INR,Third Wave Coffee,Meals,Corporate card,Bengaluru,Working lunch with team,yes,RCP-498189,2500,approved
+TXN-241486,E1034,Swati Mishra,Operations,2026-07-01,1150.00,INR,Flipkart,Office Supplies,Cash,New Delhi,Notebooks and stationery,yes,RCP-987157,5000,approved
+TXN-241832,E1041,Aarti Desai,Customer Success,2026-07-01,3190.00,INR,The Leela Palace,Client Entertainment,Cash,New Delhi,Client lunch – renewal discussion,yes,RCP-210280,6000,approved
+TXN-242047,E1045,Mohit Bansal,Customer Success,2026-07-01,5260.00,INR,Air India,Travel,Personal card,Mumbai,Client visit,yes,RCP-830216,10000,approved
+TXN-240282,E1007,Divya Krishnan,Engineering,2026-07-02,292.00,INR,Namma Metro,Local Transport,Corporate card,New Delhi,Airport transfer,yes,RCP-907284,1500,pending
+TXN-240429,E1010,Neha Agarwal,Sales,2026-07-02,813.00,INR,Airtel,Telecom & Internet,UPI,Kochi,Home broadband – remote work,yes,RCP-662503,3000,approved
+TXN-240472,E1011,Siddharth Rao,Sales,2026-07-02,3950.00,INR,Toit Brewpub,Client Entertainment,Personal card,Mumbai,Dinner with client stakeholders,yes,RCP-794942,6000,approved
+TXN-240501,E1012,Pooja Venkatesh,Sales,2026-07-02,2400.00,INR,Mainland China,Client Entertainment,Corporate card,Chennai,Client lunch – renewal discussion,yes,RCP-418666,6000,approved
+TXN-240688,E1016,Shreya Pillai,Sales,2026-07-02,780.00,INR,Swiggy,Meals,Cash,Pune,Dinner during client visit,yes,RCP-157676,2500,approved
+TXN-240703,E1016,Shreya Pillai,Sales,2026-07-02,305.00,INR,Rapido,Local Transport,Personal card,Pune,Cab to client office,no,,1500,approved
+TXN-240744,E1017,Ishita Banerjee,Marketing,2026-07-02,439.00,INR,Uber India,Local Transport,Cash,Hyderabad,Cab to client office,yes,RCP-822425,1500,approved
+TXN-240754,E1017,Ishita Banerjee,Marketing,2026-07-02,361.00,INR,Rapido,Local Transport,Corporate card,Hyderabad,Cab to client office,yes,RCP-926920,1500,approved
+TXN-240893,E1020,Varun Malhotra,Marketing,2026-07-02,713.00,INR,Namma Metro,Local Transport,Personal card,Hyderabad,Airport transfer,yes,RCP-101814,1500,approved
+TXN-240909,E1021,Tanvi Shah,Marketing,2026-07-02,623.00,INR,Swiggy,Meals,Cash,Chennai,Dinner during client visit,yes,RCP-793339,2500,approved
+TXN-240963,E1022,Abhishek Sinha,Marketing,2026-07-02,287.00,INR,Ola Cabs,Local Transport,UPI,Pune,Cab to client office,yes,RCP-317214,1500,approved
+TXN-241029,E1023,Lakshmi Prasad,Marketing,2026-07-02,481.00,INR,Ola Cabs,Local Transport,Corporate card,Pune,Cab to client office,yes,RCP-952507,1500,approved
+TXN-241103,E1025,Deepa Raghavan,Finance,2026-07-02,244.00,INR,Rapido,Local Transport,Corporate card,Hyderabad,Office commute – late shift,yes,RCP-641631,1500,approved
+TXN-241149,E1026,Suresh Kumar,Finance,2026-07-02,474.00,INR,Zomato,Meals,Cash,Hyderabad,Team lunch – sprint review,yes,RCP-794766,2500,approved
+TXN-241231,E1028,Gautam Iyengar,Finance,2026-07-02,1410.00,INR,Staples India,Office Supplies,Corporate card,Bengaluru,Notebooks and stationery,yes,RCP-851350,5000,approved
+TXN-241238,E1028,Gautam Iyengar,Finance,2026-07-02,1550.00,INR,Croma,Office Supplies,Corporate card,Bengaluru,Printer cartridges,yes,RCP-715769,5000,approved
+TXN-241370,E1031,Nandini Rao,Finance,2026-07-02,815.00,INR,Chai Point,Meals,UPI,Hyderabad,Working lunch with team,yes,RCP-198486,2500,approved
+TXN-241629,E1037,Sanjay Patil,Operations,2026-07-02,5310.00,INR,MakeMyTrip,Travel,Personal card,New Delhi,Site visit – Pune office,yes,RCP-128842,10000,approved
+TXN-241924,E1043,Shalini Menon,Customer Success,2026-07-02,3980.00,INR,IRCTC,Travel,UPI,Bengaluru,Quarterly business review,yes,RCP-405758,10000,approved
+TXN-242076,E1046,Preethi Anand,Customer Success,2026-07-02,374.00,INR,Rapido,Local Transport,Corporate card,Bengaluru,Cab to client office,yes,RCP-634417,1500,approved
+TXN-242122,E1047,Rajesh Iyer,Customer Success,2026-07-02,7410.00,INR,MakeMyTrip,Travel,Personal card,Hyderabad,Client visit,yes,RCP-456677,10000,approved
+TXN-242146,E1048,Sunita Verma,Customer Success,2026-07-02,3830.00,INR,OYO Townhouse,Accommodation,Personal card,New Delhi,Stay for vendor audit,yes,RCP-475260,8000,approved
+TXN-240021,E1001,Priya Raman,Engineering,2026-07-03,1530.00,INR,Croma,Office Supplies,Corporate card,Mumbai,Keyboard and mouse,yes,RCP-178237,5000,pending
+TXN-240052,E1002,Karthik Subramanian,Engineering,2026-07-03,1100.00,INR,Vodafone Idea,Telecom & Internet,Corporate card,Chennai,Monthly mobile bill,yes,RCP-510539,3000,pending
+TXN-240772,E1017,Ishita Banerjee,Marketing,2026-07-03,3560.00,INR,Barbeque Nation,Client Entertainment,Personal card,Hyderabad,Client lunch – renewal discussion,yes,RCP-252914,6000,approved
+TXN-240790,E1018,Nikhil Chawla,Marketing,2026-07-03,2170.00,INR,Amazon,Office Supplies,Personal card,Mumbai,Notebooks and stationery,yes,RCP-259688,5000,approved
+TXN-240828,E1018,Nikhil Chawla,Marketing,2026-07-03,4080.00,INR,Mainland China,Client Entertainment,Corporate card,Mumbai,Client lunch – renewal discussion,yes,RCP-388422,6000,approved
+TXN-241084,E1025,Deepa Raghavan,Finance,2026-07-03,1960.00,INR,Staples India,Office Supplies,UPI,Hyderabad,Keyboard and mouse,yes,RCP-448778,5000,approved
+TXN-241234,E1028,Gautam Iyengar,Finance,2026-07-03,686.00,INR,Haldiram's,Meals,Corporate card,Bengaluru,Dinner during client visit,yes,RCP-203102,2500,approved
+TXN-241266,E1029,Ritu Saxena,Finance,2026-07-03,427.00,INR,Uber India,Local Transport,UPI,Mumbai,Office commute – late shift,yes,RCP-350248,1500,approved
+TXN-241654,E1037,Sanjay Patil,Operations,2026-07-03,459.00,INR,Uber India,Local Transport,Corporate card,New Delhi,Office commute – late shift,yes,RCP-208932,1500,pending
+TXN-241708,E1038,Geetha Ramesh,Operations,2026-07-03,552.00,INR,Swiggy,Meals,UPI,Bengaluru,Working lunch with team,yes,RCP-649730,2500,approved
+TXN-241766,E1040,Revathi Sundaram,Operations,2026-07-03,1540.00,INR,Amazon,Office Supplies,Corporate card,Mumbai,Printer cartridges,yes,RCP-916837,5000,pending
+TXN-241957,E1044,Kiran Jadhav,Customer Success,2026-07-03,382.00,INR,Rapido,Local Transport,UPI,Mumbai,Cab to client office,no,,1500,approved
+TXN-242190,E1048,Sunita Verma,Customer Success,2026-07-03,623.00,INR,Zomato,Meals,Corporate card,New Delhi,Working lunch with team,yes,RCP-875954,2500,approved
+TXN-240591,E1014,Kavya Reddy,Sales,2026-07-04,491.00,INR,Namma Metro,Local Transport,Corporate card,Chennai,Cab to client office,yes,RCP-534395,1500,approved
+TXN-241023,E1023,Lakshmi Prasad,Marketing,2026-07-04,394.00,INR,Ola Cabs,Local Transport,Corporate card,Pune,Office commute – late shift,yes,RCP-880920,1500,approved
+TXN-241057,E1024,Farhan Qureshi,Marketing,2026-07-04,4580.00,INR,MakeMyTrip,Travel,UPI,Hyderabad,Client visit,yes,RCP-638154,10000,approved
+TXN-241389,E1032,Prakash Hegde,Finance,2026-07-04,945.00,INR,Chai Point,Meals,UPI,Bengaluru,Working lunch with team,yes,RCP-991045,2500,approved
+TXN-241395,E1032,Prakash Hegde,Finance,2026-07-04,295.00,INR,Uber India,Local Transport,UPI,Bengaluru,Airport transfer,yes,RCP-977608,1500,pending
+TXN-241523,E1035,Imran Sheikh,Operations,2026-07-04,295.00,INR,Uber India,Local Transport,Corporate card,Bengaluru,Cab to client office,no,,1500,approved
+TXN-242062,E1046,Preethi Anand,Customer Success,2026-07-04,537.00,INR,Rapido,Local Transport,Personal card,Bengaluru,Office commute – late shift,yes,RCP-235453,1500,approved
+TXN-242082,E1046,Preethi Anand,Customer Success,2026-07-04,868.00,INR,Airtel,Telecom & Internet,UPI,Bengaluru,Monthly mobile bill,yes,RCP-196712,3000,approved
+TXN-242099,E1046,Preethi Anand,Customer Success,2026-07-04,5450.00,INR,Taj Hotels,Accommodation,Personal card,Bengaluru,Stay for vendor audit,yes,RCP-256534,8000,approved
+TXN-242348,E1013,Aditya Joshi,Sales,2026-07-04,7760.00,INR,OYO Townhouse,Accommodation,Personal card,Bengaluru,Stay for vendor audit,yes,RCP-456876,8000,approved
+TXN-240319,E1008,Vikram Bhat,Engineering,2026-07-05,757.00,INR,Haldiram's,Meals,Corporate card,Mumbai,Dinner during client visit,yes,RCP-917040,2500,approved
+TXN-240328,E1008,Vikram Bhat,Engineering,2026-07-05,612.00,INR,Saravana Bhavan,Meals,Cash,Mumbai,Working lunch with team,yes,RCP-977886,2500,pending
+TXN-240521,E1012,Pooja Venkatesh,Sales,2026-07-05,5350.00,INR,Vistara,Travel,Corporate card,Chennai,Site visit – Pune office,yes,RCP-157984,10000,approved
+TXN-240560,E1013,Aditya Joshi,Sales,2026-07-05,5310.00,INR,Lemon Tree Hotels,Accommodation,Cash,Bengaluru,Stay for vendor audit,yes,RCP-983906,8000,approved
+TXN-240937,E1021,Tanvi Shah,Marketing,2026-07-05,521.00,INR,Zomato,Meals,Cash,Chennai,Working lunch with team,yes,RCP-169449,2500,approved
+TXN-241097,E1025,Deepa Raghavan,Finance,2026-07-05,915.00,INR,Third Wave Coffee,Meals,Corporate card,Hyderabad,Working lunch with team,yes,RCP-289712,2500,approved
+TXN-241809,E1041,Aarti Desai,Customer Success,2026-07-05,4800.00,INR,Vistara,Travel,Cash,New Delhi,Quarterly business review,yes,RCP-997002,10000,pending
+TXN-242059,E1046,Preethi Anand,Customer Success,2026-07-05,373.00,INR,Haldiram's,Meals,Corporate card,Bengaluru,Team lunch – sprint review,yes,RCP-853607,2500,approved
+TXN-242193,E1003,Ananya Iyer,Engineering,2026-07-05,4790.00,INR,NASSCOM,Training & Conferences,Corporate card,Pune,Online course – cloud architecture,yes,RCP-872571,40000,approved
+TXN-242209,E1002,Karthik Subramanian,Engineering,2026-07-05,5560.00,INR,Great Learning,Training & Conferences,UPI,Chennai,Online course – cloud architecture,yes,RCP-107355,40000,approved
+TXN-242224,E1001,Priya Raman,Engineering,2026-07-05,4890.00,INR,IRCTC,Travel,UPI,Mumbai,Client visit,yes,RCP-829024,10000,approved
+TXN-242239,E1006,Arjun Nair,Engineering,2026-07-05,7210.00,INR,Atlassian,Software Subscription,Corporate card,Pune,Monthly seat licence,yes,RCP-499640,50000,approved
+TXN-242264,E1001,Priya Raman,Engineering,2026-07-05,4890.00,INR,IRCTC,Travel,Cash,Mumbai,Client visit,yes,RCP-831022,10000,approved
+TXN-240002,E1001,Priya Raman,Engineering,2026-07-06,862.00,INR,Swiggy,Meals,Cash,Mumbai,Working lunch with team,yes,RCP-758261,2500,approved
+TXN-240125,E1003,Ananya Iyer,Engineering,2026-07-06,5980.00,INR,upGrad,Training & Conferences,UPI,Pune,Online course – cloud architecture,yes,RCP-846911,40000,approved
+TXN-240135,E1004,Rohan Deshpande,Engineering,2026-07-06,404.00,INR,Rapido,Local Transport,Cash,Hyderabad,Airport transfer,yes,RCP-784453,1500,approved
+TXN-240391,E1009,Rahul Menon,Sales,2026-07-06,823.00,INR,Swiggy,Meals,Personal card,Pune,Team lunch – sprint review,yes,RCP-753756,2500,pending
+TXN-240453,E1010,Neha Agarwal,Sales,2026-07-06,364.00,INR,Namma Metro,Local Transport,Corporate card,Kochi,Cab to client office,no,,1500,approved
+TXN-240494,E1011,Siddharth Rao,Sales,2026-07-06,599.00,INR,Rapido,Local Transport,Corporate card,Mumbai,Office commute – late shift,no,,1500,approved
+TXN-240735,E1017,Ishita Banerjee,Marketing,2026-07-06,3700.00,INR,Toit Brewpub,Client Entertainment,Corporate card,Hyderabad,Client lunch – renewal discussion,yes,RCP-862968,6000,approved
+TXN-240910,E1021,Tanvi Shah,Marketing,2026-07-06,554.00,INR,Zomato,Meals,UPI,Chennai,Dinner during client visit,yes,RCP-783910,2500,approved
+TXN-241222,E1028,Gautam Iyengar,Finance,2026-07-06,281.00,INR,Namma Metro,Local Transport,Corporate card,Bengaluru,Airport transfer,yes,RCP-261390,1500,approved
+TXN-241631,E1037,Sanjay Patil,Operations,2026-07-06,5180.00,INR,Taj Hotels,Accommodation,Corporate card,New Delhi,Stay for vendor audit,yes,RCP-786711,8000,approved
+TXN-242050,E1046,Preethi Anand,Customer Success,2026-07-06,842.00,INR,Haldiram's,Meals,Corporate card,Bengaluru,Working lunch with team,yes,RCP-139927,2500,approved
+TXN-240153,E1004,Rohan Deshpande,Engineering,2026-07-07,5470.00,INR,Freshworks,Software Subscription,Personal card,Hyderabad,Team workspace upgrade,yes,RCP-101877,50000,approved
+TXN-240158,E1004,Rohan Deshpande,Engineering,2026-07-07,402.00,INR,Uber India,Local Transport,Personal card,Hyderabad,Cab to client office,no,,1500,approved
+TXN-240168,E1004,Rohan Deshpande,Engineering,2026-07-07,282.00,INR,Namma Metro,Local Transport,UPI,Hyderabad,Cab to client office,yes,RCP-877786,1500,approved
+TXN-240279,E1007,Divya Krishnan,Engineering,2026-07-07,4260.00,INR,Zoho Corporation,Software Subscription,Cash,New Delhi,Team workspace upgrade,yes,RCP-524304,50000,approved
+TXN-240288,E1007,Divya Krishnan,Engineering,2026-07-07,5050.00,INR,Notion Labs,Software Subscription,Corporate card,New Delhi,Team workspace upgrade,yes,RCP-819993,50000,approved
+TXN-240585,E1014,Kavya Reddy,Sales,2026-07-07,611.00,INR,Haldiram's,Meals,Corporate card,Chennai,Working lunch with team,yes,RCP-353478,2500,approved
+TXN-241059,E1024,Farhan Qureshi,Marketing,2026-07-07,6850.00,INR,IndiGo,Travel,Corporate card,Hyderabad,Site visit – Pune office,yes,RCP-920810,10000,approved
+TXN-241154,E1026,Suresh Kumar,Finance,2026-07-07,425.00,INR,Chai Point,Meals,Personal card,Hyderabad,Team lunch – sprint review,yes,RCP-826803,2500,approved
+TXN-241270,E1029,Ritu Saxena,Finance,2026-07-07,9540.00,INR,Coursera,Training & Conferences,Personal card,Mumbai,Certification exam fee,yes,RCP-870163,40000,approved
+TXN-241316,E1030,Harish Chandran,Finance,2026-07-07,588.00,INR,Third Wave Coffee,Meals,Personal card,Mumbai,Dinner during client visit,yes,RCP-934145,2500,approved
+TXN-241391,E1032,Prakash Hegde,Finance,2026-07-07,757.00,INR,Haldiram's,Meals,Personal card,Bengaluru,Team lunch – sprint review,yes,RCP-615356,2500,approved
+TXN-241799,E1040,Revathi Sundaram,Operations,2026-07-07,7600.00,INR,IndiGo,Travel,Corporate card,Mumbai,Site visit – Pune office,yes,RCP-612720,10000,approved
+TXN-242259,E1012,Pooja Venkatesh,Sales,2026-07-07,3660.00,INR,Barbeque Nation,Meals,Personal card,Chennai,Team lunch – sprint review,yes,RCP-876007,2500,pending
+TXN-242326,E1004,Rohan Deshpande,Engineering,2026-07-07,11320.00,INR,Tanishq,Personal Expenses,Corporate card,Hyderabad,Gift,yes,RCP-617441,,pending
+TXN-240016,E1001,Priya Raman,Engineering,2026-07-08,416.00,INR,Swiggy,Meals,UPI,Mumbai,Dinner during client visit,yes,RCP-843305,2500,approved
+TXN-240074,E1002,Karthik Subramanian,Engineering,2026-07-08,780.00,INR,Zomato,Meals,Personal card,Chennai,Team lunch – sprint review,yes,RCP-218704,2500,approved
+TXN-240496,E1011,Siddharth Rao,Sales,2026-07-08,542.00,INR,Zomato,Meals,Corporate card,Mumbai,Working lunch with team,yes,RCP-767424,2500,approved
+TXN-240802,E1018,Nikhil Chawla,Marketing,2026-07-08,4590.00,INR,The Leela Palace,Client Entertainment,Personal card,Mumbai,Dinner with client stakeholders,yes,RCP-385579,6000,approved
+TXN-240838,E1019,Meera Natarajan,Marketing,2026-07-08,1560.00,INR,Staples India,Office Supplies,Personal card,Kochi,Keyboard and mouse,yes,RCP-772949,5000,pending
+TXN-241393,E1032,Prakash Hegde,Finance,2026-07-08,1450.00,INR,Staples India,Office Supplies,Corporate card,Bengaluru,Keyboard and mouse,yes,RCP-451960,5000,approved
+TXN-241614,E1036,Bhavana Murthy,Operations,2026-07-08,512.00,INR,Rapido,Local Transport,Personal card,New Delhi,Office commute – late shift,yes,RCP-682252,1500,approved
+TXN-242353,E1001,Priya Raman,Engineering,2026-07-08,8660.00,INR,Air India,Travel,UPI,Mumbai,Client visit,yes,RCP-220920,10000,approved
+TXN-240184,E1005,Sneha Kulkarni,Engineering,2026-07-09,830.00,INR,ACT Fibernet,Telecom & Internet,Corporate card,Mumbai,Home broadband – remote work,yes,RCP-212319,3000,approved
+TXN-240326,E1008,Vikram Bhat,Engineering,2026-07-09,468.00,INR,Namma Metro,Local Transport,Personal card,Mumbai,Airport transfer,yes,RCP-691896,1500,approved
+TXN-240388,E1009,Rahul Menon,Sales,2026-07-09,4480.00,INR,Taj Hotels,Accommodation,UPI,Pune,Stay for vendor audit,yes,RCP-763970,8000,approved
+TXN-240473,E1011,Siddharth Rao,Sales,2026-07-09,429.00,INR,Rapido,Local Transport,Corporate card,Mumbai,Office commute – late shift,yes,RCP-426392,1500,approved
+TXN-240616,E1014,Kavya Reddy,Sales,2026-07-09,426.00,INR,Rapido,Local Transport,UPI,Chennai,Office commute – late shift,no,,1500,approved
+TXN-240733,E1017,Ishita Banerjee,Marketing,2026-07-09,411.00,INR,Namma Metro,Local Transport,Cash,Hyderabad,Airport transfer,no,,1500,approved
+TXN-240757,E1017,Ishita Banerjee,Marketing,2026-07-09,5570.00,INR,Zoho Corporation,Software Subscription,Corporate card,Hyderabad,Annual plan renewal,yes,RCP-651082,50000,approved
+TXN-240758,E1017,Ishita Banerjee,Marketing,2026-07-09,1720.00,INR,Flipkart,Office Supplies,Personal card,Hyderabad,Printer cartridges,yes,RCP-196874,5000,pending
+TXN-240921,E1021,Tanvi Shah,Marketing,2026-07-09,580.00,INR,Zomato,Meals,Corporate card,Chennai,Working lunch with team,yes,RCP-634055,2500,pending
+TXN-240978,E1022,Abhishek Sinha,Marketing,2026-07-09,3180.00,INR,The Leela Palace,Client Entertainment,Corporate card,Pune,Dinner with client stakeholders,yes,RCP-283013,6000,approved
+TXN-241035,E1023,Lakshmi Prasad,Marketing,2026-07-09,7280.00,INR,Zoho Corporation,Software Subscription,Corporate card,Pune,Annual plan renewal,yes,RCP-174085,50000,pending
+TXN-241966,E1044,Kiran Jadhav,Customer Success,2026-07-09,859.00,INR,Saravana Bhavan,Meals,Corporate card,Mumbai,Dinner during client visit,yes,RCP-988310,2500,approved
+TXN-242161,E1048,Sunita Verma,Customer Success,2026-07-09,429.00,INR,Namma Metro,Local Transport,Corporate card,New Delhi,Office commute – late shift,yes,RCP-924987,1500,approved
+TXN-240103,E1003,Ananya Iyer,Engineering,2026-07-10,3380.00,INR,Freshworks,Software Subscription,UPI,Pune,Team workspace upgrade,yes,RCP-372575,50000,approved
+TXN-240247,E1006,Arjun Nair,Engineering,2026-07-10,428.00,INR,Third Wave Coffee,Meals,Corporate card,Pune,Team lunch – sprint review,yes,RCP-249665,2500,approved
+TXN-240440,E1010,Neha Agarwal,Sales,2026-07-10,4950.00,INR,IndiGo,Travel,Personal card,Kochi,Site visit – Pune office,yes,RCP-541332,10000,approved
+TXN-240505,E1012,Pooja Venkatesh,Sales,2026-07-10,1230.00,INR,Swiggy,Meals,Corporate card,Chennai,Team lunch – sprint review,yes,RCP-851977,2500,approved
+TXN-240540,E1013,Aditya Joshi,Sales,2026-07-10,5400.00,INR,Vistara,Travel,Corporate card,Bengaluru,Site visit – Pune office,yes,RCP-856651,10000,approved
+TXN-240634,E1015,Manish Gupta,Sales,2026-07-10,4160.00,INR,ITC Hotels,Accommodation,Corporate card,Bengaluru,Stay for vendor audit,yes,RCP-837759,8000,pending
+TXN-240901,E1020,Varun Malhotra,Marketing,2026-07-10,5450.00,INR,Zoho Corporation,Software Subscription,Corporate card,Hyderabad,Team workspace upgrade,yes,RCP-218345,50000,approved
+TXN-241072,E1024,Farhan Qureshi,Marketing,2026-07-10,573.00,INR,Saravana Bhavan,Meals,UPI,Hyderabad,Working lunch with team,yes,RCP-471292,2500,approved
+TXN-241089,E1025,Deepa Raghavan,Finance,2026-07-10,1400.00,INR,Flipkart,Office Supplies,Corporate card,Hyderabad,Keyboard and mouse,yes,RCP-557834,5000,approved
+TXN-241780,E1040,Revathi Sundaram,Operations,2026-07-10,1010.00,INR,Chai Point,Meals,Personal card,Mumbai,Working lunch with team,yes,RCP-222958,2500,approved
+TXN-241836,E1041,Aarti Desai,Customer Success,2026-07-10,400.00,INR,Namma Metro,Local Transport,Personal card,New Delhi,Office commute – late shift,yes,RCP-281632,1500,approved
+TXN-241859,E1042,Naveen Kumar,Customer Success,2026-07-10,5750.00,INR,IRCTC,Travel,Personal card,New Delhi,Client visit,yes,RCP-855060,10000,approved
+TXN-241917,E1043,Shalini Menon,Customer Success,2026-07-10,4500.00,INR,IndiGo,Travel,UPI,Bengaluru,Site visit – Pune office,yes,RCP-604989,10000,approved
+TXN-241979,E1044,Kiran Jadhav,Customer Success,2026-07-10,1580.00,INR,Jio,Telecom & Internet,Personal card,Mumbai,Home broadband – remote work,yes,RCP-845949,3000,approved
+TXN-242184,E1048,Sunita Verma,Customer Success,2026-07-10,2800.00,INR,Barbeque Nation,Client Entertainment,Corporate card,New Delhi,Client lunch – renewal discussion,yes,RCP-342765,6000,approved
+TXN-240244,E1006,Arjun Nair,Engineering,2026-07-11,534.00,INR,Ola Cabs,Local Transport,Corporate card,Pune,Office commute – late shift,yes,RCP-112036,1500,approved
+TXN-240290,E1007,Divya Krishnan,Engineering,2026-07-11,917.00,INR,Jio,Telecom & Internet,Cash,New Delhi,Monthly mobile bill,yes,RCP-431643,3000,pending
+TXN-241332,E1030,Harish Chandran,Finance,2026-07-11,771.00,INR,Saravana Bhavan,Meals,Corporate card,Mumbai,Working lunch with team,yes,RCP-939109,2500,pending
+TXN-241464,E1033,Ravi Shankar,Operations,2026-07-11,422.00,INR,Rapido,Local Transport,Corporate card,Bengaluru,Cab to client office,yes,RCP-867518,1500,approved
+TXN-241731,E1039,Ajay Thakur,Operations,2026-07-11,6200.00,INR,Lemon Tree Hotels,Accommodation,Corporate card,Chennai,Hotel stay for client visit,yes,RCP-625402,8000,approved
+TXN-242003,E1045,Mohit Bansal,Customer Success,2026-07-11,586.00,INR,Uber India,Local Transport,Corporate card,Mumbai,Airport transfer,yes,RCP-886174,1500,approved
+TXN-242081,E1046,Preethi Anand,Customer Success,2026-07-11,505.00,INR,Ola Cabs,Local Transport,Cash,Bengaluru,Office commute – late shift,yes,RCP-439494,1500,approved
+TXN-242307,E1035,Imran Sheikh,Operations,2026-07-11,6230.00,INR,Lemon Tree Hotels,Accommodation,UPI,Bengaluru,Hotel stay for client visit,no,,8000,approved
+TXN-240327,E1008,Vikram Bhat,Engineering,2026-07-12,916.00,INR,Chai Point,Meals,Personal card,Mumbai,Working lunch with team,yes,RCP-855720,2500,approved
+TXN-240356,E1008,Vikram Bhat,Engineering,2026-07-12,885.00,INR,Haldiram's,Meals,Corporate card,Mumbai,Working lunch with team,yes,RCP-243697,2500,approved
+TXN-240510,E1012,Pooja Venkatesh,Sales,2026-07-12,697.00,INR,Third Wave Coffee,Meals,Personal card,Chennai,Team lunch – sprint review,yes,RCP-357937,2500,approved
+TXN-240519,E1012,Pooja Venkatesh,Sales,2026-07-12,713.00,INR,Airtel,Telecom & Internet,Corporate card,Chennai,Monthly mobile bill,yes,RCP-858068,3000,pending
+TXN-240593,E1014,Kavya Reddy,Sales,2026-07-12,313.00,INR,Namma Metro,Local Transport,Corporate card,Chennai,Cab to client office,yes,RCP-432285,1500,approved
+TXN-240714,E1016,Shreya Pillai,Sales,2026-07-12,499.00,INR,Swiggy,Meals,Personal card,Pune,Team lunch – sprint review,yes,RCP-563896,2500,approved
+TXN-240723,E1016,Shreya Pillai,Sales,2026-07-12,4420.00,INR,Lemon Tree Hotels,Accommodation,Corporate card,Pune,Stay for vendor audit,yes,RCP-449366,8000,approved
+TXN-241001,E1023,Lakshmi Prasad,Marketing,2026-07-12,4820.00,INR,Air India,Travel,Corporate card,Pune,Quarterly business review,yes,RCP-131695,10000,approved
+TXN-241093,E1025,Deepa Raghavan,Finance,2026-07-12,384.00,INR,Ola Cabs,Local Transport,UPI,Hyderabad,Airport transfer,no,,1500,approved
+TXN-241336,E1030,Harish Chandran,Finance,2026-07-12,302.00,INR,Ola Cabs,Local Transport,Corporate card,Mumbai,Office commute – late shift,yes,RCP-642805,1500,approved
+TXN-241589,E1036,Bhavana Murthy,Operations,2026-07-12,676.00,INR,Ola Cabs,Local Transport,UPI,New Delhi,Airport transfer,yes,RCP-702296,1500,approved
+TXN-241674,E1038,Geetha Ramesh,Operations,2026-07-12,478.00,INR,Ola Cabs,Local Transport,Corporate card,Bengaluru,Office commute – late shift,no,,1500,approved
+TXN-241794,E1040,Revathi Sundaram,Operations,2026-07-12,253.00,INR,Uber India,Local Transport,Personal card,Mumbai,Cab to client office,yes,RCP-851571,1500,pending
+TXN-241797,E1040,Revathi Sundaram,Operations,2026-07-12,302.00,INR,Uber India,Local Transport,Personal card,Mumbai,Office commute – late shift,yes,RCP-767494,1500,approved
+TXN-241947,E1044,Kiran Jadhav,Customer Success,2026-07-12,363.00,INR,Ola Cabs,Local Transport,Personal card,Mumbai,Cab to client office,no,,1500,approved
+TXN-241996,E1045,Mohit Bansal,Customer Success,2026-07-12,681.00,INR,Swiggy,Meals,Cash,Mumbai,Team lunch – sprint review,yes,RCP-811288,2500,approved
+TXN-242053,E1046,Preethi Anand,Customer Success,2026-07-12,462.00,INR,Ola Cabs,Local Transport,Personal card,Bengaluru,Cab to client office,yes,RCP-986559,1500,approved
+TXN-242174,E1048,Sunita Verma,Customer Success,2026-07-12,1690.00,INR,ACT Fibernet,Telecom & Internet,UPI,New Delhi,Home broadband – remote work,yes,RCP-130190,3000,pending
+TXN-240101,E1003,Ananya Iyer,Engineering,2026-07-13,593.00,INR,Third Wave Coffee,Meals,Corporate card,Pune,Working lunch with team,yes,RCP-597824,2500,approved
+TXN-240275,E1007,Divya Krishnan,Engineering,2026-07-13,6620.00,INR,NASSCOM,Training & Conferences,Personal card,New Delhi,Workshop ticket,yes,RCP-844628,40000,pending
+TXN-240322,E1008,Vikram Bhat,Engineering,2026-07-13,1020.00,INR,Chai Point,Meals,Corporate card,Mumbai,Dinner during client visit,yes,RCP-984732,2500,approved
+TXN-240340,E1008,Vikram Bhat,Engineering,2026-07-13,1090.00,INR,Airtel,Telecom & Internet,Personal card,Mumbai,Home broadband – remote work,yes,RCP-963041,3000,approved
+TXN-240752,E1017,Ishita Banerjee,Marketing,2026-07-13,7680.00,INR,Air India,Travel,Corporate card,Hyderabad,Quarterly business review,yes,RCP-720613,10000,approved
+TXN-240785,E1018,Nikhil Chawla,Marketing,2026-07-13,5360.00,INR,GitHub,Software Subscription,UPI,Mumbai,Monthly seat licence,yes,RCP-889921,50000,approved
+TXN-240879,E1020,Varun Malhotra,Marketing,2026-07-13,380.00,INR,Swiggy,Meals,Personal card,Hyderabad,Dinner during client visit,yes,RCP-255003,2500,approved
+TXN-241120,E1025,Deepa Raghavan,Finance,2026-07-13,1520.00,INR,ACT Fibernet,Telecom & Internet,Personal card,Hyderabad,Home broadband – remote work,yes,RCP-920054,3000,approved
+TXN-241141,E1026,Suresh Kumar,Finance,2026-07-13,998.00,INR,Staples India,Office Supplies,Corporate card,Hyderabad,Printer cartridges,yes,RCP-710575,5000,approved
+TXN-241171,E1026,Suresh Kumar,Finance,2026-07-13,4510.00,INR,GitHub,Software Subscription,Corporate card,Hyderabad,Monthly seat licence,yes,RCP-543194,50000,approved
+TXN-241490,E1034,Swati Mishra,Operations,2026-07-13,405.00,INR,Rapido,Local Transport,UPI,New Delhi,Airport transfer,no,,1500,approved
+TXN-241664,E1037,Sanjay Patil,Operations,2026-07-13,413.00,INR,Namma Metro,Local Transport,Cash,New Delhi,Airport transfer,yes,RCP-643713,1500,approved
+TXN-241782,E1040,Revathi Sundaram,Operations,2026-07-13,661.00,INR,Chai Point,Meals,Personal card,Mumbai,Dinner during client visit,yes,RCP-993326,2500,approved
+TXN-242359,E1043,Shalini Menon,Customer Success,2026-07-13,9700.00,INR,Vistara,Travel,Corporate card,Bengaluru,Client visit,yes,RCP-424106,10000,approved
+TXN-240054,E1002,Karthik Subramanian,Engineering,2026-07-14,7610.00,INR,IRCTC,Travel,Corporate card,Chennai,Client visit,yes,RCP-343874,10000,approved
+TXN-240134,E1004,Rohan Deshpande,Engineering,2026-07-14,367.00,INR,Uber India,Local Transport,UPI,Hyderabad,Office commute – late shift,no,,1500,approved
+TXN-240283,E1007,Divya Krishnan,Engineering,2026-07-14,360.00,INR,Ola Cabs,Local Transport,Corporate card,New Delhi,Cab to client office,yes,RCP-328846,1500,approved
+TXN-241005,E1023,Lakshmi Prasad,Marketing,2026-07-14,1180.00,INR,Croma,Office Supplies,Cash,Pune,Keyboard and mouse,yes,RCP-571467,5000,approved
+TXN-241182,E1027,Anjali Mehta,Finance,2026-07-14,1050.00,INR,Croma,Office Supplies,Corporate card,Hyderabad,Printer cartridges,yes,RCP-228369,5000,pending
+TXN-241292,E1029,Ritu Saxena,Finance,2026-07-14,755.00,INR,Vodafone Idea,Telecom & Internet,Cash,Mumbai,Monthly mobile bill,yes,RCP-700662,3000,approved
+TXN-241543,E1035,Imran Sheikh,Operations,2026-07-14,329.00,INR,Uber India,Local Transport,Cash,Bengaluru,Office commute – late shift,yes,RCP-706816,1500,approved
+TXN-241684,E1038,Geetha Ramesh,Operations,2026-07-14,826.00,INR,Swiggy,Meals,Personal card,Bengaluru,Working lunch with team,yes,RCP-188036,2500,approved
+TXN-241703,E1038,Geetha Ramesh,Operations,2026-07-14,1220.00,INR,Haldiram's,Meals,UPI,Bengaluru,Dinner during client visit,yes,RCP-979220,2500,approved
+TXN-241786,E1040,Revathi Sundaram,Operations,2026-07-14,5860.00,INR,MakeMyTrip,Travel,Personal card,Mumbai,Site visit – Pune office,yes,RCP-272687,10000,approved
+TXN-241821,E1041,Aarti Desai,Customer Success,2026-07-14,5520.00,INR,Taj Hotels,Accommodation,Cash,New Delhi,Stay for vendor audit,yes,RCP-608394,8000,approved
+TXN-242011,E1045,Mohit Bansal,Customer Success,2026-07-14,333.00,INR,Namma Metro,Local Transport,Personal card,Mumbai,Airport transfer,yes,RCP-237733,1500,approved
+TXN-242092,E1046,Preethi Anand,Customer Success,2026-07-14,3640.00,INR,MakeMyTrip,Travel,Corporate card,Bengaluru,Quarterly business review,yes,RCP-161372,10000,approved
+TXN-240342,E1008,Vikram Bhat,Engineering,2026-07-15,606.00,INR,Third Wave Coffee,Meals,Corporate card,Mumbai,Team lunch – sprint review,yes,RCP-159481,2500,approved
+TXN-240378,E1009,Rahul Menon,Sales,2026-07-15,280.00,INR,Uber India,Local Transport,Cash,Pune,Cab to client office,no,,1500,pending
+TXN-240555,E1013,Aditya Joshi,Sales,2026-07-15,565.00,INR,Zomato,Meals,UPI,Bengaluru,Working lunch with team,yes,RCP-716893,2500,approved
+TXN-240627,E1015,Manish Gupta,Sales,2026-07-15,4470.00,INR,Mainland China,Client Entertainment,UPI,Bengaluru,Client lunch – renewal discussion,yes,RCP-194614,6000,approved
+TXN-240632,E1015,Manish Gupta,Sales,2026-07-15,761.00,INR,Swiggy,Meals,Cash,Bengaluru,Dinner during client visit,yes,RCP-102695,2500,pending
+TXN-240726,E1016,Shreya Pillai,Sales,2026-07-15,4030.00,INR,Toit Brewpub,Client Entertainment,Cash,Pune,Dinner with client stakeholders,yes,RCP-404882,6000,pending
+TXN-240765,E1017,Ishita Banerjee,Marketing,2026-07-15,3330.00,INR,The Leela Palace,Client Entertainment,Corporate card,Hyderabad,Dinner with client stakeholders,yes,RCP-307632,6000,pending
+TXN-241082,E1025,Deepa Raghavan,Finance,2026-07-15,889.00,INR,Swiggy,Meals,UPI,Hyderabad,Dinner during client visit,yes,RCP-388022,2500,approved
+TXN-241251,E1028,Gautam Iyengar,Finance,2026-07-15,4340.00,INR,Atlassian,Software Subscription,Personal card,Bengaluru,Annual plan renewal,yes,RCP-731207,50000,approved
+TXN-241387,E1031,Nandini Rao,Finance,2026-07-15,1030.00,INR,Jio,Telecom & Internet,UPI,Hyderabad,Home broadband – remote work,yes,RCP-297209,3000,approved
+TXN-241593,E1036,Bhavana Murthy,Operations,2026-07-15,5840.00,INR,Vistara,Travel,Personal card,New Delhi,Site visit – Pune office,yes,RCP-639079,10000,approved
+TXN-241678,E1038,Geetha Ramesh,Operations,2026-07-15,5030.00,INR,MakeMyTrip,Travel,Corporate card,Bengaluru,Quarterly business review,yes,RCP-593865,10000,approved
+TXN-241709,E1038,Geetha Ramesh,Operations,2026-07-15,1690.00,INR,Amazon,Office Supplies,Personal card,Bengaluru,Keyboard and mouse,yes,RCP-508377,5000,approved
+TXN-242077,E1046,Preethi Anand,Customer Success,2026-07-15,665.00,INR,ACT Fibernet,Telecom & Internet,Corporate card,Bengaluru,Monthly mobile bill,yes,RCP-539205,3000,approved
+TXN-240078,E1002,Karthik Subramanian,Engineering,2026-07-16,279.00,INR,Namma Metro,Local Transport,Corporate card,Chennai,Cab to client office,no,,1500,approved
+TXN-240224,E1006,Arjun Nair,Engineering,2026-07-16,704.00,INR,Chai Point,Meals,Corporate card,Pune,Dinner during client visit,yes,RCP-354170,2500,approved
+TXN-240738,E1017,Ishita Banerjee,Marketing,2026-07-16,4800.00,INR,Mainland China,Client Entertainment,Cash,Hyderabad,Dinner with client stakeholders,yes,RCP-631400,6000,approved
+TXN-240750,E1017,Ishita Banerjee,Marketing,2026-07-16,4730.00,INR,Toit Brewpub,Client Entertainment,Corporate card,Hyderabad,Dinner with client stakeholders,yes,RCP-176601,6000,approved
+TXN-241003,E1023,Lakshmi Prasad,Marketing,2026-07-16,616.00,INR,Haldiram's,Meals,UPI,Pune,Team lunch – sprint review,yes,RCP-425865,2500,approved
+TXN-241375,E1031,Nandini Rao,Finance,2026-07-16,398.00,INR,Uber India,Local Transport,UPI,Hyderabad,Office commute – late shift,yes,RCP-253585,1500,approved
+TXN-241734,E1039,Ajay Thakur,Operations,2026-07-16,1190.00,INR,Amazon,Office Supplies,Cash,Chennai,Notebooks and stationery,yes,RCP-298965,5000,approved
+TXN-241963,E1044,Kiran Jadhav,Customer Success,2026-07-16,779.00,INR,Haldiram's,Meals,UPI,Mumbai,Team lunch – sprint review,yes,RCP-216875,2500,approved
+TXN-242096,E1046,Preethi Anand,Customer Success,2026-07-16,822.00,INR,Uber India,Local Transport,Corporate card,Bengaluru,Office commute – late shift,no,,1500,approved
+TXN-240237,E1006,Arjun Nair,Engineering,2026-07-17,5950.00,INR,Figma,Software Subscription,Personal card,Pune,Team workspace upgrade,yes,RCP-494420,50000,approved
+TXN-240265,E1007,Divya Krishnan,Engineering,2026-07-17,265.00,INR,Rapido,Local Transport,UPI,New Delhi,Office commute – late shift,no,,1500,approved
+TXN-240286,E1007,Divya Krishnan,Engineering,2026-07-17,5690.00,INR,upGrad,Training & Conferences,Cash,New Delhi,Online course – cloud architecture,yes,RCP-572673,40000,approved
+TXN-240588,E1014,Kavya Reddy,Sales,2026-07-17,392.00,INR,Uber India,Local Transport,Personal card,Chennai,Office commute – late shift,no,,1500,approved
+TXN-241021,E1023,Lakshmi Prasad,Marketing,2026-07-17,1210.00,INR,Flipkart,Office Supplies,Corporate card,Pune,Notebooks and stationery,yes,RCP-455310,5000,pending
+TXN-241127,E1026,Suresh Kumar,Finance,2026-07-17,5800.00,INR,NASSCOM,Training & Conferences,Corporate card,Hyderabad,Certification exam fee,yes,RCP-954515,40000,approved
+TXN-241196,E1027,Anjali Mehta,Finance,2026-07-17,5660.00,INR,Notion Labs,Software Subscription,Corporate card,Hyderabad,Team workspace upgrade,yes,RCP-854451,50000,approved
+TXN-241200,E1027,Anjali Mehta,Finance,2026-07-17,928.00,INR,Zomato,Meals,Personal card,Hyderabad,Team lunch – sprint review,yes,RCP-222670,2500,approved
+TXN-241720,E1039,Ajay Thakur,Operations,2026-07-17,401.00,INR,Ola Cabs,Local Transport,Personal card,Chennai,Airport transfer,yes,RCP-255777,1500,approved
+TXN-241769,E1040,Revathi Sundaram,Operations,2026-07-17,294.00,INR,Namma Metro,Local Transport,Cash,Mumbai,Office commute – late shift,yes,RCP-976687,1500,approved
+TXN-241929,E1043,Shalini Menon,Customer Success,2026-07-17,842.00,INR,Airtel,Telecom & Internet,Corporate card,Bengaluru,Monthly mobile bill,yes,RCP-240522,3000,approved
+TXN-242069,E1046,Preethi Anand,Customer Success,2026-07-17,636.00,INR,Uber India,Local Transport,UPI,Bengaluru,Cab to client office,yes,RCP-839047,1500,approved
+TXN-242183,E1048,Sunita Verma,Customer Success,2026-07-17,436.00,INR,Rapido,Local Transport,Personal card,New Delhi,Office commute – late shift,no,,1500,approved
+TXN-240138,E1004,Rohan Deshpande,Engineering,2026-07-18,4500.00,INR,IndiGo,Travel,Corporate card,Hyderabad,Client visit,yes,RCP-238010,10000,pending
+TXN-240497,E1011,Siddharth Rao,Sales,2026-07-18,3800.00,INR,IRCTC,Travel,Corporate card,Mumbai,Site visit – Pune office,yes,RCP-825116,10000,approved
+TXN-241140,E1026,Suresh Kumar,Finance,2026-07-18,522.00,INR,Rapido,Local Transport,Cash,Hyderabad,Airport transfer,yes,RCP-270003,1500,approved
+TXN-241878,E1042,Naveen Kumar,Customer Success,2026-07-18,625.00,INR,Ola Cabs,Local Transport,UPI,New Delhi,Airport transfer,yes,RCP-847180,1500,approved
+TXN-242195,E1003,Ananya Iyer,Engineering,2026-07-18,4520.00,INR,Udemy Business,Training & Conferences,Personal card,Pune,Workshop ticket,yes,RCP-198298,40000,approved
+TXN-242211,E1002,Karthik Subramanian,Engineering,2026-07-18,3860.00,INR,Great Learning,Training & Conferences,Personal card,Chennai,Certification exam fee,yes,RCP-914673,40000,approved
+TXN-242226,E1001,Priya Raman,Engineering,2026-07-18,5830.00,INR,MakeMyTrip,Travel,UPI,Mumbai,Site visit – Pune office,yes,RCP-698253,10000,approved
+TXN-242242,E1006,Arjun Nair,Engineering,2026-07-18,5980.00,INR,GitHub,Software Subscription,Cash,Pune,Team workspace upgrade,yes,RCP-875673,50000,approved
+TXN-240381,E1009,Rahul Menon,Sales,2026-07-19,320.00,INR,Namma Metro,Local Transport,UPI,Pune,Office commute – late shift,no,,1500,approved
+TXN-240386,E1009,Rahul Menon,Sales,2026-07-19,2900.00,INR,MakeMyTrip,Travel,Corporate card,Pune,Quarterly business review,yes,RCP-214321,10000,approved
+TXN-241596,E1036,Bhavana Murthy,Operations,2026-07-19,432.00,INR,Uber India,Local Transport,Personal card,New Delhi,Airport transfer,yes,RCP-959428,1500,approved
+TXN-241694,E1038,Geetha Ramesh,Operations,2026-07-19,3330.00,INR,Air India,Travel,Corporate card,Bengaluru,Client visit,yes,RCP-421054,10000,approved
+TXN-241729,E1039,Ajay Thakur,Operations,2026-07-19,363.00,INR,Uber India,Local Transport,UPI,Chennai,Office commute – late shift,yes,RCP-102971,1500,approved
+TXN-242027,E1045,Mohit Bansal,Customer Success,2026-07-19,5390.00,INR,IRCTC,Travel,Corporate card,Mumbai,Quarterly business review,yes,RCP-761255,10000,approved
+TXN-240298,E1007,Divya Krishnan,Engineering,2026-07-20,4510.00,INR,IRCTC,Travel,UPI,New Delhi,Quarterly business review,yes,RCP-818087,10000,pending
+TXN-240316,E1008,Vikram Bhat,Engineering,2026-07-20,4270.00,INR,Freshworks,Software Subscription,Personal card,Mumbai,Team workspace upgrade,yes,RCP-736628,50000,approved
+TXN-240608,E1014,Kavya Reddy,Sales,2026-07-20,3470.00,INR,The Leela Palace,Client Entertainment,Corporate card,Chennai,Dinner with client stakeholders,yes,RCP-163088,6000,pending
+TXN-240660,E1015,Manish Gupta,Sales,2026-07-20,3940.00,INR,Barbeque Nation,Client Entertainment,Corporate card,Bengaluru,Client lunch – renewal discussion,yes,RCP-499782,6000,approved
+TXN-240716,E1016,Shreya Pillai,Sales,2026-07-20,4630.00,INR,Toit Brewpub,Client Entertainment,Personal card,Pune,Dinner with client stakeholders,yes,RCP-710330,6000,approved
+TXN-240946,E1021,Tanvi Shah,Marketing,2026-07-20,729.00,INR,Ola Cabs,Local Transport,Corporate card,Chennai,Cab to client office,yes,RCP-543384,1500,pending
+TXN-241365,E1031,Nandini Rao,Finance,2026-07-20,868.00,INR,Chai Point,Meals,Cash,Hyderabad,Working lunch with team,yes,RCP-250493,2500,approved
+TXN-241378,E1031,Nandini Rao,Finance,2026-07-20,485.00,INR,Rapido,Local Transport,Cash,Hyderabad,Office commute – late shift,no,,1500,approved
+TXN-241509,E1034,Swati Mishra,Operations,2026-07-20,192.00,INR,Uber India,Local Transport,Corporate card,New Delhi,Airport transfer,yes,RCP-328028,1500,approved
+TXN-241785,E1040,Revathi Sundaram,Operations,2026-07-20,874.00,INR,Swiggy,Meals,Corporate card,Mumbai,Team lunch – sprint review,yes,RCP-989455,2500,approved
+TXN-242152,E1048,Sunita Verma,Customer Success,2026-07-20,404.00,INR,Third Wave Coffee,Meals,Corporate card,New Delhi,Dinner during client visit,yes,RCP-236469,2500,approved
+TXN-240117,E1003,Ananya Iyer,Engineering,2026-07-21,257.00,INR,Namma Metro,Local Transport,Corporate card,Pune,Cab to client office,yes,RCP-154206,1500,approved
+TXN-240126,E1003,Ananya Iyer,Engineering,2026-07-21,3870.00,INR,GitHub,Software Subscription,UPI,Pune,Monthly seat licence,yes,RCP-692893,50000,approved
+TXN-240161,E1004,Rohan Deshpande,Engineering,2026-07-21,6580.00,INR,Coursera,Training & Conferences,Corporate card,Hyderabad,Online course – cloud architecture,yes,RCP-769211,40000,approved
+TXN-240338,E1008,Vikram Bhat,Engineering,2026-07-21,1260.00,INR,Flipkart,Office Supplies,Personal card,Mumbai,Notebooks and stationery,yes,RCP-246551,5000,approved
+TXN-240563,E1013,Aditya Joshi,Sales,2026-07-21,4930.00,INR,Treebo,Accommodation,Cash,Bengaluru,Hotel stay for client visit,yes,RCP-478465,8000,approved
+TXN-240736,E1017,Ishita Banerjee,Marketing,2026-07-21,1710.00,INR,Staples India,Office Supplies,Personal card,Hyderabad,Keyboard and mouse,yes,RCP-983211,5000,approved
+TXN-240782,E1018,Nikhil Chawla,Marketing,2026-07-21,381.00,INR,Ola Cabs,Local Transport,Personal card,Mumbai,Office commute – late shift,no,,1500,approved
+TXN-240809,E1018,Nikhil Chawla,Marketing,2026-07-21,7640.00,INR,Freshworks,Software Subscription,Cash,Mumbai,Annual plan renewal,yes,RCP-793486,50000,approved
+TXN-240849,E1019,Meera Natarajan,Marketing,2026-07-21,3500.00,INR,Mainland China,Client Entertainment,Corporate card,Kochi,Client lunch – renewal discussion,yes,RCP-541470,6000,approved
+TXN-240869,E1020,Varun Malhotra,Marketing,2026-07-21,598.00,INR,Rapido,Local Transport,Corporate card,Hyderabad,Cab to client office,no,,1500,approved
+TXN-240890,E1020,Varun Malhotra,Marketing,2026-07-21,2830.00,INR,Notion Labs,Software Subscription,Cash,Hyderabad,Annual plan renewal,yes,RCP-387515,50000,approved
+TXN-241168,E1026,Suresh Kumar,Finance,2026-07-21,546.00,INR,Zomato,Meals,Corporate card,Hyderabad,Working lunch with team,yes,RCP-424308,2500,approved
+TXN-241245,E1028,Gautam Iyengar,Finance,2026-07-21,317.00,INR,Uber India,Local Transport,UPI,Bengaluru,Cab to client office,yes,RCP-425759,1500,approved
+TXN-241318,E1030,Harish Chandran,Finance,2026-07-21,1250.00,INR,Airtel,Telecom & Internet,Corporate card,Mumbai,Home broadband – remote work,yes,RCP-839042,3000,pending
+TXN-240075,E1002,Karthik Subramanian,Engineering,2026-07-22,5120.00,INR,Vistara,Travel,Personal card,Chennai,Site visit – Pune office,yes,RCP-860613,10000,approved
+TXN-240450,E1010,Neha Agarwal,Sales,2026-07-22,712.00,INR,Chai Point,Meals,Corporate card,Kochi,Team lunch – sprint review,yes,RCP-908012,2500,approved
+TXN-240459,E1011,Siddharth Rao,Sales,2026-07-22,525.00,INR,Saravana Bhavan,Meals,Personal card,Mumbai,Dinner during client visit,yes,RCP-688811,2500,approved
+TXN-240913,E1021,Tanvi Shah,Marketing,2026-07-22,356.00,INR,Uber India,Local Transport,UPI,Chennai,Airport transfer,no,,1500,approved
+TXN-241330,E1030,Harish Chandran,Finance,2026-07-22,1580.00,INR,Vodafone Idea,Telecom & Internet,Corporate card,Mumbai,Monthly mobile bill,yes,RCP-688095,3000,approved
+TXN-241410,E1032,Prakash Hegde,Finance,2026-07-22,382.00,INR,Rapido,Local Transport,Cash,Bengaluru,Office commute – late shift,no,,1500,approved
+TXN-241914,E1043,Shalini Menon,Customer Success,2026-07-22,919.00,INR,Swiggy,Meals,UPI,Bengaluru,Team lunch – sprint review,yes,RCP-285123,2500,pending
+TXN-240169,E1004,Rohan Deshpande,Engineering,2026-07-23,6000.00,INR,Atlassian,Software Subscription,Personal card,Hyderabad,Team workspace upgrade,yes,RCP-828874,50000,approved
+TXN-240446,E1010,Neha Agarwal,Sales,2026-07-23,423.00,INR,Saravana Bhavan,Meals,Cash,Kochi,Working lunch with team,yes,RCP-702373,2500,pending
+TXN-240455,E1010,Neha Agarwal,Sales,2026-07-23,286.00,INR,Namma Metro,Local Transport,Corporate card,Kochi,Cab to client office,no,,1500,approved
+TXN-240612,E1014,Kavya Reddy,Sales,2026-07-23,927.00,INR,Zomato,Meals,Corporate card,Chennai,Dinner during client visit,yes,RCP-623173,2500,approved
+TXN-240732,E1017,Ishita Banerjee,Marketing,2026-07-23,4990.00,INR,Atlassian,Software Subscription,Corporate card,Hyderabad,Monthly seat licence,yes,RCP-925990,50000,approved
+TXN-241106,E1025,Deepa Raghavan,Finance,2026-07-23,745.00,INR,Third Wave Coffee,Meals,Corporate card,Hyderabad,Team lunch – sprint review,yes,RCP-941021,2500,approved
+TXN-241227,E1028,Gautam Iyengar,Finance,2026-07-23,915.00,INR,Zomato,Meals,Cash,Bengaluru,Working lunch with team,yes,RCP-216775,2500,approved
+TXN-241414,E1032,Prakash Hegde,Finance,2026-07-23,273.00,INR,Rapido,Local Transport,UPI,Bengaluru,Cab to client office,yes,RCP-228115,1500,approved
+TXN-241599,E1036,Bhavana Murthy,Operations,2026-07-23,438.00,INR,Ola Cabs,Local Transport,Corporate card,New Delhi,Airport transfer,yes,RCP-503822,1500,approved
+TXN-241650,E1037,Sanjay Patil,Operations,2026-07-23,784.00,INR,Zomato,Meals,Cash,New Delhi,Team lunch – sprint review,yes,RCP-216654,2500,approved
+TXN-241803,E1040,Revathi Sundaram,Operations,2026-07-23,248.00,INR,Uber India,Local Transport,Cash,Mumbai,Office commute – late shift,no,,1500,approved
+TXN-241808,E1041,Aarti Desai,Customer Success,2026-07-23,526.00,INR,Swiggy,Meals,UPI,New Delhi,Team lunch – sprint review,yes,RCP-518319,2500,approved
+TXN-241872,E1042,Naveen Kumar,Customer Success,2026-07-23,443.00,INR,Saravana Bhavan,Meals,Corporate card,New Delhi,Team lunch – sprint review,yes,RCP-320855,2500,pending
+TXN-242045,E1045,Mohit Bansal,Customer Success,2026-07-23,3980.00,INR,IRCTC,Travel,UPI,Mumbai,Client visit,yes,RCP-358954,10000,approved
+TXN-240165,E1004,Rohan Deshpande,Engineering,2026-07-24,519.00,INR,Zomato,Meals,Corporate card,Hyderabad,Team lunch – sprint review,yes,RCP-677684,2500,approved
+TXN-240226,E1006,Arjun Nair,Engineering,2026-07-24,5890.00,INR,Notion Labs,Software Subscription,UPI,Pune,Annual plan renewal,yes,RCP-211547,50000,approved
+TXN-240249,E1006,Arjun Nair,Engineering,2026-07-24,4960.00,INR,Coursera,Training & Conferences,Cash,Pune,Online course – cloud architecture,yes,RCP-739121,40000,approved
+TXN-240287,E1007,Divya Krishnan,Engineering,2026-07-24,1280.00,INR,Jio,Telecom & Internet,Personal card,New Delhi,Home broadband – remote work,yes,RCP-582952,3000,approved
+TXN-240935,E1021,Tanvi Shah,Marketing,2026-07-24,336.00,INR,Ola Cabs,Local Transport,Corporate card,Chennai,Airport transfer,no,,1500,approved
+TXN-241225,E1028,Gautam Iyengar,Finance,2026-07-24,200.00,INR,Ola Cabs,Local Transport,Corporate card,Bengaluru,Airport transfer,no,,1500,approved
+TXN-241282,E1029,Ritu Saxena,Finance,2026-07-24,537.00,INR,Zomato,Meals,Personal card,Mumbai,Team lunch – sprint review,yes,RCP-951911,2500,approved
+TXN-241289,E1029,Ritu Saxena,Finance,2026-07-24,625.00,INR,Third Wave Coffee,Meals,Corporate card,Mumbai,Dinner during client visit,yes,RCP-714870,2500,approved
+TXN-241562,E1035,Imran Sheikh,Operations,2026-07-24,757.00,INR,Third Wave Coffee,Meals,Corporate card,Bengaluru,Dinner during client visit,yes,RCP-735498,2500,approved
+TXN-241695,E1038,Geetha Ramesh,Operations,2026-07-24,418.00,INR,Namma Metro,Local Transport,Cash,Bengaluru,Airport transfer,no,,1500,approved
+TXN-241805,E1040,Revathi Sundaram,Operations,2026-07-24,1010.00,INR,Haldiram's,Meals,Cash,Mumbai,Team lunch – sprint review,yes,RCP-138563,2500,approved
+TXN-241934,E1043,Shalini Menon,Customer Success,2026-07-24,4530.00,INR,IRCTC,Travel,Corporate card,Bengaluru,Site visit – Pune office,yes,RCP-564334,10000,approved
+TXN-241989,E1044,Kiran Jadhav,Customer Success,2026-07-24,1020.00,INR,Airtel,Telecom & Internet,UPI,Mumbai,Monthly mobile bill,yes,RCP-467071,3000,pending
+TXN-242123,E1047,Rajesh Iyer,Customer Success,2026-07-24,2930.00,INR,Barbeque Nation,Client Entertainment,UPI,Hyderabad,Dinner with client stakeholders,yes,RCP-961104,6000,approved
+TXN-240461,E1011,Siddharth Rao,Sales,2026-07-25,585.00,INR,Chai Point,Meals,UPI,Mumbai,Working lunch with team,yes,RCP-392692,2500,approved
+TXN-240553,E1013,Aditya Joshi,Sales,2026-07-25,572.00,INR,Third Wave Coffee,Meals,UPI,Bengaluru,Working lunch with team,yes,RCP-929610,2500,approved
+TXN-240589,E1014,Kavya Reddy,Sales,2026-07-25,661.00,INR,Swiggy,Meals,Corporate card,Chennai,Dinner during client visit,yes,RCP-442622,2500,approved
+TXN-241288,E1029,Ritu Saxena,Finance,2026-07-25,413.00,INR,Ola Cabs,Local Transport,UPI,Mumbai,Airport transfer,yes,RCP-391066,1500,approved
+TXN-241507,E1034,Swati Mishra,Operations,2026-07-25,906.00,INR,Swiggy,Meals,Corporate card,New Delhi,Dinner during client visit,yes,RCP-466235,2500,approved
+TXN-240304,E1007,Divya Krishnan,Engineering,2026-07-26,1150.00,INR,Jio,Telecom & Internet,UPI,New Delhi,Home broadband – remote work,yes,RCP-842747,3000,approved
+TXN-240325,E1008,Vikram Bhat,Engineering,2026-07-26,828.00,INR,Swiggy,Meals,Personal card,Mumbai,Team lunch – sprint review,yes,RCP-580542,2500,approved
+TXN-240546,E1013,Aditya Joshi,Sales,2026-07-26,587.00,INR,ACT Fibernet,Telecom & Internet,Personal card,Bengaluru,Monthly mobile bill,yes,RCP-965736,3000,approved
+TXN-240571,E1013,Aditya Joshi,Sales,2026-07-26,480.00,INR,Chai Point,Meals,Corporate card,Bengaluru,Dinner during client visit,yes,RCP-930369,2500,approved
+TXN-240671,E1015,Manish Gupta,Sales,2026-07-26,892.00,INR,Haldiram's,Meals,Cash,Bengaluru,Dinner during client visit,yes,RCP-439753,2500,approved
+TXN-240691,E1016,Shreya Pillai,Sales,2026-07-26,357.00,INR,Uber India,Local Transport,Corporate card,Pune,Airport transfer,yes,RCP-956528,1500,approved
+TXN-240698,E1016,Shreya Pillai,Sales,2026-07-26,714.00,INR,Third Wave Coffee,Meals,UPI,Pune,Team lunch – sprint review,yes,RCP-712133,2500,approved
+TXN-240741,E1017,Ishita Banerjee,Marketing,2026-07-26,529.00,INR,Zomato,Meals,Cash,Hyderabad,Team lunch – sprint review,yes,RCP-351287,2500,pending
+TXN-241267,E1029,Ritu Saxena,Finance,2026-07-26,340.00,INR,Uber India,Local Transport,Corporate card,Mumbai,Office commute – late shift,no,,1500,approved
+TXN-241496,E1034,Swati Mishra,Operations,2026-07-26,232.00,INR,Namma Metro,Local Transport,Personal card,New Delhi,Airport transfer,no,,1500,approved
+TXN-241669,E1037,Sanjay Patil,Operations,2026-07-26,1250.00,INR,Haldiram's,Meals,Corporate card,New Delhi,Working lunch with team,yes,RCP-936760,2500,approved
+TXN-241938,E1044,Kiran Jadhav,Customer Success,2026-07-26,499.00,INR,Namma Metro,Local Transport,Personal card,Mumbai,Office commute – late shift,no,,1500,approved
+TXN-241961,E1044,Kiran Jadhav,Customer Success,2026-07-26,532.00,INR,Uber India,Local Transport,Corporate card,Mumbai,Airport transfer,no,,1500,approved
+TXN-240043,E1001,Priya Raman,Engineering,2026-07-27,820.00,INR,Haldiram's,Meals,Cash,Mumbai,Working lunch with team,yes,RCP-574990,2500,pending
+TXN-240048,E1001,Priya Raman,Engineering,2026-07-27,990.00,INR,Airtel,Telecom & Internet,Personal card,Mumbai,Monthly mobile bill,yes,RCP-820112,3000,approved
+TXN-240187,E1005,Sneha Kulkarni,Engineering,2026-07-27,487.00,INR,Third Wave Coffee,Meals,Personal card,Mumbai,Dinner during client visit,yes,RCP-204728,2500,approved
+TXN-240267,E1007,Divya Krishnan,Engineering,2026-07-27,5330.00,INR,Freshworks,Software Subscription,Personal card,New Delhi,Annual plan renewal,yes,RCP-967942,50000,approved
+TXN-240466,E1011,Siddharth Rao,Sales,2026-07-27,976.00,INR,Jio,Telecom & Internet,Corporate card,Mumbai,Home broadband – remote work,yes,RCP-724902,3000,approved
+TXN-240598,E1014,Kavya Reddy,Sales,2026-07-27,870.00,INR,Swiggy,Meals,UPI,Chennai,Dinner during client visit,yes,RCP-664826,2500,approved
+TXN-240610,E1014,Kavya Reddy,Sales,2026-07-27,4270.00,INR,OYO Townhouse,Accommodation,Cash,Chennai,Stay for vendor audit,yes,RCP-873426,8000,approved
+TXN-240626,E1014,Kavya Reddy,Sales,2026-07-27,610.00,INR,Third Wave Coffee,Meals,Corporate card,Chennai,Dinner during client visit,yes,RCP-246589,2500,approved
+TXN-240877,E1020,Varun Malhotra,Marketing,2026-07-27,1190.00,INR,Amazon,Office Supplies,Corporate card,Hyderabad,Keyboard and mouse,yes,RCP-865642,5000,approved
+TXN-240995,E1023,Lakshmi Prasad,Marketing,2026-07-27,815.00,INR,Rapido,Local Transport,Personal card,Pune,Office commute – late shift,no,,1500,approved
+TXN-241271,E1029,Ritu Saxena,Finance,2026-07-27,486.00,INR,Rapido,Local Transport,Personal card,Mumbai,Cab to client office,yes,RCP-422853,1500,approved
+TXN-241726,E1039,Ajay Thakur,Operations,2026-07-27,919.00,INR,Flipkart,Office Supplies,UPI,Chennai,Printer cartridges,yes,RCP-477347,5000,pending
+TXN-241748,E1039,Ajay Thakur,Operations,2026-07-27,650.00,INR,Swiggy,Meals,Personal card,Chennai,Team lunch – sprint review,yes,RCP-793654,2500,approved
+TXN-241905,E1043,Shalini Menon,Customer Success,2026-07-27,383.00,INR,Ola Cabs,Local Transport,Corporate card,Bengaluru,Airport transfer,yes,RCP-648414,1500,approved
+TXN-241976,E1044,Kiran Jadhav,Customer Success,2026-07-27,726.00,INR,Zomato,Meals,Personal card,Mumbai,Team lunch – sprint review,yes,RCP-103852,2500,approved
+TXN-242067,E1046,Preethi Anand,Customer Success,2026-07-27,4590.00,INR,Lemon Tree Hotels,Accommodation,Corporate card,Bengaluru,Stay for vendor audit,yes,RCP-335363,8000,pending
+TXN-240173,E1005,Sneha Kulkarni,Engineering,2026-07-28,2220.00,INR,Flipkart,Office Supplies,Corporate card,Mumbai,Keyboard and mouse,yes,RCP-882396,5000,approved
+TXN-240199,E1005,Sneha Kulkarni,Engineering,2026-07-28,317.00,INR,Third Wave Coffee,Meals,Corporate card,Mumbai,Team lunch – sprint review,yes,RCP-904058,2500,approved
+TXN-240312,E1008,Vikram Bhat,Engineering,2026-07-28,7670.00,INR,Atlassian,Software Subscription,Personal card,Mumbai,Annual plan renewal,yes,RCP-705936,50000,approved
+TXN-240564,E1013,Aditya Joshi,Sales,2026-07-28,4990.00,INR,Vistara,Travel,Personal card,Bengaluru,Site visit – Pune office,yes,RCP-590481,10000,approved
+TXN-240774,E1017,Ishita Banerjee,Marketing,2026-07-28,6810.00,INR,Figma,Software Subscription,Personal card,Hyderabad,Monthly seat licence,yes,RCP-384174,50000,approved
+TXN-241067,E1024,Farhan Qureshi,Marketing,2026-07-28,3370.00,INR,Mainland China,Client Entertainment,Corporate card,Hyderabad,Dinner with client stakeholders,yes,RCP-338736,6000,approved
+TXN-241246,E1028,Gautam Iyengar,Finance,2026-07-28,5700.00,INR,Zoho Corporation,Software Subscription,UPI,Bengaluru,Annual plan renewal,yes,RCP-632455,50000,approved
+TXN-241285,E1029,Ritu Saxena,Finance,2026-07-28,787.00,INR,ACT Fibernet,Telecom & Internet,Cash,Mumbai,Monthly mobile bill,yes,RCP-834723,3000,approved
+TXN-241306,E1030,Harish Chandran,Finance,2026-07-28,569.00,INR,Chai Point,Meals,Cash,Mumbai,Team lunch – sprint review,yes,RCP-224151,2500,pending
+TXN-241451,E1033,Ravi Shankar,Operations,2026-07-28,1540.00,INR,Croma,Office Supplies,Corporate card,Bengaluru,Keyboard and mouse,yes,RCP-767879,5000,approved
+TXN-241568,E1035,Imran Sheikh,Operations,2026-07-28,3970.00,INR,OYO Townhouse,Accommodation,UPI,Bengaluru,Hotel stay for client visit,yes,RCP-324077,8000,approved
+TXN-241637,E1037,Sanjay Patil,Operations,2026-07-28,1550.00,INR,Amazon,Office Supplies,Corporate card,New Delhi,Notebooks and stationery,yes,RCP-543052,5000,approved
+TXN-241657,E1037,Sanjay Patil,Operations,2026-07-28,513.00,INR,Rapido,Local Transport,Personal card,New Delhi,Office commute – late shift,no,,1500,approved
+TXN-241724,E1039,Ajay Thakur,Operations,2026-07-28,1080.00,INR,Staples India,Office Supplies,Cash,Chennai,Notebooks and stationery,yes,RCP-232848,5000,approved
+TXN-241802,E1040,Revathi Sundaram,Operations,2026-07-28,230.00,INR,Ola Cabs,Local Transport,Corporate card,Mumbai,Cab to client office,no,,1500,approved
+TXN-241987,E1044,Kiran Jadhav,Customer Success,2026-07-28,1400.00,INR,Jio,Telecom & Internet,Personal card,Mumbai,Monthly mobile bill,yes,RCP-634846,3000,approved
+TXN-242037,E1045,Mohit Bansal,Customer Success,2026-07-28,5420.00,INR,IRCTC,Travel,Corporate card,Mumbai,Site visit – Pune office,yes,RCP-425974,10000,pending
+TXN-242270,E1039,Ajay Thakur,Operations,2026-07-28,1080.00,INR,Staples India,Office Supplies,UPI,Chennai,Notebooks and stationery,yes,RCP-109191,5000,approved
+TXN-240156,E1004,Rohan Deshpande,Engineering,2026-07-29,1120.00,INR,Jio,Telecom & Internet,UPI,Hyderabad,Home broadband – remote work,yes,RCP-637581,3000,approved
+TXN-240236,E1006,Arjun Nair,Engineering,2026-07-29,7000.00,INR,Notion Labs,Software Subscription,UPI,Pune,Annual plan renewal,yes,RCP-896800,50000,approved
+TXN-240371,E1009,Rahul Menon,Sales,2026-07-29,896.00,INR,ACT Fibernet,Telecom & Internet,Corporate card,Pune,Monthly mobile bill,yes,RCP-832920,3000,approved
+TXN-240618,E1014,Kavya Reddy,Sales,2026-07-29,1880.00,INR,The Leela Palace,Client Entertainment,UPI,Chennai,Dinner with client stakeholders,yes,RCP-342620,6000,approved
+TXN-240657,E1015,Manish Gupta,Sales,2026-07-29,4280.00,INR,Mainland China,Client Entertainment,Corporate card,Bengaluru,Client lunch – renewal discussion,yes,RCP-350234,6000,approved
+TXN-240833,E1019,Meera Natarajan,Marketing,2026-07-29,1330.00,INR,Flipkart,Office Supplies,Personal card,Kochi,Printer cartridges,yes,RCP-492595,5000,approved
+TXN-240861,E1019,Meera Natarajan,Marketing,2026-07-29,3280.00,INR,The Leela Palace,Client Entertainment,Corporate card,Kochi,Dinner with client stakeholders,yes,RCP-589196,6000,approved
+TXN-240864,E1020,Varun Malhotra,Marketing,2026-07-29,3860.00,INR,Notion Labs,Software Subscription,Cash,Hyderabad,Annual plan renewal,yes,RCP-375728,50000,approved
+TXN-240942,E1021,Tanvi Shah,Marketing,2026-07-29,2480.00,INR,Mainland China,Client Entertainment,Personal card,Chennai,Client lunch – renewal discussion,yes,RCP-801149,6000,approved
+TXN-241080,E1025,Deepa Raghavan,Finance,2026-07-29,744.00,INR,ACT Fibernet,Telecom & Internet,Cash,Hyderabad,Home broadband – remote work,yes,RCP-782512,3000,approved
+TXN-241158,E1026,Suresh Kumar,Finance,2026-07-29,566.00,INR,Uber India,Local Transport,Cash,Hyderabad,Airport transfer,no,,1500,approved
+TXN-241188,E1027,Anjali Mehta,Finance,2026-07-29,1420.00,INR,Vodafone Idea,Telecom & Internet,Corporate card,Hyderabad,Monthly mobile bill,yes,RCP-669391,3000,approved
+TXN-241367,E1031,Nandini Rao,Finance,2026-07-29,3670.00,INR,NASSCOM,Training & Conferences,Personal card,Hyderabad,Online course – cloud architecture,yes,RCP-380493,40000,pending
+TXN-241453,E1033,Ravi Shankar,Operations,2026-07-29,577.00,INR,Saravana Bhavan,Meals,Personal card,Bengaluru,Team lunch – sprint review,yes,RCP-794153,2500,approved
+TXN-241725,E1039,Ajay Thakur,Operations,2026-07-29,327.00,INR,Ola Cabs,Local Transport,Corporate card,Chennai,Office commute – late shift,yes,RCP-371495,1500,approved
+TXN-241749,E1039,Ajay Thakur,Operations,2026-07-29,394.00,INR,Uber India,Local Transport,Corporate card,Chennai,Office commute – late shift,yes,RCP-693464,1500,approved
+TXN-242254,E1039,Ajay Thakur,Operations,2026-07-29,12580.00,INR,Taj Hotels,Accommodation,Corporate card,Chennai,Stay for vendor audit,yes,RCP-867574,8000,pending
+TXN-240025,E1001,Priya Raman,Engineering,2026-07-30,4510.00,INR,Figma,Software Subscription,UPI,Mumbai,Team workspace upgrade,yes,RCP-572656,50000,approved
+TXN-240102,E1003,Ananya Iyer,Engineering,2026-07-30,1990.00,INR,Amazon,Office Supplies,Corporate card,Pune,Keyboard and mouse,yes,RCP-298781,5000,pending
+TXN-240309,E1008,Vikram Bhat,Engineering,2026-07-30,722.00,INR,ACT Fibernet,Telecom & Internet,Personal card,Mumbai,Home broadband – remote work,yes,RCP-630756,3000,pending
+TXN-240567,E1013,Aditya Joshi,Sales,2026-07-30,5380.00,INR,OYO Townhouse,Accommodation,Corporate card,Bengaluru,Stay for vendor audit,yes,RCP-503105,8000,approved
+TXN-240769,E1017,Ishita Banerjee,Marketing,2026-07-30,431.00,INR,Rapido,Local Transport,Personal card,Hyderabad,Cab to client office,yes,RCP-415065,1500,pending
+TXN-241371,E1031,Nandini Rao,Finance,2026-07-30,381.00,INR,Namma Metro,Local Transport,UPI,Hyderabad,Office commute – late shift,no,,1500,approved
+TXN-241537,E1035,Imran Sheikh,Operations,2026-07-30,359.00,INR,Namma Metro,Local Transport,UPI,Bengaluru,Office commute – late shift,no,,1500,approved
+TXN-241777,E1040,Revathi Sundaram,Operations,2026-07-30,5090.00,INR,IRCTC,Travel,Corporate card,Mumbai,Client visit,yes,RCP-591919,10000,approved
+TXN-241894,E1043,Shalini Menon,Customer Success,2026-07-30,6310.00,INR,IRCTC,Travel,Cash,Bengaluru,Quarterly business review,yes,RCP-187909,10000,approved
+TXN-242267,E1043,Shalini Menon,Customer Success,2026-07-30,6310.00,INR,IRCTC,Travel,UPI,Bengaluru,Quarterly business review,yes,RCP-818767,10000,approved
+TXN-240214,E1005,Sneha Kulkarni,Engineering,2026-07-31,387.00,INR,Uber India,Local Transport,UPI,Mumbai,Cab to client office,no,,1500,approved
+TXN-240464,E1011,Siddharth Rao,Sales,2026-07-31,3600.00,INR,Air India,Travel,UPI,Mumbai,Quarterly business review,yes,RCP-759914,10000,approved
+TXN-240549,E1013,Aditya Joshi,Sales,2026-07-31,402.00,INR,Saravana Bhavan,Meals,Personal card,Bengaluru,Team lunch – sprint review,yes,RCP-612741,2500,approved
+TXN-240573,E1013,Aditya Joshi,Sales,2026-07-31,7480.00,INR,IndiGo,Travel,Personal card,Bengaluru,Site visit – Pune office,yes,RCP-994648,10000,approved
+TXN-240643,E1015,Manish Gupta,Sales,2026-07-31,4810.00,INR,IndiGo,Travel,Corporate card,Bengaluru,Quarterly business review,yes,RCP-827910,10000,approved
+TXN-240895,E1020,Varun Malhotra,Marketing,2026-07-31,2170.00,INR,Flipkart,Office Supplies,UPI,Hyderabad,Notebooks and stationery,yes,RCP-453321,5000,approved
+TXN-240917,E1021,Tanvi Shah,Marketing,2026-07-31,355.00,INR,Namma Metro,Local Transport,UPI,Chennai,Cab to client office,no,,1500,approved
+TXN-240924,E1021,Tanvi Shah,Marketing,2026-07-31,2190.00,INR,Mainland China,Client Entertainment,UPI,Chennai,Client lunch – renewal discussion,yes,RCP-591235,6000,approved
+TXN-241152,E1026,Suresh Kumar,Finance,2026-07-31,484.00,INR,Swiggy,Meals,Cash,Hyderabad,Team lunch – sprint review,yes,RCP-800008,2500,pending
+TXN-241235,E1028,Gautam Iyengar,Finance,2026-07-31,788.00,INR,Haldiram's,Meals,Corporate card,Bengaluru,Team lunch – sprint review,yes,RCP-441138,2500,pending
+TXN-241363,E1031,Nandini Rao,Finance,2026-07-31,5230.00,INR,GitHub,Software Subscription,Personal card,Hyderabad,Annual plan renewal,yes,RCP-598395,50000,pending
+TXN-241437,E1033,Ravi Shankar,Operations,2026-07-31,305.00,INR,Rapido,Local Transport,Corporate card,Bengaluru,Airport transfer,yes,RCP-170262,1500,approved
+TXN-241623,E1037,Sanjay Patil,Operations,2026-07-31,420.00,INR,Ola Cabs,Local Transport,Corporate card,New Delhi,Office commute – late shift,no,,1500,pending
+TXN-241848,E1042,Naveen Kumar,Customer Success,2026-07-31,403.00,INR,Saravana Bhavan,Meals,Corporate card,New Delhi,Team lunch – sprint review,yes,RCP-877444,2500,approved
+TXN-242086,E1046,Preethi Anand,Customer Success,2026-07-31,3680.00,INR,MakeMyTrip,Travel,UPI,Bengaluru,Quarterly business review,yes,RCP-840929,10000,approved
+TXN-242130,E1047,Rajesh Iyer,Customer Success,2026-07-31,649.00,INR,Swiggy,Meals,Corporate card,Hyderabad,Working lunch with team,yes,RCP-806648,2500,approved
+TXN-242198,E1003,Ananya Iyer,Engineering,2026-07-31,6820.00,INR,Great Learning,Training & Conferences,Personal card,Pune,Certification exam fee,yes,RCP-715876,40000,approved
+TXN-242213,E1002,Karthik Subramanian,Engineering,2026-07-31,7160.00,INR,upGrad,Training & Conferences,Personal card,Chennai,Online course – cloud architecture,yes,RCP-840601,40000,approved
+TXN-242227,E1001,Priya Raman,Engineering,2026-07-31,4450.00,INR,Vistara,Travel,Personal card,Mumbai,Site visit – Pune office,yes,RCP-167289,10000,approved
+TXN-242243,E1006,Arjun Nair,Engineering,2026-07-31,5660.00,INR,Freshworks,Software Subscription,UPI,Pune,Team workspace upgrade,yes,RCP-774566,50000,approved
+TXN-240050,E1002,Karthik Subramanian,Engineering,2026-08-01,810.00,INR,Chai Point,Meals,UPI,Chennai,Dinner during client visit,yes,RCP-989909,2500,approved
+TXN-240367,E1009,Rahul Menon,Sales,2026-08-01,5240.00,INR,MakeMyTrip,Travel,Cash,Pune,Client visit,yes,RCP-405703,10000,approved
+TXN-241017,E1023,Lakshmi Prasad,Marketing,2026-08-01,455.00,INR,Chai Point,Meals,Corporate card,Pune,Dinner during client visit,yes,RCP-876632,2500,pending
+TXN-241503,E1034,Swati Mishra,Operations,2026-08-01,231.00,INR,Ola Cabs,Local Transport,Corporate card,New Delhi,Office commute – late shift,no,,1500,approved
+TXN-241622,E1036,Bhavana Murthy,Operations,2026-08-01,510.00,INR,Namma Metro,Local Transport,Corporate card,New Delhi,Cab to client office,yes,RCP-154215,1500,approved
+TXN-241816,E1041,Aarti Desai,Customer Success,2026-08-01,300.00,INR,Uber India,Local Transport,Personal card,New Delhi,Office commute – late shift,no,,1500,pending
+TXN-241825,E1041,Aarti Desai,Customer Success,2026-08-01,5820.00,INR,Air India,Travel,Personal card,New Delhi,Site visit – Pune office,yes,RCP-499478,10000,approved
+TXN-241860,E1042,Naveen Kumar,Customer Success,2026-08-01,491.00,INR,Uber India,Local Transport,UPI,New Delhi,Airport transfer,yes,RCP-425446,1500,approved
+TXN-242017,E1045,Mohit Bansal,Customer Success,2026-08-01,4350.00,INR,OYO Townhouse,Accommodation,Cash,Mumbai,Hotel stay for client visit,yes,RCP-962938,8000,approved
+TXN-242158,E1048,Sunita Verma,Customer Success,2026-08-01,365.00,INR,Ola Cabs,Local Transport,Corporate card,New Delhi,Airport transfer,yes,RCP-738091,1500,approved
+TXN-240013,E1001,Priya Raman,Engineering,2026-08-02,697.00,INR,Third Wave Coffee,Meals,Cash,Mumbai,Team lunch – sprint review,yes,RCP-239923,2500,approved
+TXN-240098,E1003,Ananya Iyer,Engineering,2026-08-02,551.00,INR,Third Wave Coffee,Meals,Corporate card,Pune,Working lunch with team,yes,RCP-357257,2500,approved
+TXN-240108,E1003,Ananya Iyer,Engineering,2026-08-02,694.00,INR,Swiggy,Meals,Corporate card,Pune,Working lunch with team,yes,RCP-958608,2500,approved
+TXN-240192,E1005,Sneha Kulkarni,Engineering,2026-08-02,496.00,INR,Saravana Bhavan,Meals,Cash,Mumbai,Dinner during client visit,yes,RCP-992733,2500,pending
+TXN-240306,E1007,Divya Krishnan,Engineering,2026-08-02,547.00,INR,Haldiram's,Meals,UPI,New Delhi,Team lunch – sprint review,yes,RCP-191961,2500,approved
+TXN-240349,E1008,Vikram Bhat,Engineering,2026-08-02,998.00,INR,Zomato,Meals,Personal card,Mumbai,Working lunch with team,yes,RCP-349716,2500,pending
+TXN-240534,E1012,Pooja Venkatesh,Sales,2026-08-02,668.00,INR,Third Wave Coffee,Meals,Corporate card,Chennai,Team lunch – sprint review,yes,RCP-580410,2500,approved
+TXN-240582,E1014,Kavya Reddy,Sales,2026-08-02,677.00,INR,Haldiram's,Meals,Personal card,Chennai,Working lunch with team,yes,RCP-838611,2500,approved
+TXN-241060,E1024,Farhan Qureshi,Marketing,2026-08-02,573.00,INR,Zomato,Meals,Cash,Hyderabad,Team lunch – sprint review,yes,RCP-855804,2500,approved
+TXN-241297,E1029,Ritu Saxena,Finance,2026-08-02,693.00,INR,Chai Point,Meals,Personal card,Mumbai,Dinner during client visit,yes,RCP-334017,2500,approved
+TXN-241352,E1031,Nandini Rao,Finance,2026-08-02,324.00,INR,Ola Cabs,Local Transport,Cash,Hyderabad,Cab to client office,no,,1500,approved
+TXN-241564,E1035,Imran Sheikh,Operations,2026-08-02,289.00,INR,Rapido,Local Transport,Cash,Bengaluru,Cab to client office,yes,RCP-279444,1500,approved
+TXN-242283,E1040,Revathi Sundaram,Operations,2026-08-02,1060.00,INR,Rapido,Local Transport,Personal card,Mumbai,Airport transfer,yes,RCP-654678,1500,approved
+TXN-240008,E1001,Priya Raman,Engineering,2026-08-03,707.00,INR,Zomato,Meals,Corporate card,Mumbai,Team lunch – sprint review,yes,RCP-781503,2500,approved
+TXN-240024,E1001,Priya Raman,Engineering,2026-08-03,7700.00,INR,Freshworks,Software Subscription,Cash,Mumbai,Annual plan renewal,yes,RCP-218150,50000,approved
+TXN-240041,E1001,Priya Raman,Engineering,2026-08-03,4000.00,INR,IRCTC,Travel,Corporate card,Mumbai,Client visit,yes,RCP-774449,10000,approved
+TXN-240068,E1002,Karthik Subramanian,Engineering,2026-08-03,571.00,INR,Rapido,Local Transport,Corporate card,Chennai,Cab to client office,no,,1500,approved
+TXN-240329,E1008,Vikram Bhat,Engineering,2026-08-03,1140.00,INR,Croma,Office Supplies,Personal card,Mumbai,Keyboard and mouse,yes,RCP-308615,5000,approved
+TXN-240373,E1009,Rahul Menon,Sales,2026-08-03,330.00,INR,Uber India,Local Transport,Cash,Pune,Cab to client office,yes,RCP-836777,1500,approved
+TXN-240532,E1012,Pooja Venkatesh,Sales,2026-08-03,4990.00,INR,IndiGo,Travel,Cash,Chennai,Site visit – Pune office,yes,RCP-217725,10000,approved
+TXN-240604,E1014,Kavya Reddy,Sales,2026-08-03,396.00,INR,Uber India,Local Transport,UPI,Chennai,Office commute – late shift,yes,RCP-391779,1500,approved
+TXN-240636,E1015,Manish Gupta,Sales,2026-08-03,702.00,INR,Zomato,Meals,Cash,Bengaluru,Dinner during client visit,yes,RCP-380187,2500,approved
+TXN-240674,E1015,Manish Gupta,Sales,2026-08-03,753.00,INR,Chai Point,Meals,UPI,Bengaluru,Working lunch with team,yes,RCP-311479,2500,approved
+TXN-240812,E1018,Nikhil Chawla,Marketing,2026-08-03,5160.00,INR,IRCTC,Travel,Cash,Mumbai,Site visit – Pune office,yes,RCP-693991,10000,approved
+TXN-240982,E1022,Abhishek Sinha,Marketing,2026-08-03,379.00,INR,Ola Cabs,Local Transport,Personal card,Pune,Cab to client office,no,,1500,approved
+TXN-240990,E1023,Lakshmi Prasad,Marketing,2026-08-03,391.00,INR,Saravana Bhavan,Meals,Corporate card,Pune,Team lunch – sprint review,yes,RCP-124648,2500,approved
+TXN-241133,E1026,Suresh Kumar,Finance,2026-08-03,400.00,INR,Ola Cabs,Local Transport,Personal card,Hyderabad,Cab to client office,yes,RCP-331898,1500,approved
+TXN-241138,E1026,Suresh Kumar,Finance,2026-08-03,6950.00,INR,Atlassian,Software Subscription,Cash,Hyderabad,Annual plan renewal,yes,RCP-524823,50000,approved
+TXN-241191,E1027,Anjali Mehta,Finance,2026-08-03,727.00,INR,Third Wave Coffee,Meals,UPI,Hyderabad,Dinner during client visit,yes,RCP-303443,2500,approved
+TXN-241284,E1029,Ritu Saxena,Finance,2026-08-03,402.00,INR,Rapido,Local Transport,UPI,Mumbai,Office commute – late shift,no,,1500,approved
+TXN-241421,E1032,Prakash Hegde,Finance,2026-08-03,509.00,INR,Swiggy,Meals,UPI,Bengaluru,Team lunch – sprint review,yes,RCP-647003,2500,pending
+TXN-242074,E1046,Preethi Anand,Customer Success,2026-08-03,477.00,INR,Rapido,Local Transport,UPI,Bengaluru,Cab to client office,yes,RCP-412869,1500,pending
+TXN-242323,E1046,Preethi Anand,Customer Success,2026-08-03,6300.00,INR,Delta Corp Casino,Gambling,Cash,Bengaluru,Team outing,yes,RCP-872039,,approved
+TXN-242332,E1011,Siddharth Rao,Sales,2026-08-03,9800.00,INR,IndiGo,Travel,UPI,Mumbai,Quarterly business review,yes,RCP-531461,10000,pending
+TXN-240172,E1005,Sneha Kulkarni,Engineering,2026-08-04,965.00,INR,Vodafone Idea,Telecom & Internet,Personal card,Mumbai,Home broadband – remote work,yes,RCP-773189,3000,approved
+TXN-240949,E1022,Abhishek Sinha,Marketing,2026-08-04,486.00,INR,Uber India,Local Transport,Corporate card,Pune,Airport transfer,no,,1500,pending
+TXN-241163,E1026,Suresh Kumar,Finance,2026-08-04,6890.00,INR,Great Learning,Training & Conferences,Corporate card,Hyderabad,Online course – cloud architecture,yes,RCP-157093,40000,approved
+TXN-241498,E1034,Swati Mishra,Operations,2026-08-04,347.00,INR,Rapido,Local Transport,Personal card,New Delhi,Cab to client office,no,,1500,approved
+TXN-241978,E1044,Kiran Jadhav,Customer Success,2026-08-04,417.00,INR,Uber India,Local Transport,Personal card,Mumbai,Office commute – late shift,yes,RCP-682814,1500,pending
+TXN-240059,E1002,Karthik Subramanian,Engineering,2026-08-05,5920.00,INR,Freshworks,Software Subscription,UPI,Chennai,Team workspace upgrade,yes,RCP-346172,50000,approved
+TXN-240231,E1006,Arjun Nair,Engineering,2026-08-05,902.00,INR,Chai Point,Meals,Corporate card,Pune,Dinner during client visit,yes,RCP-540975,2500,approved
+TXN-240403,E1009,Rahul Menon,Sales,2026-08-05,3110.00,INR,Toit Brewpub,Client Entertainment,Cash,Pune,Client lunch – renewal discussion,yes,RCP-980538,6000,approved
+TXN-240694,E1016,Shreya Pillai,Sales,2026-08-05,901.00,INR,Vodafone Idea,Telecom & Internet,Cash,Pune,Home broadband – remote work,yes,RCP-635802,3000,approved
+TXN-240800,E1018,Nikhil Chawla,Marketing,2026-08-05,1220.00,INR,Croma,Office Supplies,Personal card,Mumbai,Keyboard and mouse,yes,RCP-310537,5000,approved
+TXN-241402,E1032,Prakash Hegde,Finance,2026-08-05,918.00,INR,Airtel,Telecom & Internet,Personal card,Bengaluru,Home broadband – remote work,yes,RCP-497292,3000,approved
+TXN-241425,E1032,Prakash Hegde,Finance,2026-08-05,962.00,INR,ACT Fibernet,Telecom & Internet,Corporate card,Bengaluru,Home broadband – remote work,yes,RCP-259395,3000,approved
+TXN-241608,E1036,Bhavana Murthy,Operations,2026-08-05,737.00,INR,Third Wave Coffee,Meals,Personal card,New Delhi,Team lunch – sprint review,yes,RCP-261127,2500,approved
+TXN-241641,E1037,Sanjay Patil,Operations,2026-08-05,387.00,INR,Namma Metro,Local Transport,UPI,New Delhi,Office commute – late shift,no,,1500,approved
+TXN-241745,E1039,Ajay Thakur,Operations,2026-08-05,405.00,INR,Ola Cabs,Local Transport,Corporate card,Chennai,Airport transfer,yes,RCP-660663,1500,approved
+TXN-241904,E1043,Shalini Menon,Customer Success,2026-08-05,1150.00,INR,Vodafone Idea,Telecom & Internet,Cash,Bengaluru,Home broadband – remote work,yes,RCP-143708,3000,approved
+TXN-242141,E1048,Sunita Verma,Customer Success,2026-08-05,3600.00,INR,MakeMyTrip,Travel,Corporate card,New Delhi,Site visit – Pune office,yes,RCP-842453,10000,approved
+TXN-242154,E1048,Sunita Verma,Customer Success,2026-08-05,2940.00,INR,Lemon Tree Hotels,Accommodation,Corporate card,New Delhi,Hotel stay for client visit,yes,RCP-895913,8000,approved
+TXN-242333,E1011,Siddharth Rao,Sales,2026-08-05,9700.00,INR,Vistara,Travel,Personal card,Mumbai,Client visit,yes,RCP-662587,10000,pending
+TXN-240100,E1003,Ananya Iyer,Engineering,2026-08-06,892.00,INR,Saravana Bhavan,Meals,Corporate card,Pune,Team lunch – sprint review,yes,RCP-651874,2500,approved
+TXN-240114,E1003,Ananya Iyer,Engineering,2026-08-06,330.00,INR,Uber India,Local Transport,UPI,Pune,Airport transfer,no,,1500,approved
+TXN-240397,E1009,Rahul Menon,Sales,2026-08-06,934.00,INR,Airtel,Telecom & Internet,Corporate card,Pune,Monthly mobile bill,yes,RCP-163270,3000,approved
+TXN-240475,E1011,Siddharth Rao,Sales,2026-08-06,782.00,INR,Saravana Bhavan,Meals,Corporate card,Mumbai,Dinner during client visit,yes,RCP-284961,2500,approved
+TXN-240899,E1020,Varun Malhotra,Marketing,2026-08-06,1610.00,INR,Staples India,Office Supplies,Corporate card,Hyderabad,Notebooks and stationery,yes,RCP-372126,5000,pending
+TXN-241013,E1023,Lakshmi Prasad,Marketing,2026-08-06,431.00,INR,Third Wave Coffee,Meals,Corporate card,Pune,Dinner during client visit,yes,RCP-271948,2500,approved
+TXN-241439,E1033,Ravi Shankar,Operations,2026-08-06,330.00,INR,Rapido,Local Transport,UPI,Bengaluru,Airport transfer,yes,RCP-296730,1500,approved
+TXN-241647,E1037,Sanjay Patil,Operations,2026-08-06,1370.00,INR,Staples India,Office Supplies,Corporate card,New Delhi,Notebooks and stationery,yes,RCP-955745,5000,approved
+TXN-241690,E1038,Geetha Ramesh,Operations,2026-08-06,962.00,INR,Haldiram's,Meals,Cash,Bengaluru,Working lunch with team,yes,RCP-444516,2500,approved
+TXN-241944,E1044,Kiran Jadhav,Customer Success,2026-08-06,452.00,INR,Ola Cabs,Local Transport,Personal card,Mumbai,Cab to client office,no,,1500,approved
+TXN-241992,E1045,Mohit Bansal,Customer Success,2026-08-06,566.00,INR,Swiggy,Meals,UPI,Mumbai,Working lunch with team,yes,RCP-369613,2500,approved
+TXN-242310,E1006,Arjun Nair,Engineering,2026-08-06,995.00,INR,Flipkart,Office Supplies,Corporate card,Pune,Notebooks and stationery,no,,5000,approved
+TXN-240346,E1008,Vikram Bhat,Engineering,2026-08-07,642.00,INR,Saravana Bhavan,Meals,UPI,Mumbai,Working lunch with team,yes,RCP-433517,2500,approved
+TXN-240350,E1008,Vikram Bhat,Engineering,2026-08-07,597.00,INR,Third Wave Coffee,Meals,Corporate card,Mumbai,Dinner during client visit,yes,RCP-946225,2500,pending
+TXN-240441,E1010,Neha Agarwal,Sales,2026-08-07,2860.00,INR,Toit Brewpub,Client Entertainment,UPI,Kochi,Dinner with client stakeholders,yes,RCP-163092,6000,approved
+TXN-240676,E1015,Manish Gupta,Sales,2026-08-07,643.00,INR,Swiggy,Meals,Personal card,Bengaluru,Working lunch with team,yes,RCP-847148,2500,approved
+TXN-240711,E1016,Shreya Pillai,Sales,2026-08-07,3600.00,INR,Toit Brewpub,Client Entertainment,Corporate card,Pune,Dinner with client stakeholders,yes,RCP-588283,6000,approved
+TXN-240993,E1023,Lakshmi Prasad,Marketing,2026-08-07,510.00,INR,Zomato,Meals,UPI,Pune,Team lunch – sprint review,yes,RCP-301679,2500,approved
+TXN-241115,E1025,Deepa Raghavan,Finance,2026-08-07,1120.00,INR,Amazon,Office Supplies,Corporate card,Hyderabad,Printer cartridges,yes,RCP-390073,5000,approved
+TXN-241287,E1029,Ritu Saxena,Finance,2026-08-07,554.00,INR,Uber India,Local Transport,UPI,Mumbai,Office commute – late shift,yes,RCP-848086,1500,approved
+TXN-241339,E1030,Harish Chandran,Finance,2026-08-07,619.00,INR,Chai Point,Meals,Corporate card,Mumbai,Dinner during client visit,yes,RCP-980369,2500,approved
+TXN-241351,E1031,Nandini Rao,Finance,2026-08-07,384.00,INR,Namma Metro,Local Transport,Cash,Hyderabad,Cab to client office,yes,RCP-555306,1500,approved
+TXN-241488,E1034,Swati Mishra,Operations,2026-08-07,247.00,INR,Ola Cabs,Local Transport,Personal card,New Delhi,Office commute – late shift,no,,1500,approved
+TXN-241844,E1042,Naveen Kumar,Customer Success,2026-08-07,2740.00,INR,The Leela Palace,Client Entertainment,UPI,New Delhi,Client lunch – renewal discussion,yes,RCP-234787,6000,approved
+TXN-241850,E1042,Naveen Kumar,Customer Success,2026-08-07,3750.00,INR,Toit Brewpub,Client Entertainment,Personal card,New Delhi,Client lunch – renewal discussion,yes,RCP-681965,6000,approved
+TXN-241888,E1043,Shalini Menon,Customer Success,2026-08-07,3210.00,INR,Mainland China,Client Entertainment,UPI,Bengaluru,Client lunch – renewal discussion,yes,RCP-190059,6000,approved
+TXN-242278,E1023,Lakshmi Prasad,Marketing,2026-08-07,435.00,INR,Third Wave Coffee,Meals,Corporate card,Pune,Dinner during client visit,no,,2500,pending
+TXN-242336,E1011,Siddharth Rao,Sales,2026-08-07,9900.00,INR,IndiGo,Travel,UPI,Mumbai,Site visit – Pune office,yes,RCP-206563,10000,pending
+TXN-240215,E1005,Sneha Kulkarni,Engineering,2026-08-08,5850.00,INR,MakeMyTrip,Travel,Corporate card,Mumbai,Site visit – Pune office,yes,RCP-212061,10000,approved
+TXN-240277,E1007,Divya Krishnan,Engineering,2026-08-08,653.00,INR,Zomato,Meals,Corporate card,New Delhi,Dinner during client visit,yes,RCP-693842,2500,approved
+TXN-240517,E1012,Pooja Venkatesh,Sales,2026-08-08,568.00,INR,Zomato,Meals,Corporate card,Chennai,Dinner during client visit,yes,RCP-767686,2500,approved
+TXN-240664,E1015,Manish Gupta,Sales,2026-08-08,4910.00,INR,Treebo,Accommodation,UPI,Bengaluru,Stay for vendor audit,yes,RCP-567876,8000,approved
+TXN-240763,E1017,Ishita Banerjee,Marketing,2026-08-08,451.00,INR,Ola Cabs,Local Transport,Personal card,Hyderabad,Office commute – late shift,yes,RCP-722429,1500,approved
+TXN-241333,E1030,Harish Chandran,Finance,2026-08-08,643.00,INR,Haldiram's,Meals,UPI,Mumbai,Dinner during client visit,yes,RCP-232794,2500,approved
+TXN-241357,E1031,Nandini Rao,Finance,2026-08-08,1200.00,INR,Airtel,Telecom & Internet,Cash,Hyderabad,Home broadband – remote work,yes,RCP-145220,3000,approved
+TXN-241419,E1032,Prakash Hegde,Finance,2026-08-08,869.00,INR,Haldiram's,Meals,Corporate card,Bengaluru,Dinner during client visit,yes,RCP-631941,2500,approved
+TXN-242318,E1027,Anjali Mehta,Finance,2026-08-08,508.00,INR,Swiggy,Meals,Corporate card,Hyderabad,Team lunch – sprint review,no,,2500,approved
+TXN-240406,E1010,Neha Agarwal,Sales,2026-08-09,3670.00,INR,Taj Hotels,Accommodation,Corporate card,Kochi,Stay for vendor audit,yes,RCP-714133,8000,approved
+TXN-241204,E1027,Anjali Mehta,Finance,2026-08-09,836.00,INR,Third Wave Coffee,Meals,UPI,Hyderabad,Team lunch – sprint review,yes,RCP-923184,2500,approved
+TXN-241583,E1036,Bhavana Murthy,Operations,2026-08-09,537.00,INR,Rapido,Local Transport,Personal card,New Delhi,Office commute – late shift,yes,RCP-411510,1500,approved
+TXN-241953,E1044,Kiran Jadhav,Customer Success,2026-08-09,943.00,INR,Jio,Telecom & Internet,Cash,Mumbai,Monthly mobile bill,yes,RCP-531888,3000,pending
+TXN-240514,E1012,Pooja Venkatesh,Sales,2026-08-10,275.00,INR,Rapido,Local Transport,Corporate card,Chennai,Cab to client office,yes,RCP-694405,1500,approved
+TXN-240596,E1014,Kavya Reddy,Sales,2026-08-10,2570.00,INR,The Leela Palace,Client Entertainment,Personal card,Chennai,Dinner with client stakeholders,yes,RCP-197988,6000,approved
+TXN-240807,E1018,Nikhil Chawla,Marketing,2026-08-10,3430.00,INR,Freshworks,Software Subscription,UPI,Mumbai,Team workspace upgrade,yes,RCP-977771,50000,approved
+TXN-241069,E1024,Farhan Qureshi,Marketing,2026-08-10,659.00,INR,Swiggy,Meals,UPI,Hyderabad,Dinner during client visit,yes,RCP-980729,2500,approved
+TXN-241259,E1028,Gautam Iyengar,Finance,2026-08-10,1270.00,INR,ACT Fibernet,Telecom & Internet,UPI,Bengaluru,Monthly mobile bill,yes,RCP-241300,3000,approved
+TXN-241478,E1033,Ravi Shankar,Operations,2026-08-10,473.00,INR,Namma Metro,Local Transport,UPI,Bengaluru,Cab to client office,yes,RCP-700530,1500,approved
+TXN-241866,E1042,Naveen Kumar,Customer Success,2026-08-10,379.00,INR,Zomato,Meals,Corporate card,New Delhi,Dinner during client visit,yes,RCP-851513,2500,approved
+TXN-242288,E1005,Sneha Kulkarni,Engineering,2026-08-10,1900.00,INR,Haldiram's,Meals,Corporate card,Mumbai,Dinner during client visit,yes,RCP-145926,2500,approved
+TXN-242300,E1029,Ritu Saxena,Finance,2026-08-10,35680.00,INR,upGrad,Training & Conferences,Cash,Mumbai,Executive data science programme,yes,RCP-787805,40000,pending
+TXN-240209,E1005,Sneha Kulkarni,Engineering,2026-08-11,529.00,INR,Ola Cabs,Local Transport,Personal card,Mumbai,Cab to client office,yes,RCP-585655,1500,approved
+TXN-240620,E1014,Kavya Reddy,Sales,2026-08-11,4570.00,INR,MakeMyTrip,Travel,Corporate card,Chennai,Site visit – Pune office,yes,RCP-929244,10000,pending
+TXN-240792,E1018,Nikhil Chawla,Marketing,2026-08-11,1700.00,INR,Croma,Office Supplies,Corporate card,Mumbai,Keyboard and mouse,yes,RCP-716088,5000,approved
+TXN-241257,E1028,Gautam Iyengar,Finance,2026-08-11,875.00,INR,Third Wave Coffee,Meals,UPI,Bengaluru,Team lunch – sprint review,yes,RCP-595287,2500,approved
+TXN-241424,E1032,Prakash Hegde,Finance,2026-08-11,407.00,INR,Ola Cabs,Local Transport,Corporate card,Bengaluru,Office commute – late shift,no,,1500,approved
+TXN-241470,E1033,Ravi Shankar,Operations,2026-08-11,342.00,INR,Uber India,Local Transport,UPI,Bengaluru,Office commute – late shift,no,,1500,approved
+TXN-241601,E1036,Bhavana Murthy,Operations,2026-08-11,375.00,INR,Uber India,Local Transport,Corporate card,New Delhi,Office commute – late shift,yes,RCP-680976,1500,approved
+TXN-241681,E1038,Geetha Ramesh,Operations,2026-08-11,4140.00,INR,OYO Townhouse,Accommodation,Corporate card,Bengaluru,Stay for vendor audit,yes,RCP-688372,8000,approved
+TXN-241835,E1041,Aarti Desai,Customer Success,2026-08-11,1220.00,INR,Jio,Telecom & Internet,Corporate card,New Delhi,Monthly mobile bill,yes,RCP-249353,3000,pending
+TXN-241841,E1042,Naveen Kumar,Customer Success,2026-08-11,4950.00,INR,Lemon Tree Hotels,Accommodation,Corporate card,New Delhi,Stay for vendor audit,yes,RCP-235158,8000,approved
+TXN-241984,E1044,Kiran Jadhav,Customer Success,2026-08-11,410.00,INR,Ola Cabs,Local Transport,Cash,Mumbai,Airport transfer,yes,RCP-642960,1500,approved
+TXN-240263,E1007,Divya Krishnan,Engineering,2026-08-12,5770.00,INR,Figma,Software Subscription,Corporate card,New Delhi,Monthly seat licence,yes,RCP-853070,50000,approved
+TXN-240268,E1007,Divya Krishnan,Engineering,2026-08-12,354.00,INR,Rapido,Local Transport,UPI,New Delhi,Cab to client office,yes,RCP-446969,1500,approved
+TXN-240384,E1009,Rahul Menon,Sales,2026-08-12,659.00,INR,Haldiram's,Meals,UPI,Pune,Team lunch – sprint review,yes,RCP-156154,2500,approved
+TXN-240460,E1011,Siddharth Rao,Sales,2026-08-12,3400.00,INR,IRCTC,Travel,UPI,Mumbai,Quarterly business review,yes,RCP-680744,10000,approved
+TXN-240882,E1020,Varun Malhotra,Marketing,2026-08-12,3080.00,INR,The Leela Palace,Client Entertainment,Cash,Hyderabad,Dinner with client stakeholders,yes,RCP-645390,6000,approved
+TXN-240981,E1022,Abhishek Sinha,Marketing,2026-08-12,731.00,INR,Saravana Bhavan,Meals,Personal card,Pune,Dinner during client visit,yes,RCP-157651,2500,approved
+TXN-241051,E1024,Farhan Qureshi,Marketing,2026-08-12,3890.00,INR,Figma,Software Subscription,Corporate card,Hyderabad,Team workspace upgrade,yes,RCP-250213,50000,approved
+TXN-241074,E1024,Farhan Qureshi,Marketing,2026-08-12,1160.00,INR,Croma,Office Supplies,Cash,Hyderabad,Notebooks and stationery,yes,RCP-106723,5000,approved
+TXN-241143,E1026,Suresh Kumar,Finance,2026-08-12,462.00,INR,Saravana Bhavan,Meals,Corporate card,Hyderabad,Dinner during client visit,yes,RCP-230016,2500,approved
+TXN-241511,E1034,Swati Mishra,Operations,2026-08-12,4220.00,INR,IRCTC,Travel,Personal card,New Delhi,Quarterly business review,yes,RCP-317260,10000,approved
+TXN-241772,E1040,Revathi Sundaram,Operations,2026-08-12,747.00,INR,Zomato,Meals,Cash,Mumbai,Working lunch with team,yes,RCP-881210,2500,approved
+TXN-242020,E1045,Mohit Bansal,Customer Success,2026-08-12,1080.00,INR,Swiggy,Meals,Corporate card,Mumbai,Team lunch – sprint review,yes,RCP-144773,2500,approved
+TXN-242104,E1047,Rajesh Iyer,Customer Success,2026-08-12,690.00,INR,Third Wave Coffee,Meals,UPI,Hyderabad,Team lunch – sprint review,yes,RCP-230784,2500,pending
+TXN-242313,E1030,Harish Chandran,Finance,2026-08-12,970.00,INR,Vodafone Idea,Telecom & Internet,UPI,Mumbai,Monthly mobile bill,no,,3000,pending
+TXN-240463,E1011,Siddharth Rao,Sales,2026-08-13,4480.00,INR,Toit Brewpub,Client Entertainment,Cash,Mumbai,Dinner with client stakeholders,yes,RCP-681934,6000,approved
+TXN-240529,E1012,Pooja Venkatesh,Sales,2026-08-13,555.00,INR,Haldiram's,Meals,Corporate card,Chennai,Working lunch with team,yes,RCP-811651,2500,pending
+TXN-240701,E1016,Shreya Pillai,Sales,2026-08-13,721.00,INR,Zomato,Meals,Cash,Pune,Team lunch – sprint review,yes,RCP-153645,2500,approved
+TXN-240830,E1019,Meera Natarajan,Marketing,2026-08-13,6130.00,INR,Atlassian,Software Subscription,Personal card,Kochi,Team workspace upgrade,yes,RCP-663158,50000,approved
+TXN-240852,E1019,Meera Natarajan,Marketing,2026-08-13,371.00,INR,Ola Cabs,Local Transport,Cash,Kochi,Airport transfer,yes,RCP-319455,1500,approved
+TXN-241032,E1023,Lakshmi Prasad,Marketing,2026-08-13,2680.00,INR,Toit Brewpub,Client Entertainment,Cash,Pune,Dinner with client stakeholders,yes,RCP-932141,6000,approved
+TXN-241131,E1026,Suresh Kumar,Finance,2026-08-13,5760.00,INR,Great Learning,Training & Conferences,Corporate card,Hyderabad,Workshop ticket,yes,RCP-294965,40000,approved
+TXN-241219,E1028,Gautam Iyengar,Finance,2026-08-13,924.00,INR,ACT Fibernet,Telecom & Internet,Personal card,Bengaluru,Home broadband – remote work,yes,RCP-595169,3000,approved
+TXN-241715,E1038,Geetha Ramesh,Operations,2026-08-13,301.00,INR,Rapido,Local Transport,Corporate card,Bengaluru,Office commute – late shift,yes,RCP-418812,1500,approved
+TXN-241717,E1039,Ajay Thakur,Operations,2026-08-13,850.00,INR,Chai Point,Meals,Corporate card,Chennai,Dinner during client visit,yes,RCP-143051,2500,approved
+TXN-241721,E1039,Ajay Thakur,Operations,2026-08-13,4020.00,INR,IRCTC,Travel,UPI,Chennai,Quarterly business review,yes,RCP-634072,10000,pending
+TXN-242000,E1045,Mohit Bansal,Customer Success,2026-08-13,609.00,INR,Third Wave Coffee,Meals,Corporate card,Mumbai,Working lunch with team,yes,RCP-352441,2500,approved
+TXN-242111,E1047,Rajesh Iyer,Customer Success,2026-08-13,1150.00,INR,Jio,Telecom & Internet,Personal card,Hyderabad,Home broadband – remote work,yes,RCP-654369,3000,pending
+TXN-242200,E1003,Ananya Iyer,Engineering,2026-08-13,4500.00,INR,NASSCOM,Training & Conferences,Corporate card,Pune,Online course – cloud architecture,yes,RCP-850910,40000,approved
+TXN-242215,E1002,Karthik Subramanian,Engineering,2026-08-13,4900.00,INR,Udemy Business,Training & Conferences,Personal card,Chennai,Certification exam fee,yes,RCP-941056,40000,approved
+TXN-242228,E1001,Priya Raman,Engineering,2026-08-13,5810.00,INR,MakeMyTrip,Travel,UPI,Mumbai,Site visit – Pune office,yes,RCP-146222,10000,approved
+TXN-242246,E1006,Arjun Nair,Engineering,2026-08-13,7040.00,INR,Zoho Corporation,Software Subscription,Personal card,Pune,Monthly seat licence,yes,RCP-105012,50000,approved
+TXN-240122,E1003,Ananya Iyer,Engineering,2026-08-14,680.00,INR,Swiggy,Meals,Corporate card,Pune,Dinner during client visit,yes,RCP-232802,2500,approved
+TXN-240164,E1004,Rohan Deshpande,Engineering,2026-08-14,681.00,INR,Vodafone Idea,Telecom & Internet,Corporate card,Hyderabad,Monthly mobile bill,yes,RCP-657346,3000,approved
+TXN-240181,E1005,Sneha Kulkarni,Engineering,2026-08-14,2490.00,INR,Amazon,Office Supplies,Corporate card,Mumbai,Notebooks and stationery,yes,RCP-171122,5000,approved
+TXN-240360,E1009,Rahul Menon,Sales,2026-08-14,4320.00,INR,ITC Hotels,Accommodation,UPI,Pune,Hotel stay for client visit,yes,RCP-116195,8000,approved
+TXN-240375,E1009,Rahul Menon,Sales,2026-08-14,5570.00,INR,IndiGo,Travel,UPI,Pune,Site visit – Pune office,yes,RCP-625080,10000,approved
+TXN-240486,E1011,Siddharth Rao,Sales,2026-08-14,3830.00,INR,The Leela Palace,Client Entertainment,Personal card,Mumbai,Dinner with client stakeholders,yes,RCP-995638,6000,approved
+TXN-240576,E1013,Aditya Joshi,Sales,2026-08-14,1930.00,INR,Barbeque Nation,Client Entertainment,Personal card,Bengaluru,Client lunch – renewal discussion,yes,RCP-920579,6000,approved
+TXN-240614,E1014,Kavya Reddy,Sales,2026-08-14,503.00,INR,Chai Point,Meals,Corporate card,Chennai,Working lunch with team,yes,RCP-792089,2500,approved
+TXN-240760,E1017,Ishita Banerjee,Marketing,2026-08-14,1260.00,INR,Flipkart,Office Supplies,UPI,Hyderabad,Keyboard and mouse,yes,RCP-371901,5000,approved
+TXN-241102,E1025,Deepa Raghavan,Finance,2026-08-14,429.00,INR,Uber India,Local Transport,UPI,Hyderabad,Office commute – late shift,yes,RCP-929334,1500,approved
+TXN-241293,E1029,Ritu Saxena,Finance,2026-08-14,583.00,INR,Swiggy,Meals,Personal card,Mumbai,Working lunch with team,yes,RCP-364732,2500,pending
+TXN-241514,E1034,Swati Mishra,Operations,2026-08-14,948.00,INR,Chai Point,Meals,Cash,New Delhi,Working lunch with team,yes,RCP-822639,2500,approved
+TXN-242079,E1046,Preethi Anand,Customer Success,2026-08-14,505.00,INR,Haldiram's,Meals,UPI,Bengaluru,Team lunch – sprint review,yes,RCP-789454,2500,approved
+TXN-240408,E1010,Neha Agarwal,Sales,2026-08-15,5820.00,INR,MakeMyTrip,Travel,Personal card,Kochi,Quarterly business review,yes,RCP-326640,10000,approved
+TXN-240581,E1014,Kavya Reddy,Sales,2026-08-15,5510.00,INR,IRCTC,Travel,UPI,Chennai,Quarterly business review,yes,RCP-283745,10000,approved
+TXN-240858,E1019,Meera Natarajan,Marketing,2026-08-15,525.00,INR,Chai Point,Meals,Cash,Kochi,Working lunch with team,yes,RCP-309615,2500,pending
+TXN-241098,E1025,Deepa Raghavan,Finance,2026-08-15,681.00,INR,Third Wave Coffee,Meals,Personal card,Hyderabad,Working lunch with team,yes,RCP-998629,2500,pending
+TXN-241854,E1042,Naveen Kumar,Customer Success,2026-08-15,592.00,INR,Swiggy,Meals,Corporate card,New Delhi,Team lunch – sprint review,yes,RCP-163941,2500,approved
+TXN-241969,E1044,Kiran Jadhav,Customer Success,2026-08-15,3940.00,INR,IRCTC,Travel,Personal card,Mumbai,Client visit,yes,RCP-335839,10000,approved
+TXN-240927,E1021,Tanvi Shah,Marketing,2026-08-16,811.00,INR,Chai Point,Meals,Cash,Chennai,Working lunch with team,yes,RCP-758031,2500,approved
+TXN-241028,E1023,Lakshmi Prasad,Marketing,2026-08-16,423.00,INR,Rapido,Local Transport,Personal card,Pune,Cab to client office,no,,1500,approved
+TXN-241042,E1024,Farhan Qureshi,Marketing,2026-08-16,337.00,INR,Third Wave Coffee,Meals,Cash,Hyderabad,Working lunch with team,yes,RCP-583950,2500,approved
+TXN-241254,E1028,Gautam Iyengar,Finance,2026-08-16,741.00,INR,Zomato,Meals,Corporate card,Bengaluru,Team lunch – sprint review,yes,RCP-657349,2500,approved
+TXN-241476,E1033,Ravi Shankar,Operations,2026-08-16,413.00,INR,Rapido,Local Transport,Cash,Bengaluru,Airport transfer,yes,RCP-502511,1500,approved
+TXN-241660,E1037,Sanjay Patil,Operations,2026-08-16,6410.00,INR,IndiGo,Travel,UPI,New Delhi,Site visit – Pune office,yes,RCP-369207,10000,approved
+TXN-241898,E1043,Shalini Menon,Customer Success,2026-08-16,502.00,INR,Swiggy,Meals,UPI,Bengaluru,Working lunch with team,yes,RCP-491244,2500,approved
+TXN-242015,E1045,Mohit Bansal,Customer Success,2026-08-16,461.00,INR,Swiggy,Meals,Personal card,Mumbai,Dinner during client visit,yes,RCP-418448,2500,pending
+TXN-242025,E1045,Mohit Bansal,Customer Success,2026-08-16,440.00,INR,Zomato,Meals,Corporate card,Mumbai,Team lunch – sprint review,yes,RCP-199014,2500,approved
+TXN-242262,E1034,Swati Mishra,Operations,2026-08-16,12210.00,INR,ITC Hotels,Accommodation,Corporate card,New Delhi,Stay for vendor audit,yes,RCP-305837,8000,pending
+TXN-242329,E1032,Prakash Hegde,Finance,2026-08-16,3530.00,INR,Lifestyle Stores,Personal Expenses,Corporate card,Bengaluru,Clothing,yes,RCP-223242,,pending
+TXN-240045,E1001,Priya Raman,Engineering,2026-08-17,429.00,INR,Rapido,Local Transport,UPI,Mumbai,Airport transfer,yes,RCP-533988,1500,approved
+TXN-240076,E1002,Karthik Subramanian,Engineering,2026-08-17,446.00,INR,Rapido,Local Transport,Personal card,Chennai,Cab to client office,yes,RCP-468539,1500,approved
+TXN-240079,E1002,Karthik Subramanian,Engineering,2026-08-17,4880.00,INR,GitHub,Software Subscription,Personal card,Chennai,Annual plan renewal,yes,RCP-873135,50000,pending
+TXN-240542,E1013,Aditya Joshi,Sales,2026-08-17,491.00,INR,Zomato,Meals,Corporate card,Bengaluru,Team lunch – sprint review,yes,RCP-723176,2500,approved
+TXN-240577,E1013,Aditya Joshi,Sales,2026-08-17,4070.00,INR,ITC Hotels,Accommodation,Corporate card,Bengaluru,Stay for vendor audit,yes,RCP-524653,8000,approved
+TXN-240912,E1021,Tanvi Shah,Marketing,2026-08-17,1520.00,INR,Staples India,Office Supplies,Cash,Chennai,Notebooks and stationery,yes,RCP-216887,5000,approved
+TXN-241279,E1029,Ritu Saxena,Finance,2026-08-17,570.00,INR,Chai Point,Meals,Personal card,Mumbai,Dinner during client visit,yes,RCP-319922,2500,approved
+TXN-241309,E1030,Harish Chandran,Finance,2026-08-17,738.00,INR,Swiggy,Meals,UPI,Mumbai,Team lunch – sprint review,yes,RCP-265475,2500,approved
+TXN-241383,E1031,Nandini Rao,Finance,2026-08-17,376.00,INR,Rapido,Local Transport,Personal card,Hyderabad,Office commute – late shift,yes,RCP-387407,1500,pending
+TXN-241472,E1033,Ravi Shankar,Operations,2026-08-17,497.00,INR,Chai Point,Meals,Corporate card,Bengaluru,Dinner during client visit,yes,RCP-290252,2500,pending
+TXN-241900,E1043,Shalini Menon,Customer Success,2026-08-17,1290.00,INR,Zomato,Meals,Corporate card,Bengaluru,Working lunch with team,yes,RCP-492960,2500,approved
+TXN-240150,E1004,Rohan Deshpande,Engineering,2026-08-18,327.00,INR,Rapido,Local Transport,UPI,Hyderabad,Cab to client office,yes,RCP-285342,1500,approved
+TXN-240776,E1017,Ishita Banerjee,Marketing,2026-08-18,6090.00,INR,MakeMyTrip,Travel,Personal card,Hyderabad,Client visit,yes,RCP-335091,10000,approved
+TXN-240788,E1018,Nikhil Chawla,Marketing,2026-08-18,5620.00,INR,Vistara,Travel,UPI,Mumbai,Quarterly business review,yes,RCP-481390,10000,approved
+TXN-240824,E1018,Nikhil Chawla,Marketing,2026-08-18,424.00,INR,Namma Metro,Local Transport,Cash,Mumbai,Office commute – late shift,yes,RCP-964284,1500,approved
+TXN-240855,E1019,Meera Natarajan,Marketing,2026-08-18,7300.00,INR,IndiGo,Travel,UPI,Kochi,Client visit,yes,RCP-313866,10000,approved
+TXN-241039,E1023,Lakshmi Prasad,Marketing,2026-08-18,2480.00,INR,Barbeque Nation,Client Entertainment,Personal card,Pune,Client lunch – renewal discussion,yes,RCP-701115,6000,approved
+TXN-241052,E1024,Farhan Qureshi,Marketing,2026-08-18,5630.00,INR,Vistara,Travel,Corporate card,Hyderabad,Client visit,yes,RCP-780800,10000,pending
+TXN-241201,E1027,Anjali Mehta,Finance,2026-08-18,836.00,INR,Swiggy,Meals,Corporate card,Hyderabad,Working lunch with team,yes,RCP-470808,2500,approved
+TXN-241275,E1029,Ritu Saxena,Finance,2026-08-18,975.00,INR,Jio,Telecom & Internet,Personal card,Mumbai,Home broadband – remote work,yes,RCP-881034,3000,pending
+TXN-241325,E1030,Harish Chandran,Finance,2026-08-18,917.00,INR,Vodafone Idea,Telecom & Internet,Personal card,Mumbai,Monthly mobile bill,yes,RCP-714772,3000,approved
+TXN-241397,E1032,Prakash Hegde,Finance,2026-08-18,714.00,INR,Chai Point,Meals,Cash,Bengaluru,Working lunch with team,yes,RCP-623962,2500,approved
+TXN-241399,E1032,Prakash Hegde,Finance,2026-08-18,961.00,INR,Airtel,Telecom & Internet,Corporate card,Bengaluru,Home broadband – remote work,yes,RCP-867032,3000,approved
+TXN-240175,E1005,Sneha Kulkarni,Engineering,2026-08-19,2030.00,INR,Staples India,Office Supplies,Cash,Mumbai,Printer cartridges,yes,RCP-595075,5000,approved
+TXN-240218,E1005,Sneha Kulkarni,Engineering,2026-08-19,451.00,INR,Chai Point,Meals,Personal card,Mumbai,Dinner during client visit,yes,RCP-123191,2500,approved
+TXN-240335,E1008,Vikram Bhat,Engineering,2026-08-19,564.00,INR,Ola Cabs,Local Transport,Corporate card,Mumbai,Airport transfer,yes,RCP-852066,1500,approved
+TXN-240412,E1010,Neha Agarwal,Sales,2026-08-19,4010.00,INR,The Leela Palace,Client Entertainment,Corporate card,Kochi,Client lunch – renewal discussion,yes,RCP-453386,6000,approved
+TXN-240906,E1021,Tanvi Shah,Marketing,2026-08-19,476.00,INR,Zomato,Meals,Personal card,Chennai,Team lunch – sprint review,yes,RCP-451843,2500,approved
+TXN-241161,E1026,Suresh Kumar,Finance,2026-08-19,690.00,INR,Airtel,Telecom & Internet,UPI,Hyderabad,Monthly mobile bill,yes,RCP-969894,3000,approved
+TXN-241176,E1026,Suresh Kumar,Finance,2026-08-19,4440.00,INR,Zoho Corporation,Software Subscription,Corporate card,Hyderabad,Annual plan renewal,yes,RCP-627529,50000,approved
+TXN-241789,E1040,Revathi Sundaram,Operations,2026-08-19,250.00,INR,Uber India,Local Transport,UPI,Mumbai,Cab to client office,no,,1500,approved
+TXN-241814,E1041,Aarti Desai,Customer Success,2026-08-19,267.00,INR,Namma Metro,Local Transport,Personal card,New Delhi,Office commute – late shift,no,,1500,approved
+TXN-242149,E1048,Sunita Verma,Customer Success,2026-08-19,356.00,INR,Rapido,Local Transport,Corporate card,New Delhi,Cab to client office,yes,RCP-818470,1500,approved
+TXN-242178,E1048,Sunita Verma,Customer Success,2026-08-19,364.00,INR,Ola Cabs,Local Transport,Corporate card,New Delhi,Airport transfer,yes,RCP-716149,1500,approved
+TXN-240028,E1001,Priya Raman,Engineering,2026-08-20,1650.00,INR,Airtel,Telecom & Internet,Personal card,Mumbai,Home broadband – remote work,yes,RCP-168133,3000,pending
+TXN-240065,E1002,Karthik Subramanian,Engineering,2026-08-20,447.00,INR,Uber India,Local Transport,Corporate card,Chennai,Cab to client office,no,,1500,pending
+TXN-240112,E1003,Ananya Iyer,Engineering,2026-08-20,461.00,INR,Ola Cabs,Local Transport,UPI,Pune,Office commute – late shift,yes,RCP-384339,1500,approved
+TXN-240651,E1015,Manish Gupta,Sales,2026-08-20,3870.00,INR,Mainland China,Client Entertainment,Personal card,Bengaluru,Dinner with client stakeholders,yes,RCP-759450,6000,approved
+TXN-241101,E1025,Deepa Raghavan,Finance,2026-08-20,1120.00,INR,Croma,Office Supplies,Corporate card,Hyderabad,Keyboard and mouse,yes,RCP-288637,5000,pending
+TXN-241303,E1030,Harish Chandran,Finance,2026-08-20,131.00,INR,Ola Cabs,Local Transport,UPI,Mumbai,Office commute – late shift,no,,1500,approved
+TXN-241320,E1030,Harish Chandran,Finance,2026-08-20,774.00,INR,Third Wave Coffee,Meals,Corporate card,Mumbai,Working lunch with team,yes,RCP-648169,2500,approved
+TXN-241360,E1031,Nandini Rao,Finance,2026-08-20,334.00,INR,Rapido,Local Transport,Personal card,Hyderabad,Airport transfer,yes,RCP-790378,1500,approved
+TXN-241754,E1039,Ajay Thakur,Operations,2026-08-20,775.00,INR,Haldiram's,Meals,Corporate card,Chennai,Team lunch – sprint review,yes,RCP-664830,2500,approved
+TXN-242181,E1048,Sunita Verma,Customer Success,2026-08-20,5350.00,INR,MakeMyTrip,Travel,Personal card,New Delhi,Site visit – Pune office,yes,RCP-265218,10000,approved
+TXN-242281,E1026,Suresh Kumar,Finance,2026-08-20,697.00,INR,Airtel,Telecom & Internet,Corporate card,Hyderabad,Monthly mobile bill,no,,3000,approved
+TXN-240128,E1003,Ananya Iyer,Engineering,2026-08-21,515.00,INR,Haldiram's,Meals,Corporate card,Pune,Working lunch with team,yes,RCP-359060,2500,approved
+TXN-240314,E1008,Vikram Bhat,Engineering,2026-08-21,7090.00,INR,Atlassian,Software Subscription,Personal card,Mumbai,Monthly seat licence,yes,RCP-489722,50000,approved
+TXN-240479,E1011,Siddharth Rao,Sales,2026-08-21,3520.00,INR,Toit Brewpub,Client Entertainment,Cash,Mumbai,Dinner with client stakeholders,yes,RCP-847201,6000,approved
+TXN-240480,E1011,Siddharth Rao,Sales,2026-08-21,4380.00,INR,Toit Brewpub,Client Entertainment,UPI,Mumbai,Dinner with client stakeholders,yes,RCP-679175,6000,approved
+TXN-240964,E1022,Abhishek Sinha,Marketing,2026-08-21,3010.00,INR,Toit Brewpub,Client Entertainment,Personal card,Pune,Client lunch – renewal discussion,yes,RCP-498551,6000,pending
+TXN-241215,E1027,Anjali Mehta,Finance,2026-08-21,531.00,INR,Third Wave Coffee,Meals,UPI,Hyderabad,Dinner during client visit,yes,RCP-866627,2500,approved
+TXN-241256,E1028,Gautam Iyengar,Finance,2026-08-21,1410.00,INR,Croma,Office Supplies,Corporate card,Bengaluru,Keyboard and mouse,yes,RCP-494941,5000,approved
+TXN-241432,E1033,Ravi Shankar,Operations,2026-08-21,410.00,INR,Uber India,Local Transport,UPI,Bengaluru,Cab to client office,yes,RCP-231807,1500,approved
+TXN-241879,E1042,Naveen Kumar,Customer Success,2026-08-21,4900.00,INR,Vistara,Travel,Cash,New Delhi,Client visit,yes,RCP-837923,10000,pending
+TXN-241982,E1044,Kiran Jadhav,Customer Success,2026-08-21,792.00,INR,Saravana Bhavan,Meals,Corporate card,Mumbai,Dinner during client visit,yes,RCP-513677,2500,approved
+TXN-240354,E1008,Vikram Bhat,Engineering,2026-08-22,499.00,INR,Ola Cabs,Local Transport,Corporate card,Mumbai,Cab to client office,yes,RCP-729829,1500,approved
+TXN-241068,E1024,Farhan Qureshi,Marketing,2026-08-22,473.00,INR,Saravana Bhavan,Meals,UPI,Hyderabad,Working lunch with team,yes,RCP-249473,2500,approved
+TXN-241448,E1033,Ravi Shankar,Operations,2026-08-22,483.00,INR,Third Wave Coffee,Meals,Personal card,Bengaluru,Team lunch – sprint review,yes,RCP-959290,2500,pending
+TXN-241606,E1036,Bhavana Murthy,Operations,2026-08-22,512.00,INR,Ola Cabs,Local Transport,Personal card,New Delhi,Cab to client office,yes,RCP-252517,1500,approved
+TXN-242282,E1042,Naveen Kumar,Customer Success,2026-08-22,1860.00,INR,Chai Point,Meals,Corporate card,New Delhi,Dinner during client visit,yes,RCP-304617,2500,pending
+TXN-240262,E1007,Divya Krishnan,Engineering,2026-08-23,285.00,INR,Uber India,Local Transport,Corporate card,New Delhi,Cab to client office,no,,1500,approved
+TXN-240490,E1011,Siddharth Rao,Sales,2026-08-23,375.00,INR,Ola Cabs,Local Transport,UPI,Mumbai,Airport transfer,no,,1500,approved
+TXN-240522,E1012,Pooja Venkatesh,Sales,2026-08-23,3130.00,INR,ITC Hotels,Accommodation,Corporate card,Chennai,Hotel stay for client visit,yes,RCP-497224,8000,approved
+TXN-240682,E1016,Shreya Pillai,Sales,2026-08-23,4470.00,INR,IRCTC,Travel,Corporate card,Pune,Client visit,yes,RCP-721571,10000,pending
+TXN-241155,E1026,Suresh Kumar,Finance,2026-08-23,464.00,INR,Haldiram's,Meals,Cash,Hyderabad,Working lunch with team,yes,RCP-287946,2500,approved
+TXN-241532,E1035,Imran Sheikh,Operations,2026-08-23,832.00,INR,Swiggy,Meals,Personal card,Bengaluru,Team lunch – sprint review,yes,RCP-202714,2500,approved
+TXN-241774,E1040,Revathi Sundaram,Operations,2026-08-23,181.00,INR,Namma Metro,Local Transport,Corporate card,Mumbai,Airport transfer,no,,1500,pending
+TXN-241823,E1041,Aarti Desai,Customer Success,2026-08-23,1340.00,INR,Vodafone Idea,Telecom & Internet,Personal card,New Delhi,Monthly mobile bill,yes,RCP-586835,3000,approved
+TXN-241838,E1041,Aarti Desai,Customer Success,2026-08-23,491.00,INR,Saravana Bhavan,Meals,Corporate card,New Delhi,Working lunch with team,yes,RCP-410794,2500,approved
+TXN-242042,E1045,Mohit Bansal,Customer Success,2026-08-23,558.00,INR,Rapido,Local Transport,Corporate card,Mumbai,Cab to client office,no,,1500,approved
+TXN-242133,E1047,Rajesh Iyer,Customer Success,2026-08-23,4290.00,INR,OYO Townhouse,Accommodation,Personal card,Hyderabad,Hotel stay for client visit,yes,RCP-169205,8000,approved
+TXN-240035,E1001,Priya Raman,Engineering,2026-08-24,1890.00,INR,Airtel,Telecom & Internet,UPI,Mumbai,Monthly mobile bill,yes,RCP-854526,3000,approved
+TXN-240063,E1002,Karthik Subramanian,Engineering,2026-08-24,663.00,INR,Saravana Bhavan,Meals,Personal card,Chennai,Team lunch – sprint review,yes,RCP-540985,2500,approved
+TXN-240239,E1006,Arjun Nair,Engineering,2026-08-24,5980.00,INR,Notion Labs,Software Subscription,Corporate card,Pune,Team workspace upgrade,yes,RCP-416481,50000,approved
+TXN-240662,E1015,Manish Gupta,Sales,2026-08-24,4540.00,INR,MakeMyTrip,Travel,Personal card,Bengaluru,Site visit – Pune office,yes,RCP-942229,10000,approved
+TXN-240987,E1022,Abhishek Sinha,Marketing,2026-08-24,435.00,INR,Namma Metro,Local Transport,Corporate card,Pune,Airport transfer,no,,1500,approved
+TXN-241179,E1027,Anjali Mehta,Finance,2026-08-24,1140.00,INR,Vodafone Idea,Telecom & Internet,Corporate card,Hyderabad,Home broadband – remote work,yes,RCP-552934,3000,approved
+TXN-241442,E1033,Ravi Shankar,Operations,2026-08-24,1340.00,INR,Staples India,Office Supplies,Corporate card,Bengaluru,Keyboard and mouse,yes,RCP-626366,5000,approved
+TXN-241549,E1035,Imran Sheikh,Operations,2026-08-24,290.00,INR,Namma Metro,Local Transport,Personal card,Bengaluru,Office commute – late shift,no,,1500,approved
+TXN-241551,E1035,Imran Sheikh,Operations,2026-08-24,1440.00,INR,Amazon,Office Supplies,Corporate card,Bengaluru,Printer cartridges,yes,RCP-619822,5000,approved
+TXN-242291,E1003,Ananya Iyer,Engineering,2026-08-24,1390.00,INR,Uber India,Local Transport,Corporate card,Pune,Cab to client office,yes,RCP-435714,1500,approved
+TXN-242344,E1014,Kavya Reddy,Sales,2026-08-24,7840.00,INR,OYO Townhouse,Accommodation,Cash,Chennai,Hotel stay for client visit,yes,RCP-875818,8000,pending
+TXN-240426,E1010,Neha Agarwal,Sales,2026-08-25,266.00,INR,Uber India,Local Transport,Corporate card,Kochi,Airport transfer,yes,RCP-314234,1500,approved
+TXN-240678,E1016,Shreya Pillai,Sales,2026-08-25,857.00,INR,ACT Fibernet,Telecom & Internet,Cash,Pune,Monthly mobile bill,yes,RCP-748602,3000,approved
+TXN-240707,E1016,Shreya Pillai,Sales,2026-08-25,693.00,INR,Zomato,Meals,Cash,Pune,Dinner during client visit,yes,RCP-288917,2500,pending
+TXN-240841,E1019,Meera Natarajan,Marketing,2026-08-25,3030.00,INR,Barbeque Nation,Client Entertainment,Corporate card,Kochi,Dinner with client stakeholders,yes,RCP-522447,6000,approved
+TXN-241044,E1024,Farhan Qureshi,Marketing,2026-08-25,5220.00,INR,IndiGo,Travel,Corporate card,Hyderabad,Client visit,yes,RCP-649118,10000,approved
+TXN-241218,E1027,Anjali Mehta,Finance,2026-08-25,733.00,INR,Third Wave Coffee,Meals,Personal card,Hyderabad,Team lunch – sprint review,yes,RCP-117573,2500,approved
+TXN-241592,E1036,Bhavana Murthy,Operations,2026-08-25,422.00,INR,Ola Cabs,Local Transport,Cash,New Delhi,Airport transfer,yes,RCP-288350,1500,pending
+TXN-241758,E1040,Revathi Sundaram,Operations,2026-08-25,825.00,INR,Chai Point,Meals,Corporate card,Mumbai,Dinner during client visit,yes,RCP-924419,2500,approved
+TXN-241995,E1045,Mohit Bansal,Customer Success,2026-08-25,1450.00,INR,ACT Fibernet,Telecom & Internet,Cash,Mumbai,Home broadband – remote work,yes,RCP-813956,3000,approved
+TXN-242117,E1047,Rajesh Iyer,Customer Success,2026-08-25,607.00,INR,Saravana Bhavan,Meals,Personal card,Hyderabad,Working lunch with team,yes,RCP-719740,2500,approved
+TXN-242358,E1015,Manish Gupta,Sales,2026-08-25,5820.00,INR,Toit Brewpub,Client Entertainment,UPI,Bengaluru,Dinner with client stakeholders,yes,RCP-367634,6000,approved
+TXN-240253,E1006,Arjun Nair,Engineering,2026-08-26,6330.00,INR,Zoho Corporation,Software Subscription,Corporate card,Pune,Annual plan renewal,yes,RCP-617028,50000,approved
+TXN-240523,E1012,Pooja Venkatesh,Sales,2026-08-26,4730.00,INR,Vistara,Travel,Cash,Chennai,Quarterly business review,yes,RCP-641883,10000,approved
+TXN-240775,E1017,Ishita Banerjee,Marketing,2026-08-26,625.00,INR,Chai Point,Meals,Corporate card,Hyderabad,Working lunch with team,yes,RCP-816126,2500,approved
+TXN-241130,E1026,Suresh Kumar,Finance,2026-08-26,5070.00,INR,Zoho Corporation,Software Subscription,UPI,Hyderabad,Team workspace upgrade,yes,RCP-184412,50000,approved
+TXN-241137,E1026,Suresh Kumar,Finance,2026-08-26,451.00,INR,Namma Metro,Local Transport,UPI,Hyderabad,Cab to client office,yes,RCP-784282,1500,approved
+TXN-241228,E1028,Gautam Iyengar,Finance,2026-08-26,271.00,INR,Namma Metro,Local Transport,UPI,Bengaluru,Airport transfer,yes,RCP-294877,1500,pending
+TXN-241290,E1029,Ritu Saxena,Finance,2026-08-26,5360.00,INR,Zoho Corporation,Software Subscription,UPI,Mumbai,Monthly seat licence,yes,RCP-904829,50000,approved
+TXN-241634,E1037,Sanjay Patil,Operations,2026-08-26,1310.00,INR,Croma,Office Supplies,Cash,New Delhi,Notebooks and stationery,yes,RCP-463646,5000,approved
+TXN-241671,E1037,Sanjay Patil,Operations,2026-08-26,1010.00,INR,Saravana Bhavan,Meals,Cash,New Delhi,Dinner during client visit,yes,RCP-549871,2500,approved
+TXN-241739,E1039,Ajay Thakur,Operations,2026-08-26,271.00,INR,Rapido,Local Transport,Personal card,Chennai,Cab to client office,no,,1500,approved
+TXN-241875,E1042,Naveen Kumar,Customer Success,2026-08-26,607.00,INR,ACT Fibernet,Telecom & Internet,UPI,New Delhi,Monthly mobile bill,yes,RCP-315840,3000,approved
+TXN-241950,E1044,Kiran Jadhav,Customer Success,2026-08-26,2320.00,INR,The Leela Palace,Client Entertainment,Corporate card,Mumbai,Dinner with client stakeholders,yes,RCP-943312,6000,approved
+TXN-242202,E1003,Ananya Iyer,Engineering,2026-08-26,6060.00,INR,Great Learning,Training & Conferences,UPI,Pune,Certification exam fee,yes,RCP-425893,40000,approved
+TXN-242218,E1002,Karthik Subramanian,Engineering,2026-08-26,5930.00,INR,upGrad,Training & Conferences,Cash,Chennai,Online course – cloud architecture,yes,RCP-942932,40000,approved
+TXN-242230,E1001,Priya Raman,Engineering,2026-08-26,4360.00,INR,IRCTC,Travel,Cash,Mumbai,Client visit,yes,RCP-304189,10000,approved
+TXN-242247,E1006,Arjun Nair,Engineering,2026-08-26,6040.00,INR,Notion Labs,Software Subscription,Corporate card,Pune,Team workspace upgrade,yes,RCP-504688,50000,approved
+TXN-242345,E1014,Kavya Reddy,Sales,2026-08-26,7760.00,INR,OYO Townhouse,Accommodation,Cash,Chennai,Hotel stay for client visit,yes,RCP-179795,8000,pending
+TXN-240053,E1002,Karthik Subramanian,Engineering,2026-08-27,1710.00,INR,Flipkart,Office Supplies,Corporate card,Chennai,Keyboard and mouse,yes,RCP-647740,5000,approved
+TXN-240149,E1004,Rohan Deshpande,Engineering,2026-08-27,4500.00,INR,Zoho Corporation,Software Subscription,UPI,Hyderabad,Team workspace upgrade,yes,RCP-936418,50000,approved
+TXN-240344,E1008,Vikram Bhat,Engineering,2026-08-27,595.00,INR,Zomato,Meals,Corporate card,Mumbai,Working lunch with team,yes,RCP-126654,2500,approved
+TXN-240491,E1011,Siddharth Rao,Sales,2026-08-27,3450.00,INR,The Leela Palace,Client Entertainment,UPI,Mumbai,Dinner with client stakeholders,yes,RCP-613288,6000,approved
+TXN-240665,E1015,Manish Gupta,Sales,2026-08-27,3110.00,INR,Toit Brewpub,Client Entertainment,Corporate card,Bengaluru,Dinner with client stakeholders,yes,RCP-484749,6000,approved
+TXN-241213,E1027,Anjali Mehta,Finance,2026-08-27,1200.00,INR,Jio,Telecom & Internet,Cash,Hyderabad,Home broadband – remote work,yes,RCP-670468,3000,approved
+TXN-241328,E1030,Harish Chandran,Finance,2026-08-27,587.00,INR,Zomato,Meals,Personal card,Mumbai,Dinner during client visit,yes,RCP-260062,2500,approved
+TXN-241447,E1033,Ravi Shankar,Operations,2026-08-27,407.00,INR,Namma Metro,Local Transport,Personal card,Bengaluru,Office commute – late shift,yes,RCP-624583,1500,approved
+TXN-241501,E1034,Swati Mishra,Operations,2026-08-27,5140.00,INR,IRCTC,Travel,Cash,New Delhi,Site visit – Pune office,yes,RCP-144556,10000,approved
+TXN-241617,E1036,Bhavana Murthy,Operations,2026-08-27,4710.00,INR,MakeMyTrip,Travel,Corporate card,New Delhi,Site visit – Pune office,yes,RCP-551491,10000,approved
+TXN-240230,E1006,Arjun Nair,Engineering,2026-08-28,1090.00,INR,Vodafone Idea,Telecom & Internet,Cash,Pune,Home broadband – remote work,yes,RCP-768539,3000,approved
+TXN-240541,E1013,Aditya Joshi,Sales,2026-08-28,4660.00,INR,Treebo,Accommodation,Cash,Bengaluru,Stay for vendor audit,yes,RCP-912625,8000,approved
+TXN-240543,E1013,Aditya Joshi,Sales,2026-08-28,857.00,INR,ACT Fibernet,Telecom & Internet,UPI,Bengaluru,Monthly mobile bill,yes,RCP-751344,3000,approved
+TXN-240926,E1021,Tanvi Shah,Marketing,2026-08-28,360.00,INR,Ola Cabs,Local Transport,Corporate card,Chennai,Cab to client office,no,,1500,approved
+TXN-241146,E1026,Suresh Kumar,Finance,2026-08-28,514.00,INR,Rapido,Local Transport,Personal card,Hyderabad,Airport transfer,yes,RCP-764817,1500,pending
+TXN-241455,E1033,Ravi Shankar,Operations,2026-08-28,491.00,INR,Swiggy,Meals,Cash,Bengaluru,Working lunch with team,yes,RCP-711552,2500,approved
+TXN-241573,E1036,Bhavana Murthy,Operations,2026-08-28,542.00,INR,Zomato,Meals,Cash,New Delhi,Dinner during client visit,yes,RCP-102492,2500,approved
+TXN-241611,E1036,Bhavana Murthy,Operations,2026-08-28,493.00,INR,Saravana Bhavan,Meals,Cash,New Delhi,Working lunch with team,yes,RCP-881806,2500,approved
+TXN-241790,E1040,Revathi Sundaram,Operations,2026-08-28,285.00,INR,Rapido,Local Transport,Corporate card,Mumbai,Airport transfer,yes,RCP-522639,1500,approved
+TXN-242347,E1014,Kavya Reddy,Sales,2026-08-28,7920.00,INR,Lemon Tree Hotels,Accommodation,UPI,Chennai,Hotel stay for client visit,yes,RCP-892965,8000,pending
+TXN-240019,E1001,Priya Raman,Engineering,2026-08-29,435.00,INR,Namma Metro,Local Transport,Corporate card,Mumbai,Airport transfer,yes,RCP-190024,1500,approved
+TXN-240234,E1006,Arjun Nair,Engineering,2026-08-29,4990.00,INR,Air India,Travel,Corporate card,Pune,Quarterly business review,yes,RCP-773394,10000,approved
+TXN-240566,E1013,Aditya Joshi,Sales,2026-08-29,5800.00,INR,IRCTC,Travel,Corporate card,Bengaluru,Quarterly business review,yes,RCP-707294,10000,pending
+TXN-240867,E1020,Varun Malhotra,Marketing,2026-08-29,955.00,INR,Swiggy,Meals,Corporate card,Hyderabad,Working lunch with team,yes,RCP-250211,2500,approved
+TXN-241061,E1024,Farhan Qureshi,Marketing,2026-08-29,822.00,INR,Third Wave Coffee,Meals,Personal card,Hyderabad,Dinner during client visit,yes,RCP-635694,2500,approved
+TXN-241518,E1034,Swati Mishra,Operations,2026-08-29,609.00,INR,Chai Point,Meals,Personal card,New Delhi,Team lunch – sprint review,yes,RCP-971107,2500,approved
+TXN-241540,E1035,Imran Sheikh,Operations,2026-08-29,4600.00,INR,ITC Hotels,Accommodation,Personal card,Bengaluru,Hotel stay for client visit,yes,RCP-867341,8000,approved
+TXN-241869,E1042,Naveen Kumar,Customer Success,2026-08-29,463.00,INR,Third Wave Coffee,Meals,Corporate card,New Delhi,Dinner during client visit,yes,RCP-172380,2500,approved
+TXN-242351,E1042,Naveen Kumar,Customer Success,2026-08-29,9700.00,INR,MakeMyTrip,Travel,Personal card,New Delhi,Client visit,yes,RCP-961741,10000,approved
+TXN-240039,E1001,Priya Raman,Engineering,2026-08-30,881.00,INR,Chai Point,Meals,Personal card,Mumbai,Team lunch – sprint review,yes,RCP-874630,2500,approved
+TXN-240087,E1002,Karthik Subramanian,Engineering,2026-08-30,828.00,INR,Third Wave Coffee,Meals,Personal card,Chennai,Dinner during client visit,yes,RCP-954379,2500,pending
+TXN-240194,E1005,Sneha Kulkarni,Engineering,2026-08-30,432.00,INR,Zomato,Meals,Cash,Mumbai,Dinner during client visit,yes,RCP-278647,2500,approved
+TXN-240229,E1006,Arjun Nair,Engineering,2026-08-30,919.00,INR,Haldiram's,Meals,Cash,Pune,Dinner during client visit,yes,RCP-530281,2500,approved
+TXN-240273,E1007,Divya Krishnan,Engineering,2026-08-30,826.00,INR,Vodafone Idea,Telecom & Internet,Cash,New Delhi,Monthly mobile bill,yes,RCP-322823,3000,approved
+TXN-240648,E1015,Manish Gupta,Sales,2026-08-30,310.00,INR,Namma Metro,Local Transport,UPI,Bengaluru,Airport transfer,no,,1500,approved
+TXN-240914,E1021,Tanvi Shah,Marketing,2026-08-30,733.00,INR,Saravana Bhavan,Meals,Corporate card,Chennai,Team lunch – sprint review,yes,RCP-495745,2500,pending
+TXN-241312,E1030,Harish Chandran,Finance,2026-08-30,232.00,INR,Ola Cabs,Local Transport,Corporate card,Mumbai,Cab to client office,yes,RCP-773829,1500,approved
+TXN-241554,E1035,Imran Sheikh,Operations,2026-08-30,1070.00,INR,Chai Point,Meals,Corporate card,Bengaluru,Dinner during client visit,yes,RCP-219924,2500,approved
+TXN-241811,E1041,Aarti Desai,Customer Success,2026-08-30,5790.00,INR,IndiGo,Travel,Cash,New Delhi,Quarterly business review,yes,RCP-429367,10000,approved
+TXN-241943,E1044,Kiran Jadhav,Customer Success,2026-08-30,5830.00,INR,ITC Hotels,Accommodation,UPI,Mumbai,Hotel stay for client visit,yes,RCP-324296,8000,pending
+TXN-242171,E1048,Sunita Verma,Customer Success,2026-08-30,1440.00,INR,Airtel,Telecom & Internet,Corporate card,New Delhi,Home broadband – remote work,yes,RCP-504304,3000,approved
+TXN-240145,E1004,Rohan Deshpande,Engineering,2026-08-31,638.00,INR,Haldiram's,Meals,Corporate card,Hyderabad,Working lunch with team,yes,RCP-290941,2500,approved
+TXN-240256,E1006,Arjun Nair,Engineering,2026-08-31,6050.00,INR,Figma,Software Subscription,UPI,Pune,Monthly seat licence,yes,RCP-622375,50000,pending
+TXN-240294,E1007,Divya Krishnan,Engineering,2026-08-31,4160.00,INR,Freshworks,Software Subscription,Personal card,New Delhi,Annual plan renewal,yes,RCP-393503,50000,approved
+TXN-240347,E1008,Vikram Bhat,Engineering,2026-08-31,747.00,INR,Uber India,Local Transport,Cash,Mumbai,Airport transfer,yes,RCP-975856,1500,approved
+TXN-240737,E1017,Ishita Banerjee,Marketing,2026-08-31,1630.00,INR,Amazon,Office Supplies,Corporate card,Hyderabad,Printer cartridges,yes,RCP-383607,5000,pending
+TXN-241008,E1023,Lakshmi Prasad,Marketing,2026-08-31,4800.00,INR,Notion Labs,Software Subscription,Personal card,Pune,Team workspace upgrade,yes,RCP-568550,50000,approved
+TXN-241111,E1025,Deepa Raghavan,Finance,2026-08-31,1360.00,INR,Flipkart,Office Supplies,Corporate card,Hyderabad,Printer cartridges,yes,RCP-321206,5000,approved
+TXN-241242,E1028,Gautam Iyengar,Finance,2026-08-31,303.00,INR,Namma Metro,Local Transport,Cash,Bengaluru,Airport transfer,yes,RCP-674987,1500,approved
+TXN-241764,E1040,Revathi Sundaram,Operations,2026-08-31,377.00,INR,Namma Metro,Local Transport,Personal card,Mumbai,Office commute – late shift,yes,RCP-454773,1500,approved
+TXN-241891,E1043,Shalini Menon,Customer Success,2026-08-31,7400.00,INR,Air India,Travel,Corporate card,Bengaluru,Site visit – Pune office,yes,RCP-890411,10000,approved
+TXN-241973,E1044,Kiran Jadhav,Customer Success,2026-08-31,3320.00,INR,IndiGo,Travel,Personal card,Mumbai,Site visit – Pune office,yes,RCP-833870,10000,pending
+TXN-242128,E1047,Rajesh Iyer,Customer Success,2026-08-31,535.00,INR,Saravana Bhavan,Meals,Personal card,Hyderabad,Team lunch – sprint review,yes,RCP-444914,2500,approved
+TXN-242169,E1048,Sunita Verma,Customer Success,2026-08-31,819.00,INR,Vodafone Idea,Telecom & Internet,Personal card,New Delhi,Home broadband – remote work,yes,RCP-511587,3000,approved
+TXN-240141,E1004,Rohan Deshpande,Engineering,2026-09-01,3980.00,INR,Air India,Travel,Corporate card,Hyderabad,Client visit,yes,RCP-973501,10000,approved
+TXN-240198,E1005,Sneha Kulkarni,Engineering,2026-09-01,361.00,INR,Namma Metro,Local Transport,Personal card,Mumbai,Office commute – late shift,yes,RCP-266613,1500,pending
+TXN-240241,E1006,Arjun Nair,Engineering,2026-09-01,340.00,INR,Namma Metro,Local Transport,Corporate card,Pune,Airport transfer,yes,RCP-995951,1500,approved
+TXN-240624,E1014,Kavya Reddy,Sales,2026-09-01,5040.00,INR,MakeMyTrip,Travel,UPI,Chennai,Client visit,yes,RCP-707360,10000,approved
+TXN-240918,E1021,Tanvi Shah,Marketing,2026-09-01,10640.00,INR,Figma,Software Subscription,UPI,Chennai,Annual plan renewal,yes,RCP-163663,50000,pending
+TXN-240941,E1021,Tanvi Shah,Marketing,2026-09-01,7760.00,INR,Atlassian,Software Subscription,Corporate card,Chennai,Annual plan renewal,yes,RCP-922442,50000,approved
+TXN-241300,E1030,Harish Chandran,Finance,2026-09-01,1460.00,INR,Flipkart,Office Supplies,UPI,Mumbai,Printer cartridges,yes,RCP-783018,5000,approved
+TXN-241322,E1030,Harish Chandran,Finance,2026-09-01,7790.00,INR,Figma,Software Subscription,Corporate card,Mumbai,Annual plan renewal,yes,RCP-603553,50000,pending
+TXN-241420,E1032,Prakash Hegde,Finance,2026-09-01,6600.00,INR,Coursera,Training & Conferences,Personal card,Bengaluru,Online course – cloud architecture,yes,RCP-101049,40000,pending
+TXN-241521,E1034,Swati Mishra,Operations,2026-09-01,324.00,INR,Rapido,Local Transport,Corporate card,New Delhi,Office commute – late shift,yes,RCP-186454,1500,approved
+TXN-241719,E1039,Ajay Thakur,Operations,2026-09-01,5850.00,INR,IndiGo,Travel,Cash,Chennai,Client visit,yes,RCP-315922,10000,pending
+TXN-241824,E1041,Aarti Desai,Customer Success,2026-09-01,476.00,INR,Zomato,Meals,Cash,New Delhi,Team lunch – sprint review,yes,RCP-598790,2500,approved
+TXN-241916,E1043,Shalini Menon,Customer Success,2026-09-01,1470.00,INR,Swiggy,Meals,Corporate card,Bengaluru,Working lunch with team,yes,RCP-227954,2500,approved
+TXN-242125,E1047,Rajesh Iyer,Customer Success,2026-09-01,741.00,INR,Haldiram's,Meals,Cash,Hyderabad,Dinner during client visit,yes,RCP-175509,2500,pending
+TXN-242315,E1001,Priya Raman,Engineering,2026-09-01,4380.00,INR,Vistara,Travel,Corporate card,Mumbai,Site visit – Pune office,no,,10000,approved
+TXN-240011,E1001,Priya Raman,Engineering,2026-09-02,4810.00,INR,MakeMyTrip,Travel,Corporate card,Mumbai,Client visit,yes,RCP-728836,10000,approved
+TXN-240090,E1002,Karthik Subramanian,Engineering,2026-09-02,463.00,INR,Rapido,Local Transport,Corporate card,Chennai,Airport transfer,yes,RCP-435071,1500,approved
+TXN-240932,E1021,Tanvi Shah,Marketing,2026-09-02,558.00,INR,Saravana Bhavan,Meals,Corporate card,Chennai,Dinner during client visit,yes,RCP-788345,2500,approved
+TXN-241037,E1023,Lakshmi Prasad,Marketing,2026-09-02,5700.00,INR,IndiGo,Travel,UPI,Pune,Quarterly business review,yes,RCP-941376,10000,approved
+TXN-241193,E1027,Anjali Mehta,Finance,2026-09-02,552.00,INR,Swiggy,Meals,Corporate card,Hyderabad,Working lunch with team,yes,RCP-170372,2500,pending
+TXN-241263,E1029,Ritu Saxena,Finance,2026-09-02,12600.00,INR,upGrad,Training & Conferences,Corporate card,Mumbai,Workshop ticket,yes,RCP-211668,40000,approved
+TXN-241281,E1029,Ritu Saxena,Finance,2026-09-02,729.00,INR,Third Wave Coffee,Meals,Corporate card,Mumbai,Team lunch – sprint review,yes,RCP-901505,2500,pending
+TXN-241506,E1034,Swati Mishra,Operations,2026-09-02,3990.00,INR,Taj Hotels,Accommodation,Corporate card,New Delhi,Stay for vendor audit,yes,RCP-642845,8000,approved
+TXN-241783,E1040,Revathi Sundaram,Operations,2026-09-02,344.00,INR,Ola Cabs,Local Transport,Cash,Mumbai,Airport transfer,no,,1500,approved
+TXN-241813,E1041,Aarti Desai,Customer Success,2026-09-02,1250.00,INR,Airtel,Telecom & Internet,Corporate card,New Delhi,Monthly mobile bill,yes,RCP-658400,3000,approved
+TXN-242022,E1045,Mohit Bansal,Customer Success,2026-09-02,1150.00,INR,ACT Fibernet,Telecom & Internet,Corporate card,Mumbai,Home broadband – remote work,yes,RCP-148819,3000,approved
+TXN-242180,E1048,Sunita Verma,Customer Success,2026-09-02,5000.00,INR,ITC Hotels,Accommodation,Corporate card,New Delhi,Stay for vendor audit,yes,RCP-157102,8000,approved
+TXN-242302,E1021,Tanvi Shah,Marketing,2026-09-02,4830.00,INR,Croma,Office Supplies,Personal card,Chennai,Monitor for workstation,yes,RCP-525479,5000,pending
+TXN-251007,E1003,Ananya Iyer,Engineering,2026-09-02,30000.00,INR,NASSCOM,Training & Conferences,Corporate card,Pune,Annual conference – NASSCOM Product Conclave,yes,RCP-414147,40000,approved
+TXN-240007,E1001,Priya Raman,Engineering,2026-09-03,810.00,INR,Haldiram's,Meals,UPI,Mumbai,Dinner during client visit,yes,RCP-948527,2500,approved
+TXN-240133,E1004,Rohan Deshpande,Engineering,2026-09-03,345.00,INR,Namma Metro,Local Transport,UPI,Hyderabad,Cab to client office,yes,RCP-949901,1500,approved
+TXN-240568,E1013,Aditya Joshi,Sales,2026-09-03,596.00,INR,Haldiram's,Meals,Corporate card,Bengaluru,Team lunch – sprint review,yes,RCP-908360,2500,approved
+TXN-241031,E1023,Lakshmi Prasad,Marketing,2026-09-03,5500.00,INR,Notion Labs,Software Subscription,Personal card,Pune,Monthly seat licence,yes,RCP-351449,50000,approved
+TXN-241401,E1032,Prakash Hegde,Finance,2026-09-03,1550.00,INR,Croma,Office Supplies,Corporate card,Bengaluru,Notebooks and stationery,yes,RCP-541730,5000,pending
+TXN-241527,E1035,Imran Sheikh,Operations,2026-09-03,4990.00,INR,OYO Townhouse,Accommodation,Corporate card,Bengaluru,Stay for vendor audit,yes,RCP-829184,8000,approved
+TXN-241700,E1038,Geetha Ramesh,Operations,2026-09-03,1130.00,INR,Swiggy,Meals,Corporate card,Bengaluru,Team lunch – sprint review,yes,RCP-841626,2500,approved
+TXN-241761,E1040,Revathi Sundaram,Operations,2026-09-03,1510.00,INR,Amazon,Office Supplies,Cash,Mumbai,Printer cartridges,yes,RCP-413227,5000,approved
+TXN-241877,E1042,Naveen Kumar,Customer Success,2026-09-03,471.00,INR,Swiggy,Meals,Corporate card,New Delhi,Working lunch with team,yes,RCP-527712,2500,approved
+TXN-241910,E1043,Shalini Menon,Customer Success,2026-09-03,2490.00,INR,Mainland China,Client Entertainment,UPI,Bengaluru,Dinner with client stakeholders,yes,RCP-679329,6000,approved
+TXN-241921,E1043,Shalini Menon,Customer Success,2026-09-03,6580.00,INR,Vistara,Travel,Corporate card,Bengaluru,Client visit,yes,RCP-253462,10000,approved
+TXN-242057,E1046,Preethi Anand,Customer Success,2026-09-03,501.00,INR,Namma Metro,Local Transport,Corporate card,Bengaluru,Cab to client office,no,,1500,approved
+TXN-240353,E1008,Vikram Bhat,Engineering,2026-09-04,504.00,INR,Ola Cabs,Local Transport,Personal card,Mumbai,Cab to client office,yes,RCP-477591,1500,approved
+TXN-240400,E1009,Rahul Menon,Sales,2026-09-04,3540.00,INR,Toit Brewpub,Client Entertainment,Corporate card,Pune,Client lunch – renewal discussion,yes,RCP-526292,6000,approved
+TXN-240471,E1011,Siddharth Rao,Sales,2026-09-04,878.00,INR,Third Wave Coffee,Meals,Corporate card,Mumbai,Team lunch – sprint review,yes,RCP-853116,2500,approved
+TXN-240795,E1018,Nikhil Chawla,Marketing,2026-09-04,480.00,INR,Rapido,Local Transport,Corporate card,Mumbai,Airport transfer,yes,RCP-674839,1500,approved
+TXN-240903,E1021,Tanvi Shah,Marketing,2026-09-04,1450.00,INR,Staples India,Office Supplies,Corporate card,Chennai,Keyboard and mouse,yes,RCP-367322,5000,pending
+TXN-240930,E1021,Tanvi Shah,Marketing,2026-09-04,1620.00,INR,Amazon,Office Supplies,Corporate card,Chennai,Notebooks and stationery,yes,RCP-779926,5000,approved
+TXN-241047,E1024,Farhan Qureshi,Marketing,2026-09-04,7350.00,INR,Atlassian,Software Subscription,Corporate card,Hyderabad,Monthly seat licence,yes,RCP-484538,50000,approved
+TXN-241123,E1025,Deepa Raghavan,Finance,2026-09-04,1500.00,INR,Croma,Office Supplies,Personal card,Hyderabad,Printer cartridges,yes,RCP-774309,5000,approved
+TXN-241208,E1027,Anjali Mehta,Finance,2026-09-04,615.00,INR,Staples India,Office Supplies,Cash,Hyderabad,Keyboard and mouse,yes,RCP-539123,5000,approved
+TXN-241276,E1029,Ritu Saxena,Finance,2026-09-04,303.00,INR,Ola Cabs,Local Transport,Corporate card,Mumbai,Cab to client office,no,,1500,approved
+TXN-241361,E1031,Nandini Rao,Finance,2026-09-04,1190.00,INR,Vodafone Idea,Telecom & Internet,Cash,Hyderabad,Home broadband – remote work,yes,RCP-683213,3000,approved
+TXN-241535,E1035,Imran Sheikh,Operations,2026-09-04,927.00,INR,Haldiram's,Meals,Corporate card,Bengaluru,Working lunch with team,yes,RCP-117395,2500,approved
+TXN-241899,E1043,Shalini Menon,Customer Success,2026-09-04,6000.00,INR,MakeMyTrip,Travel,Corporate card,Bengaluru,Site visit – Pune office,yes,RCP-634096,10000,approved
+TXN-241964,E1044,Kiran Jadhav,Customer Success,2026-09-04,5590.00,INR,Taj Hotels,Accommodation,Corporate card,Mumbai,Hotel stay for client visit,yes,RCP-278186,8000,approved
+TXN-242355,E1018,Nikhil Chawla,Marketing,2026-09-04,5820.00,INR,The Leela Palace,Client Entertainment,Corporate card,Mumbai,Dinner with client stakeholders,yes,RCP-781531,6000,pending
+TXN-241041,E1024,Farhan Qureshi,Marketing,2026-09-05,7970.00,INR,IndiGo,Travel,Corporate card,Hyderabad,Site visit – Pune office,yes,RCP-338122,10000,approved
+TXN-241348,E1031,Nandini Rao,Finance,2026-09-05,754.00,INR,Chai Point,Meals,Corporate card,Hyderabad,Dinner during client visit,yes,RCP-633495,2500,approved
+TXN-241796,E1040,Revathi Sundaram,Operations,2026-09-05,5090.00,INR,Treebo,Accommodation,Personal card,Mumbai,Hotel stay for client visit,yes,RCP-970756,8000,approved
+TXN-242102,E1047,Rajesh Iyer,Customer Success,2026-09-05,474.00,INR,Chai Point,Meals,Personal card,Hyderabad,Working lunch with team,yes,RCP-365346,2500,approved
+TXN-242137,E1047,Rajesh Iyer,Customer Success,2026-09-05,4370.00,INR,Lemon Tree Hotels,Accommodation,Corporate card,Hyderabad,Hotel stay for client visit,yes,RCP-609770,8000,approved
+TXN-240195,E1005,Sneha Kulkarni,Engineering,2026-09-06,319.00,INR,Ola Cabs,Local Transport,Corporate card,Mumbai,Airport transfer,no,,1500,approved
+TXN-240605,E1014,Kavya Reddy,Sales,2026-09-06,3560.00,INR,MakeMyTrip,Travel,Cash,Chennai,Quarterly business review,yes,RCP-204638,10000,approved
+TXN-241386,E1031,Nandini Rao,Finance,2026-09-06,399.00,INR,Namma Metro,Local Transport,Personal card,Hyderabad,Cab to client office,yes,RCP-822123,1500,approved
+TXN-241571,E1036,Bhavana Murthy,Operations,2026-09-06,695.00,INR,Rapido,Local Transport,Corporate card,New Delhi,Cab to client office,yes,RCP-477037,1500,approved
+TXN-241581,E1036,Bhavana Murthy,Operations,2026-09-06,609.00,INR,Namma Metro,Local Transport,Personal card,New Delhi,Airport transfer,no,,1500,approved
+TXN-241619,E1036,Bhavana Murthy,Operations,2026-09-06,729.00,INR,Rapido,Local Transport,Cash,New Delhi,Office commute – late shift,yes,RCP-194365,1500,approved
+TXN-241697,E1038,Geetha Ramesh,Operations,2026-09-06,310.00,INR,Ola Cabs,Local Transport,Personal card,Bengaluru,Cab to client office,no,,1500,pending
+TXN-241863,E1042,Naveen Kumar,Customer Success,2026-09-06,941.00,INR,ACT Fibernet,Telecom & Internet,Cash,New Delhi,Monthly mobile bill,yes,RCP-616096,3000,approved
+TXN-242089,E1046,Preethi Anand,Customer Success,2026-09-06,4880.00,INR,OYO Townhouse,Accommodation,UPI,Bengaluru,Hotel stay for client visit,yes,RCP-966169,8000,approved
+TXN-242113,E1047,Rajesh Iyer,Customer Success,2026-09-06,539.00,INR,Rapido,Local Transport,Personal card,Hyderabad,Airport transfer,no,,1500,approved
+TXN-240004,E1001,Priya Raman,Engineering,2026-09-07,875.00,INR,Third Wave Coffee,Meals,Corporate card,Mumbai,Dinner during client visit,yes,RCP-936446,2500,approved
+TXN-240096,E1003,Ananya Iyer,Engineering,2026-09-07,866.00,INR,Swiggy,Meals,Personal card,Pune,Dinner during client visit,yes,RCP-694421,2500,approved
+TXN-240159,E1004,Rohan Deshpande,Engineering,2026-09-07,405.00,INR,Ola Cabs,Local Transport,Corporate card,Hyderabad,Airport transfer,yes,RCP-754237,1500,approved
+TXN-240432,E1010,Neha Agarwal,Sales,2026-09-07,290.00,INR,Namma Metro,Local Transport,Personal card,Kochi,Airport transfer,no,,1500,approved
+TXN-240526,E1012,Pooja Venkatesh,Sales,2026-09-07,3300.00,INR,Lemon Tree Hotels,Accommodation,Cash,Chennai,Hotel stay for client visit,yes,RCP-950550,8000,pending
+TXN-240557,E1013,Aditya Joshi,Sales,2026-09-07,383.00,INR,Rapido,Local Transport,Corporate card,Bengaluru,Airport transfer,yes,RCP-626149,1500,approved
+TXN-240857,E1019,Meera Natarajan,Marketing,2026-09-07,502.00,INR,Rapido,Local Transport,Corporate card,Kochi,Cab to client office,yes,RCP-355236,1500,pending
+TXN-240896,E1020,Varun Malhotra,Marketing,2026-09-07,3930.00,INR,Zoho Corporation,Software Subscription,Corporate card,Hyderabad,Team workspace upgrade,yes,RCP-155997,50000,pending
+TXN-240897,E1020,Varun Malhotra,Marketing,2026-09-07,1630.00,INR,Amazon,Office Supplies,Personal card,Hyderabad,Keyboard and mouse,yes,RCP-848992,5000,approved
+TXN-241088,E1025,Deepa Raghavan,Finance,2026-09-07,295.00,INR,Uber India,Local Transport,Corporate card,Hyderabad,Office commute – late shift,no,,1500,approved
+TXN-241187,E1027,Anjali Mehta,Finance,2026-09-07,1200.00,INR,Staples India,Office Supplies,Corporate card,Hyderabad,Printer cartridges,yes,RCP-793559,5000,pending
+TXN-241409,E1032,Prakash Hegde,Finance,2026-09-07,6600.00,INR,Udemy Business,Training & Conferences,Corporate card,Bengaluru,Online course – cloud architecture,yes,RCP-132388,40000,approved
+TXN-241487,E1034,Swati Mishra,Operations,2026-09-07,255.00,INR,Namma Metro,Local Transport,Personal card,New Delhi,Airport transfer,yes,RCP-459629,1500,approved
+TXN-241567,E1035,Imran Sheikh,Operations,2026-09-07,996.00,INR,Haldiram's,Meals,Personal card,Bengaluru,Dinner during client visit,yes,RCP-714352,2500,approved
+TXN-241712,E1038,Geetha Ramesh,Operations,2026-09-07,331.00,INR,Ola Cabs,Local Transport,Personal card,Bengaluru,Office commute – late shift,no,,1500,approved
+TXN-241788,E1040,Revathi Sundaram,Operations,2026-09-07,307.00,INR,Rapido,Local Transport,Personal card,Mumbai,Airport transfer,no,,1500,approved
+TXN-241885,E1043,Shalini Menon,Customer Success,2026-09-07,779.00,INR,Haldiram's,Meals,UPI,Bengaluru,Dinner during client visit,yes,RCP-766515,2500,approved
+TXN-240092,E1003,Ananya Iyer,Engineering,2026-09-08,279.00,INR,Uber India,Local Transport,Corporate card,Pune,Cab to client office,yes,RCP-541513,1500,approved
+TXN-240227,E1006,Arjun Nair,Engineering,2026-09-08,700.00,INR,Zomato,Meals,Cash,Pune,Dinner during client visit,yes,RCP-667316,2500,approved
+TXN-240270,E1007,Divya Krishnan,Engineering,2026-09-08,2080.00,INR,Amazon,Office Supplies,Corporate card,New Delhi,Keyboard and mouse,yes,RCP-299167,5000,approved
+TXN-240394,E1009,Rahul Menon,Sales,2026-09-08,737.00,INR,Swiggy,Meals,Corporate card,Pune,Dinner during client visit,yes,RCP-348147,2500,approved
+TXN-241114,E1025,Deepa Raghavan,Finance,2026-09-08,354.00,INR,Chai Point,Meals,UPI,Hyderabad,Working lunch with team,yes,RCP-256325,2500,pending
+TXN-241258,E1028,Gautam Iyengar,Finance,2026-09-08,364.00,INR,Ola Cabs,Local Transport,Cash,Bengaluru,Cab to client office,no,,1500,approved
+TXN-241837,E1041,Aarti Desai,Customer Success,2026-09-08,329.00,INR,Rapido,Local Transport,UPI,New Delhi,Office commute – late shift,no,,1500,approved
+TXN-241911,E1043,Shalini Menon,Customer Success,2026-09-08,2860.00,INR,The Leela Palace,Client Entertainment,Cash,Bengaluru,Dinner with client stakeholders,yes,RCP-507673,6000,approved
+TXN-242054,E1046,Preethi Anand,Customer Success,2026-09-08,931.00,INR,Rapido,Local Transport,Corporate card,Bengaluru,Cab to client office,yes,RCP-676814,1500,approved
+TXN-242204,E1003,Ananya Iyer,Engineering,2026-09-08,5120.00,INR,Coursera,Training & Conferences,Corporate card,Pune,Certification exam fee,yes,RCP-375929,40000,approved
+TXN-242220,E1002,Karthik Subramanian,Engineering,2026-09-08,5540.00,INR,upGrad,Training & Conferences,Personal card,Chennai,Certification exam fee,yes,RCP-697403,40000,approved
+TXN-242233,E1001,Priya Raman,Engineering,2026-09-08,5580.00,INR,Air India,Travel,Cash,Mumbai,Quarterly business review,yes,RCP-584859,10000,approved
+TXN-242249,E1006,Arjun Nair,Engineering,2026-09-08,6240.00,INR,Figma,Software Subscription,UPI,Pune,Annual plan renewal,yes,RCP-862018,50000,approved
+TXN-240303,E1007,Divya Krishnan,Engineering,2026-09-09,4390.00,INR,IRCTC,Travel,Cash,New Delhi,Site visit – Pune office,yes,RCP-608310,10000,approved
+TXN-241034,E1023,Lakshmi Prasad,Marketing,2026-09-09,372.00,INR,Namma Metro,Local Transport,Corporate card,Pune,Office commute – late shift,yes,RCP-456976,1500,approved
+TXN-241577,E1036,Bhavana Murthy,Operations,2026-09-09,541.00,INR,Saravana Bhavan,Meals,Corporate card,New Delhi,Team lunch – sprint review,yes,RCP-881273,2500,approved
+TXN-241595,E1036,Bhavana Murthy,Operations,2026-09-09,1410.00,INR,Croma,Office Supplies,Corporate card,New Delhi,Keyboard and mouse,yes,RCP-781826,5000,approved
+TXN-241847,E1042,Naveen Kumar,Customer Success,2026-09-09,5330.00,INR,IRCTC,Travel,Corporate card,New Delhi,Site visit – Pune office,yes,RCP-487558,10000,approved
+TXN-241882,E1042,Naveen Kumar,Customer Success,2026-09-09,602.00,INR,Saravana Bhavan,Meals,Personal card,New Delhi,Working lunch with team,yes,RCP-414702,2500,approved
+TXN-251006,E1035,Imran Sheikh,Operations,2026-09-09,8500.00,INR,Air India,Travel,Cash,Bengaluru,Plant visit – Chennai,no,,10000,approved
+TXN-240129,E1004,Rohan Deshpande,Engineering,2026-09-10,730.00,INR,Third Wave Coffee,Meals,UPI,Hyderabad,Team lunch – sprint review,yes,RCP-577871,2500,approved
+TXN-240435,E1010,Neha Agarwal,Sales,2026-09-10,4920.00,INR,Air India,Travel,UPI,Kochi,Quarterly business review,yes,RCP-904601,10000,pending
+TXN-240601,E1014,Kavya Reddy,Sales,2026-09-10,3980.00,INR,Toit Brewpub,Client Entertainment,Cash,Chennai,Client lunch – renewal discussion,yes,RCP-341175,6000,approved
+TXN-240767,E1017,Ishita Banerjee,Marketing,2026-09-10,5840.00,INR,IndiGo,Travel,Personal card,Hyderabad,Quarterly business review,yes,RCP-525974,10000,approved
+TXN-240872,E1020,Varun Malhotra,Marketing,2026-09-10,543.00,INR,Uber India,Local Transport,Personal card,Hyderabad,Airport transfer,yes,RCP-516241,1500,approved
+TXN-240875,E1020,Varun Malhotra,Marketing,2026-09-10,1490.00,INR,Flipkart,Office Supplies,UPI,Hyderabad,Keyboard and mouse,yes,RCP-228087,5000,approved
+TXN-240957,E1022,Abhishek Sinha,Marketing,2026-09-10,4890.00,INR,Atlassian,Software Subscription,Personal card,Pune,Team workspace upgrade,yes,RCP-500548,50000,approved
+TXN-241010,E1023,Lakshmi Prasad,Marketing,2026-09-10,351.00,INR,Ola Cabs,Local Transport,Personal card,Pune,Office commute – late shift,no,,1500,approved
+TXN-241516,E1034,Swati Mishra,Operations,2026-09-10,294.00,INR,Uber India,Local Transport,Personal card,New Delhi,Office commute – late shift,yes,RCP-503122,1500,approved
+TXN-240178,E1005,Sneha Kulkarni,Engineering,2026-09-11,6720.00,INR,Atlassian,Software Subscription,Corporate card,Mumbai,Monthly seat licence,yes,RCP-752181,50000,approved
+TXN-240579,E1013,Aditya Joshi,Sales,2026-09-11,5600.00,INR,OYO Townhouse,Accommodation,Personal card,Bengaluru,Stay for vendor audit,yes,RCP-861952,8000,approved
+TXN-240944,E1021,Tanvi Shah,Marketing,2026-09-11,1280.00,INR,Amazon,Office Supplies,Cash,Chennai,Printer cartridges,yes,RCP-598141,5000,approved
+TXN-240989,E1022,Abhishek Sinha,Marketing,2026-09-11,1990.00,INR,Croma,Office Supplies,Cash,Pune,Keyboard and mouse,yes,RCP-213136,5000,approved
+TXN-241207,E1027,Anjali Mehta,Finance,2026-09-11,371.00,INR,Ola Cabs,Local Transport,Personal card,Hyderabad,Cab to client office,no,,1500,approved
+TXN-241252,E1028,Gautam Iyengar,Finance,2026-09-11,1310.00,INR,ACT Fibernet,Telecom & Internet,Cash,Bengaluru,Home broadband – remote work,yes,RCP-984325,3000,approved
+TXN-241340,E1030,Harish Chandran,Finance,2026-09-11,265.00,INR,Namma Metro,Local Transport,Corporate card,Mumbai,Airport transfer,no,,1500,approved
+TXN-241461,E1033,Ravi Shankar,Operations,2026-09-11,487.00,INR,Haldiram's,Meals,Corporate card,Bengaluru,Working lunch with team,yes,RCP-462614,2500,approved
+TXN-241627,E1037,Sanjay Patil,Operations,2026-09-11,1150.00,INR,Staples India,Office Supplies,UPI,New Delhi,Notebooks and stationery,yes,RCP-991151,5000,pending
+TXN-242106,E1047,Rajesh Iyer,Customer Success,2026-09-11,572.00,INR,Chai Point,Meals,Cash,Hyderabad,Team lunch – sprint review,yes,RCP-970024,2500,approved
+TXN-242304,E1018,Nikhil Chawla,Marketing,2026-09-11,589.00,INR,Saravana Bhavan,Meals,Personal card,Mumbai,Dinner during client visit,no,,2500,approved
+TXN-240291,E1007,Divya Krishnan,Engineering,2026-09-12,328.00,INR,Namma Metro,Local Transport,Personal card,New Delhi,Office commute – late shift,yes,RCP-271993,1500,approved
+TXN-240418,E1010,Neha Agarwal,Sales,2026-09-12,4190.00,INR,Lemon Tree Hotels,Accommodation,Cash,Kochi,Hotel stay for client visit,yes,RCP-497999,8000,approved
+TXN-241346,E1030,Harish Chandran,Finance,2026-09-12,518.00,INR,Haldiram's,Meals,Personal card,Mumbai,Team lunch – sprint review,yes,RCP-773694,2500,approved
+TXN-241604,E1036,Bhavana Murthy,Operations,2026-09-12,678.00,INR,Swiggy,Meals,Corporate card,New Delhi,Working lunch with team,yes,RCP-444264,2500,approved
+TXN-241742,E1039,Ajay Thakur,Operations,2026-09-12,413.00,INR,Rapido,Local Transport,Corporate card,Chennai,Cab to client office,no,,1500,approved
+TXN-241852,E1042,Naveen Kumar,Customer Success,2026-09-12,418.00,INR,Third Wave Coffee,Meals,Cash,New Delhi,Team lunch – sprint review,yes,RCP-571111,2500,approved
+TXN-242167,E1048,Sunita Verma,Customer Success,2026-09-12,354.00,INR,Namma Metro,Local Transport,Personal card,New Delhi,Cab to client office,no,,1500,approved
+TXN-242257,E1047,Rajesh Iyer,Customer Success,2026-09-12,4770.00,INR,Airtel,Telecom & Internet,Corporate card,Hyderabad,Monthly mobile bill,yes,RCP-668102,3000,pending
+TXN-240452,E1010,Neha Agarwal,Sales,2026-09-13,638.00,INR,Haldiram's,Meals,Corporate card,Kochi,Dinner during client visit,yes,RCP-710965,2500,approved
+TXN-240911,E1021,Tanvi Shah,Marketing,2026-09-13,602.00,INR,Swiggy,Meals,Personal card,Chennai,Dinner during client visit,yes,RCP-668518,2500,approved
+TXN-240948,E1021,Tanvi Shah,Marketing,2026-09-13,389.00,INR,Chai Point,Meals,Cash,Chennai,Team lunch – sprint review,yes,RCP-333793,2500,approved
+TXN-241652,E1037,Sanjay Patil,Operations,2026-09-13,345.00,INR,Uber India,Local Transport,Personal card,New Delhi,Airport transfer,yes,RCP-249086,1500,pending
+TXN-242072,E1046,Preethi Anand,Customer Success,2026-09-13,1070.00,INR,Jio,Telecom & Internet,Cash,Bengaluru,Monthly mobile bill,yes,RCP-298897,3000,approved
+TXN-240030,E1001,Priya Raman,Engineering,2026-09-14,583.00,INR,Uber India,Local Transport,Corporate card,Mumbai,Airport transfer,no,,1500,approved
+TXN-240302,E1007,Divya Krishnan,Engineering,2026-09-14,403.00,INR,Uber India,Local Transport,Corporate card,New Delhi,Airport transfer,no,,1500,approved
+TXN-240332,E1008,Vikram Bhat,Engineering,2026-09-14,4670.00,INR,GitHub,Software Subscription,Corporate card,Mumbai,Annual plan renewal,yes,RCP-439653,50000,approved
+TXN-240438,E1010,Neha Agarwal,Sales,2026-09-14,3420.00,INR,Mainland China,Client Entertainment,Corporate card,Kochi,Dinner with client stakeholders,yes,RCP-480336,6000,approved
+TXN-240469,E1011,Siddharth Rao,Sales,2026-09-14,514.00,INR,Rapido,Local Transport,Corporate card,Mumbai,Cab to client office,yes,RCP-887147,1500,approved
+TXN-240706,E1016,Shreya Pillai,Sales,2026-09-14,3150.00,INR,Barbeque Nation,Client Entertainment,UPI,Pune,Dinner with client stakeholders,yes,RCP-313084,6000,approved
+TXN-240829,E1019,Meera Natarajan,Marketing,2026-09-14,319.00,INR,Uber India,Local Transport,UPI,Kochi,Cab to client office,no,,1500,approved
+TXN-240988,E1022,Abhishek Sinha,Marketing,2026-09-14,763.00,INR,Chai Point,Meals,Cash,Pune,Working lunch with team,yes,RCP-964922,2500,approved
+TXN-241071,E1024,Farhan Qureshi,Marketing,2026-09-14,1920.00,INR,Barbeque Nation,Client Entertainment,Cash,Hyderabad,Dinner with client stakeholders,yes,RCP-624470,6000,approved
+TXN-241552,E1035,Imran Sheikh,Operations,2026-09-14,1760.00,INR,Amazon,Office Supplies,Cash,Bengaluru,Keyboard and mouse,yes,RCP-258684,5000,approved
+TXN-241676,E1038,Geetha Ramesh,Operations,2026-09-14,511.00,INR,Uber India,Local Transport,Corporate card,Bengaluru,Cab to client office,yes,RCP-560528,1500,approved
+TXN-242012,E1045,Mohit Bansal,Customer Success,2026-09-14,877.00,INR,ACT Fibernet,Telecom & Internet,Corporate card,Mumbai,Monthly mobile bill,yes,RCP-352413,3000,approved
+TXN-242339,E1033,Ravi Shankar,Operations,2026-09-14,9800.00,INR,MakeMyTrip,Travel,UPI,Bengaluru,Site visit – Pune office,yes,RCP-154729,10000,pending
+TXN-240091,E1002,Karthik Subramanian,Engineering,2026-09-15,565.00,INR,Uber India,Local Transport,Corporate card,Chennai,Airport transfer,yes,RCP-167877,1500,approved
+TXN-240259,E1006,Arjun Nair,Engineering,2026-09-15,664.00,INR,Saravana Bhavan,Meals,UPI,Pune,Team lunch – sprint review,yes,RCP-411235,2500,approved
+TXN-240365,E1009,Rahul Menon,Sales,2026-09-15,3500.00,INR,The Leela Palace,Client Entertainment,Cash,Pune,Dinner with client stakeholders,yes,RCP-226638,6000,approved
+TXN-240728,E1017,Ishita Banerjee,Marketing,2026-09-15,242.00,INR,Ola Cabs,Local Transport,Cash,Hyderabad,Airport transfer,no,,1500,approved
+TXN-240730,E1017,Ishita Banerjee,Marketing,2026-09-15,465.00,INR,Swiggy,Meals,Corporate card,Hyderabad,Working lunch with team,yes,RCP-788423,2500,pending
+TXN-241210,E1027,Anjali Mehta,Finance,2026-09-15,898.00,INR,Flipkart,Office Supplies,Personal card,Hyderabad,Keyboard and mouse,yes,RCP-907455,5000,approved
+TXN-241364,E1031,Nandini Rao,Finance,2026-09-15,1400.00,INR,Staples India,Office Supplies,Cash,Hyderabad,Notebooks and stationery,yes,RCP-285364,5000,pending
+TXN-241380,E1031,Nandini Rao,Finance,2026-09-15,885.00,INR,Vodafone Idea,Telecom & Internet,Cash,Hyderabad,Home broadband – remote work,yes,RCP-149711,3000,pending
+TXN-241692,E1038,Geetha Ramesh,Operations,2026-09-15,1240.00,INR,Flipkart,Office Supplies,Cash,Bengaluru,Printer cartridges,yes,RCP-557812,5000,approved
+TXN-242263,E1031,Nandini Rao,Finance,2026-09-15,885.00,INR,Vodafone Idea,Telecom & Internet,Cash,Hyderabad,Home broadband – remote work,yes,RCP-983774,3000,pending
+TXN-240082,E1002,Karthik Subramanian,Engineering,2026-09-16,794.00,INR,Saravana Bhavan,Meals,Cash,Chennai,Working lunch with team,yes,RCP-374907,2500,approved
+TXN-240166,E1004,Rohan Deshpande,Engineering,2026-09-16,4840.00,INR,Figma,Software Subscription,Cash,Hyderabad,Annual plan renewal,yes,RCP-166864,50000,approved
+TXN-240252,E1006,Arjun Nair,Engineering,2026-09-16,1150.00,INR,Amazon,Office Supplies,Personal card,Pune,Keyboard and mouse,yes,RCP-618480,5000,approved
+TXN-240382,E1009,Rahul Menon,Sales,2026-09-16,3540.00,INR,Vistara,Travel,Personal card,Pune,Quarterly business review,yes,RCP-520171,10000,approved
+TXN-240442,E1010,Neha Agarwal,Sales,2026-09-16,4520.00,INR,The Leela Palace,Client Entertainment,Corporate card,Kochi,Client lunch – renewal discussion,yes,RCP-845157,6000,approved
+TXN-240449,E1010,Neha Agarwal,Sales,2026-09-16,561.00,INR,Swiggy,Meals,Cash,Kochi,Working lunch with team,yes,RCP-130444,2500,approved
+TXN-240550,E1013,Aditya Joshi,Sales,2026-09-16,428.00,INR,Saravana Bhavan,Meals,Corporate card,Bengaluru,Team lunch – sprint review,yes,RCP-354226,2500,approved
+TXN-240815,E1018,Nikhil Chawla,Marketing,2026-09-16,6170.00,INR,Atlassian,Software Subscription,Corporate card,Mumbai,Team workspace upgrade,yes,RCP-811004,50000,pending
+TXN-240826,E1018,Nikhil Chawla,Marketing,2026-09-16,3870.00,INR,Toit Brewpub,Client Entertainment,Corporate card,Mumbai,Client lunch – renewal discussion,yes,RCP-808847,6000,pending
+TXN-240860,E1019,Meera Natarajan,Marketing,2026-09-16,1920.00,INR,Croma,Office Supplies,Corporate card,Kochi,Keyboard and mouse,yes,RCP-511360,5000,approved
+TXN-241016,E1023,Lakshmi Prasad,Marketing,2026-09-16,425.00,INR,Ola Cabs,Local Transport,Personal card,Pune,Airport transfer,no,,1500,approved
+TXN-241117,E1025,Deepa Raghavan,Finance,2026-09-16,334.00,INR,Namma Metro,Local Transport,Corporate card,Hyderabad,Office commute – late shift,yes,RCP-570712,1500,approved
+TXN-241178,E1027,Anjali Mehta,Finance,2026-09-16,415.00,INR,Ola Cabs,Local Transport,Corporate card,Hyderabad,Airport transfer,no,,1500,approved
+TXN-241236,E1028,Gautam Iyengar,Finance,2026-09-16,7850.00,INR,Zoho Corporation,Software Subscription,Corporate card,Bengaluru,Monthly seat licence,yes,RCP-561906,50000,approved
+TXN-242006,E1045,Mohit Bansal,Customer Success,2026-09-16,626.00,INR,ACT Fibernet,Telecom & Internet,UPI,Mumbai,Home broadband – remote work,yes,RCP-783579,3000,approved
+TXN-242144,E1048,Sunita Verma,Customer Success,2026-09-16,472.00,INR,Rapido,Local Transport,Personal card,New Delhi,Airport transfer,no,,1500,approved
+TXN-242342,E1033,Ravi Shankar,Operations,2026-09-16,9700.00,INR,Vistara,Travel,Corporate card,Bengaluru,Client visit,yes,RCP-951691,10000,pending
+TXN-251005,E1006,Arjun Nair,Engineering,2026-09-16,32000.00,INR,Atlassian,Software Subscription,Cash,Pune,Jira and Confluence annual plan,yes,RCP-632928,50000,pending
+TXN-240779,E1018,Nikhil Chawla,Marketing,2026-09-17,343.00,INR,Namma Metro,Local Transport,Cash,Mumbai,Cab to client office,no,,1500,approved
+TXN-240885,E1020,Varun Malhotra,Marketing,2026-09-17,4920.00,INR,GitHub,Software Subscription,Corporate card,Hyderabad,Monthly seat licence,yes,RCP-977855,50000,approved
+TXN-240967,E1022,Abhishek Sinha,Marketing,2026-09-17,615.00,INR,Namma Metro,Local Transport,Personal card,Pune,Office commute – late shift,yes,RCP-669297,1500,approved
+TXN-241086,E1025,Deepa Raghavan,Finance,2026-09-17,482.00,INR,Saravana Bhavan,Meals,Corporate card,Hyderabad,Dinner during client visit,yes,RCP-949771,2500,approved
+TXN-241113,E1025,Deepa Raghavan,Finance,2026-09-17,504.00,INR,Rapido,Local Transport,Cash,Hyderabad,Airport transfer,no,,1500,approved
+TXN-241134,E1026,Suresh Kumar,Finance,2026-09-17,637.00,INR,Saravana Bhavan,Meals,UPI,Hyderabad,Team lunch – sprint review,yes,RCP-754979,2500,pending
+TXN-241412,E1032,Prakash Hegde,Finance,2026-09-17,227.00,INR,Uber India,Local Transport,Personal card,Bengaluru,Cab to client office,no,,1500,approved
+TXN-241791,E1040,Revathi Sundaram,Operations,2026-09-17,232.00,INR,Uber India,Local Transport,Corporate card,Mumbai,Cab to client office,yes,RCP-346730,1500,pending
+TXN-241902,E1043,Shalini Menon,Customer Success,2026-09-17,291.00,INR,Rapido,Local Transport,Cash,Bengaluru,Cab to client office,yes,RCP-800069,1500,approved
+TXN-242093,E1046,Preethi Anand,Customer Success,2026-09-17,3480.00,INR,Toit Brewpub,Client Entertainment,Corporate card,Bengaluru,Client lunch – renewal discussion,yes,RCP-469206,6000,approved
+TXN-240804,E1018,Nikhil Chawla,Marketing,2026-09-18,6210.00,INR,Freshworks,Software Subscription,Corporate card,Mumbai,Team workspace upgrade,yes,RCP-372850,50000,pending
+TXN-241165,E1026,Suresh Kumar,Finance,2026-09-18,346.00,INR,Rapido,Local Transport,Personal card,Hyderabad,Airport transfer,yes,RCP-669925,1500,approved
+TXN-241265,E1029,Ritu Saxena,Finance,2026-09-18,1150.00,INR,Haldiram's,Meals,Corporate card,Mumbai,Working lunch with team,yes,RCP-968090,2500,approved
+TXN-241502,E1034,Swati Mishra,Operations,2026-09-18,326.00,INR,Namma Metro,Local Transport,Personal card,New Delhi,Office commute – late shift,yes,RCP-823251,1500,pending
+TXN-241698,E1038,Geetha Ramesh,Operations,2026-09-18,1900.00,INR,Flipkart,Office Supplies,Corporate card,Bengaluru,Printer cartridges,yes,RCP-880390,5000,approved
+TXN-241737,E1039,Ajay Thakur,Operations,2026-09-18,5820.00,INR,IndiGo,Travel,Personal card,Chennai,Client visit,yes,RCP-906722,10000,approved
+TXN-241857,E1042,Naveen Kumar,Customer Success,2026-09-18,6770.00,INR,MakeMyTrip,Travel,Corporate card,New Delhi,Client visit,yes,RCP-203669,10000,approved
+TXN-242030,E1045,Mohit Bansal,Customer Success,2026-09-18,2650.00,INR,Toit Brewpub,Client Entertainment,Cash,Mumbai,Dinner with client stakeholders,yes,RCP-719200,6000,approved
+TXN-242138,E1047,Rajesh Iyer,Customer Success,2026-09-18,584.00,INR,Swiggy,Meals,Cash,Hyderabad,Team lunch – sprint review,yes,RCP-617555,2500,approved
+TXN-242343,E1033,Ravi Shankar,Operations,2026-09-18,9900.00,INR,IRCTC,Travel,Corporate card,Bengaluru,Client visit,yes,RCP-996454,10000,pending
+TXN-240206,E1005,Sneha Kulkarni,Engineering,2026-09-19,478.00,INR,Haldiram's,Meals,Cash,Mumbai,Team lunch – sprint review,yes,RCP-135530,2500,approved
+TXN-240692,E1016,Shreya Pillai,Sales,2026-09-19,505.00,INR,Zomato,Meals,Cash,Pune,Working lunch with team,yes,RCP-295188,2500,approved
+TXN-240836,E1019,Meera Natarajan,Marketing,2026-09-19,647.00,INR,Swiggy,Meals,Cash,Kochi,Dinner during client visit,yes,RCP-337273,2500,approved
+TXN-240973,E1022,Abhishek Sinha,Marketing,2026-09-19,503.00,INR,Saravana Bhavan,Meals,Corporate card,Pune,Team lunch – sprint review,yes,RCP-360646,2500,approved
+TXN-241403,E1032,Prakash Hegde,Finance,2026-09-19,752.00,INR,Saravana Bhavan,Meals,Cash,Bengaluru,Dinner during client visit,yes,RCP-693532,2500,approved
+TXN-241460,E1033,Ravi Shankar,Operations,2026-09-19,296.00,INR,Namma Metro,Local Transport,UPI,Bengaluru,Cab to client office,no,,1500,approved
+TXN-240146,E1004,Rohan Deshpande,Engineering,2026-09-20,426.00,INR,Rapido,Local Transport,Personal card,Hyderabad,Cab to client office,yes,RCP-905585,1500,pending
+TXN-240274,E1007,Divya Krishnan,Engineering,2026-09-20,628.00,INR,Chai Point,Meals,Corporate card,New Delhi,Team lunch – sprint review,yes,RCP-290104,2500,approved
+TXN-240483,E1011,Siddharth Rao,Sales,2026-09-20,5470.00,INR,Air India,Travel,Cash,Mumbai,Quarterly business review,yes,RCP-556059,10000,approved
+TXN-240642,E1015,Manish Gupta,Sales,2026-09-20,524.00,INR,Uber India,Local Transport,Cash,Bengaluru,Office commute – late shift,no,,1500,approved
+TXN-241241,E1028,Gautam Iyengar,Finance,2026-09-20,718.00,INR,Swiggy,Meals,Personal card,Bengaluru,Dinner during client visit,yes,RCP-592186,2500,approved
+TXN-241440,E1033,Ravi Shankar,Operations,2026-09-20,596.00,INR,Haldiram's,Meals,UPI,Bengaluru,Working lunch with team,yes,RCP-694363,2500,pending
+TXN-241446,E1033,Ravi Shankar,Operations,2026-09-20,454.00,INR,Uber India,Local Transport,UPI,Bengaluru,Office commute – late shift,yes,RCP-234490,1500,approved
+TXN-241524,E1035,Imran Sheikh,Operations,2026-09-20,437.00,INR,Rapido,Local Transport,UPI,Bengaluru,Airport transfer,no,,1500,approved
+TXN-241705,E1038,Geetha Ramesh,Operations,2026-09-20,765.00,INR,Third Wave Coffee,Meals,Corporate card,Bengaluru,Team lunch – sprint review,yes,RCP-136971,2500,approved
+TXN-241713,E1038,Geetha Ramesh,Operations,2026-09-20,850.00,INR,Third Wave Coffee,Meals,Corporate card,Bengaluru,Working lunch with team,yes,RCP-337256,2500,pending
+TXN-241755,E1039,Ajay Thakur,Operations,2026-09-20,685.00,INR,Saravana Bhavan,Meals,Corporate card,Chennai,Team lunch – sprint review,yes,RCP-517621,2500,approved
+TXN-242120,E1047,Rajesh Iyer,Customer Success,2026-09-20,492.00,INR,Haldiram's,Meals,Corporate card,Hyderabad,Dinner during client visit,yes,RCP-895686,2500,approved
+TXN-242166,E1048,Sunita Verma,Customer Success,2026-09-20,454.00,INR,Swiggy,Meals,Cash,New Delhi,Working lunch with team,yes,RCP-852832,2500,approved
+TXN-242321,E1008,Vikram Bhat,Engineering,2026-09-20,2400.00,INR,Dream11,Gambling,UPI,Mumbai,Fantasy league entry,yes,RCP-880325,,approved
+TXN-240055,E1002,Karthik Subramanian,Engineering,2026-09-21,4940.00,INR,Notion Labs,Software Subscription,Personal card,Chennai,Team workspace upgrade,yes,RCP-767199,50000,approved
+TXN-240120,E1003,Ananya Iyer,Engineering,2026-09-21,6150.00,INR,Figma,Software Subscription,Personal card,Pune,Team workspace upgrade,yes,RCP-628967,50000,approved
+TXN-240203,E1005,Sneha Kulkarni,Engineering,2026-09-21,399.00,INR,Uber India,Local Transport,Cash,Mumbai,Office commute – late shift,no,,1500,approved
+TXN-240222,E1006,Arjun Nair,Engineering,2026-09-21,5800.00,INR,Notion Labs,Software Subscription,Cash,Pune,Monthly seat licence,yes,RCP-812608,50000,approved
+TXN-240498,E1011,Siddharth Rao,Sales,2026-09-21,3350.00,INR,ITC Hotels,Accommodation,Corporate card,Mumbai,Hotel stay for client visit,yes,RCP-449775,8000,approved
+TXN-240628,E1015,Manish Gupta,Sales,2026-09-21,4760.00,INR,IRCTC,Travel,Cash,Bengaluru,Client visit,yes,RCP-311160,10000,pending
+TXN-240645,E1015,Manish Gupta,Sales,2026-09-21,2950.00,INR,Barbeque Nation,Client Entertainment,UPI,Bengaluru,Dinner with client stakeholders,yes,RCP-596469,6000,approved
+TXN-241444,E1033,Ravi Shankar,Operations,2026-09-21,6350.00,INR,Taj Hotels,Accommodation,Personal card,Bengaluru,Stay for vendor audit,yes,RCP-772461,8000,approved
+TXN-241787,E1040,Revathi Sundaram,Operations,2026-09-21,1010.00,INR,Haldiram's,Meals,UPI,Mumbai,Working lunch with team,yes,RCP-247741,2500,pending
+TXN-241829,E1041,Aarti Desai,Customer Success,2026-09-21,595.00,INR,Rapido,Local Transport,Corporate card,New Delhi,Cab to client office,yes,RCP-708499,1500,approved
+TXN-242206,E1003,Ananya Iyer,Engineering,2026-09-21,4690.00,INR,NASSCOM,Training & Conferences,Personal card,Pune,Workshop ticket,yes,RCP-970348,40000,approved
+TXN-242223,E1002,Karthik Subramanian,Engineering,2026-09-21,4030.00,INR,upGrad,Training & Conferences,Personal card,Chennai,Workshop ticket,yes,RCP-914083,40000,approved
+TXN-242236,E1001,Priya Raman,Engineering,2026-09-21,3950.00,INR,MakeMyTrip,Travel,UPI,Mumbai,Quarterly business review,yes,RCP-549702,10000,approved
+TXN-242251,E1006,Arjun Nair,Engineering,2026-09-21,6630.00,INR,Freshworks,Software Subscription,Personal card,Pune,Annual plan renewal,yes,RCP-261258,50000,approved
+TXN-242311,E1018,Nikhil Chawla,Marketing,2026-09-21,3640.00,INR,Barbeque Nation,Client Entertainment,Corporate card,Mumbai,Client lunch – renewal discussion,no,,6000,approved
+TXN-240130,E1004,Rohan Deshpande,Engineering,2026-09-22,4490.00,INR,Figma,Software Subscription,UPI,Hyderabad,Annual plan renewal,yes,RCP-790846,50000,approved
+TXN-240297,E1007,Divya Krishnan,Engineering,2026-09-22,993.00,INR,Third Wave Coffee,Meals,Personal card,New Delhi,Team lunch – sprint review,yes,RCP-860961,2500,approved
+TXN-240797,E1018,Nikhil Chawla,Marketing,2026-09-22,415.00,INR,Uber India,Local Transport,UPI,Mumbai,Office commute – late shift,yes,RCP-477739,1500,approved
+TXN-240900,E1020,Varun Malhotra,Marketing,2026-09-22,4760.00,INR,Vistara,Travel,Cash,Hyderabad,Client visit,yes,RCP-828672,10000,approved
+TXN-241079,E1025,Deepa Raghavan,Finance,2026-09-22,539.00,INR,Third Wave Coffee,Meals,UPI,Hyderabad,Dinner during client visit,yes,RCP-718685,2500,approved
+TXN-241484,E1034,Swati Mishra,Operations,2026-09-22,1290.00,INR,Flipkart,Office Supplies,UPI,New Delhi,Keyboard and mouse,yes,RCP-442029,5000,approved
+TXN-241578,E1036,Bhavana Murthy,Operations,2026-09-22,730.00,INR,Third Wave Coffee,Meals,Corporate card,New Delhi,Working lunch with team,yes,RCP-693837,2500,approved
+TXN-241826,E1041,Aarti Desai,Customer Success,2026-09-22,1070.00,INR,Vodafone Idea,Telecom & Internet,Cash,New Delhi,Monthly mobile bill,yes,RCP-146332,3000,approved
+TXN-241906,E1043,Shalini Menon,Customer Success,2026-09-22,337.00,INR,Rapido,Local Transport,Corporate card,Bengaluru,Cab to client office,no,,1500,approved
+TXN-241926,E1043,Shalini Menon,Customer Success,2026-09-22,380.00,INR,Ola Cabs,Local Transport,Cash,Bengaluru,Cab to client office,no,,1500,approved
+TXN-242048,E1046,Preethi Anand,Customer Success,2026-09-22,696.00,INR,Swiggy,Meals,Corporate card,Bengaluru,Dinner during client visit,yes,RCP-543934,2500,approved
+TXN-242064,E1046,Preethi Anand,Customer Success,2026-09-22,3180.00,INR,Barbeque Nation,Client Entertainment,Corporate card,Bengaluru,Dinner with client stakeholders,yes,RCP-673880,6000,approved
+TXN-242071,E1046,Preethi Anand,Customer Success,2026-09-22,1210.00,INR,Airtel,Telecom & Internet,Personal card,Bengaluru,Monthly mobile bill,yes,RCP-892294,3000,approved
+TXN-240032,E1001,Priya Raman,Engineering,2026-09-23,668.00,INR,Zomato,Meals,Cash,Mumbai,Dinner during client visit,yes,RCP-299071,2500,pending
+TXN-240580,E1013,Aditya Joshi,Sales,2026-09-23,1690.00,INR,Mainland China,Client Entertainment,Cash,Bengaluru,Dinner with client stakeholders,yes,RCP-713336,6000,approved
+TXN-240668,E1015,Manish Gupta,Sales,2026-09-23,3440.00,INR,Lemon Tree Hotels,Accommodation,Personal card,Bengaluru,Stay for vendor audit,yes,RCP-365149,8000,approved
+TXN-240853,E1019,Meera Natarajan,Marketing,2026-09-23,3700.00,INR,Zoho Corporation,Software Subscription,Personal card,Kochi,Team workspace upgrade,yes,RCP-557962,50000,pending
+TXN-240954,E1022,Abhishek Sinha,Marketing,2026-09-23,298.00,INR,Uber India,Local Transport,Cash,Pune,Office commute – late shift,yes,RCP-939976,1500,approved
+TXN-241185,E1027,Anjali Mehta,Finance,2026-09-23,978.00,INR,Croma,Office Supplies,UPI,Hyderabad,Keyboard and mouse,yes,RCP-308021,5000,approved
+TXN-241253,E1028,Gautam Iyengar,Finance,2026-09-23,1050.00,INR,Zomato,Meals,Personal card,Bengaluru,Working lunch with team,yes,RCP-537686,2500,approved
+TXN-241274,E1029,Ritu Saxena,Finance,2026-09-23,684.00,INR,Haldiram's,Meals,Corporate card,Mumbai,Dinner during client visit,yes,RCP-833287,2500,approved
+TXN-241406,E1032,Prakash Hegde,Finance,2026-09-23,268.00,INR,Uber India,Local Transport,Cash,Bengaluru,Cab to client office,yes,RCP-753574,1500,pending
+TXN-241434,E1033,Ravi Shankar,Operations,2026-09-23,341.00,INR,Uber India,Local Transport,Corporate card,Bengaluru,Cab to client office,yes,RCP-516161,1500,approved
+TXN-241840,E1041,Aarti Desai,Customer Success,2026-09-23,3460.00,INR,Treebo,Accommodation,Personal card,New Delhi,Hotel stay for client visit,yes,RCP-189977,8000,pending
+TXN-242255,E1043,Shalini Menon,Customer Success,2026-09-23,8500.00,INR,Toit Brewpub,Client Entertainment,Corporate card,Bengaluru,Client lunch – renewal discussion,yes,RCP-838119,6000,pending
+TXN-240071,E1002,Karthik Subramanian,Engineering,2026-09-24,520.00,INR,Namma Metro,Local Transport,Corporate card,Chennai,Airport transfer,no,,1500,approved
+TXN-240105,E1003,Ananya Iyer,Engineering,2026-09-24,1070.00,INR,ACT Fibernet,Telecom & Internet,Personal card,Pune,Monthly mobile bill,yes,RCP-146311,3000,approved
+TXN-240163,E1004,Rohan Deshpande,Engineering,2026-09-24,898.00,INR,Saravana Bhavan,Meals,Corporate card,Hyderabad,Working lunch with team,yes,RCP-776276,2500,approved
+TXN-240654,E1015,Manish Gupta,Sales,2026-09-24,438.00,INR,Rapido,Local Transport,Personal card,Bengaluru,Office commute – late shift,no,,1500,approved
+TXN-240720,E1016,Shreya Pillai,Sales,2026-09-24,1230.00,INR,Airtel,Telecom & Internet,Personal card,Pune,Monthly mobile bill,yes,RCP-786637,3000,approved
+TXN-240787,E1018,Nikhil Chawla,Marketing,2026-09-24,310.00,INR,Rapido,Local Transport,Personal card,Mumbai,Office commute – late shift,yes,RCP-843738,1500,pending
+TXN-240811,E1018,Nikhil Chawla,Marketing,2026-09-24,3890.00,INR,Barbeque Nation,Client Entertainment,Cash,Mumbai,Client lunch – renewal discussion,yes,RCP-992771,6000,approved
+TXN-240819,E1018,Nikhil Chawla,Marketing,2026-09-24,3470.00,INR,Mainland China,Client Entertainment,Corporate card,Mumbai,Client lunch – renewal discussion,yes,RCP-170033,6000,approved
+TXN-240821,E1018,Nikhil Chawla,Marketing,2026-09-24,4280.00,INR,Toit Brewpub,Client Entertainment,Corporate card,Mumbai,Dinner with client stakeholders,yes,RCP-332973,6000,approved
+TXN-241148,E1026,Suresh Kumar,Finance,2026-09-24,515.00,INR,Haldiram's,Meals,Corporate card,Hyderabad,Team lunch – sprint review,yes,RCP-715054,2500,approved
+TXN-241372,E1031,Nandini Rao,Finance,2026-09-24,1290.00,INR,Staples India,Office Supplies,Personal card,Hyderabad,Notebooks and stationery,yes,RCP-133403,5000,approved
+TXN-241467,E1033,Ravi Shankar,Operations,2026-09-24,336.00,INR,Ola Cabs,Local Transport,Personal card,Bengaluru,Airport transfer,yes,RCP-170184,1500,approved
+TXN-241638,E1037,Sanjay Patil,Operations,2026-09-24,685.00,INR,Zomato,Meals,Corporate card,New Delhi,Working lunch with team,yes,RCP-457868,2500,pending
+TXN-241960,E1044,Kiran Jadhav,Customer Success,2026-09-24,1270.00,INR,Jio,Telecom & Internet,Personal card,Mumbai,Monthly mobile bill,yes,RCP-945119,3000,approved
+TXN-242293,E1013,Aditya Joshi,Sales,2026-09-24,2060.00,INR,Zomato,Meals,Corporate card,Bengaluru,Working lunch with team,yes,RCP-522020,2500,approved
+TXN-251004,E1002,Karthik Subramanian,Engineering,2026-09-24,18500.00,INR,Great Learning,Training & Conferences,Corporate card,Chennai,Leadership programme fee,yes,RCP-929000,40000,pending
+TXN-240111,E1003,Ananya Iyer,Engineering,2026-09-25,299.00,INR,Uber India,Local Transport,UPI,Pune,Cab to client office,no,,1500,approved
+TXN-240233,E1006,Arjun Nair,Engineering,2026-09-25,6010.00,INR,Atlassian,Software Subscription,Cash,Pune,Monthly seat licence,yes,RCP-940420,50000,approved
+TXN-240414,E1010,Neha Agarwal,Sales,2026-09-25,3020.00,INR,Toit Brewpub,Client Entertainment,Cash,Kochi,Dinner with client stakeholders,yes,RCP-874652,6000,approved
+TXN-240433,E1010,Neha Agarwal,Sales,2026-09-25,790.00,INR,Airtel,Telecom & Internet,UPI,Kochi,Home broadband – remote work,yes,RCP-625240,3000,approved
+TXN-240458,E1010,Neha Agarwal,Sales,2026-09-25,3500.00,INR,Mainland China,Client Entertainment,UPI,Kochi,Dinner with client stakeholders,yes,RCP-931265,6000,approved
+TXN-240477,E1011,Siddharth Rao,Sales,2026-09-25,785.00,INR,Third Wave Coffee,Meals,Corporate card,Mumbai,Team lunch – sprint review,yes,RCP-837973,2500,approved
+TXN-240939,E1021,Tanvi Shah,Marketing,2026-09-25,14950.00,INR,Atlassian,Software Subscription,Corporate card,Chennai,Monthly seat licence,yes,RCP-600224,50000,approved
+TXN-241262,E1029,Ritu Saxena,Finance,2026-09-25,1620.00,INR,Flipkart,Office Supplies,Personal card,Mumbai,Notebooks and stationery,yes,RCP-232409,5000,approved
+TXN-241429,E1033,Ravi Shankar,Operations,2026-09-25,599.00,INR,Chai Point,Meals,Corporate card,Bengaluru,Dinner during client visit,yes,RCP-211687,2500,approved
+TXN-241493,E1034,Swati Mishra,Operations,2026-09-25,669.00,INR,Saravana Bhavan,Meals,Corporate card,New Delhi,Working lunch with team,yes,RCP-446142,2500,approved
+TXN-241707,E1038,Geetha Ramesh,Operations,2026-09-25,400.00,INR,Rapido,Local Transport,Corporate card,Bengaluru,Airport transfer,yes,RCP-457023,1500,pending
+TXN-241810,E1041,Aarti Desai,Customer Success,2026-09-25,425.00,INR,Haldiram's,Meals,Corporate card,New Delhi,Team lunch – sprint review,yes,RCP-981542,2500,approved
+TXN-241827,E1041,Aarti Desai,Customer Success,2026-09-25,4930.00,INR,IndiGo,Travel,Corporate card,New Delhi,Site visit – Pune office,yes,RCP-980629,10000,approved
+TXN-241897,E1043,Shalini Menon,Customer Success,2026-09-25,217.00,INR,Namma Metro,Local Transport,Cash,Bengaluru,Airport transfer,yes,RCP-875773,1500,approved
+TXN-240633,E1015,Manish Gupta,Sales,2026-09-26,556.00,INR,Haldiram's,Meals,Cash,Bengaluru,Dinner during client visit,yes,RCP-980356,2500,approved
+TXN-240687,E1016,Shreya Pillai,Sales,2026-09-26,612.00,INR,Chai Point,Meals,Corporate card,Pune,Working lunch with team,yes,RCP-989076,2500,approved
+TXN-240696,E1016,Shreya Pillai,Sales,2026-09-26,375.00,INR,Uber India,Local Transport,UPI,Pune,Office commute – late shift,no,,1500,approved
+TXN-241024,E1023,Lakshmi Prasad,Marketing,2026-09-26,509.00,INR,Ola Cabs,Local Transport,Corporate card,Pune,Office commute – late shift,yes,RCP-460507,1500,approved
+TXN-241546,E1035,Imran Sheikh,Operations,2026-09-26,3870.00,INR,Vistara,Travel,UPI,Bengaluru,Site visit – Pune office,yes,RCP-156208,10000,approved
+TXN-241818,E1041,Aarti Desai,Customer Success,2026-09-26,5950.00,INR,ITC Hotels,Accommodation,Corporate card,New Delhi,Hotel stay for client visit,yes,RCP-813782,8000,approved
+TXN-242163,E1048,Sunita Verma,Customer Success,2026-09-26,497.00,INR,Ola Cabs,Local Transport,UPI,New Delhi,Cab to client office,yes,RCP-649208,1500,approved
+TXN-242285,E1034,Swati Mishra,Operations,2026-09-26,1230.00,INR,Uber India,Local Transport,Personal card,New Delhi,Cab to client office,yes,RCP-771116,1500,approved
+TXN-240085,E1002,Karthik Subramanian,Engineering,2026-09-27,873.00,INR,Airtel,Telecom & Internet,Corporate card,Chennai,Monthly mobile bill,yes,RCP-966142,3000,approved
+TXN-240405,E1009,Rahul Menon,Sales,2026-09-27,3590.00,INR,Lemon Tree Hotels,Accommodation,UPI,Pune,Stay for vendor audit,yes,RCP-742567,8000,approved
+TXN-240421,E1010,Neha Agarwal,Sales,2026-09-27,245.00,INR,Rapido,Local Transport,UPI,Kochi,Office commute – late shift,no,,1500,approved
+TXN-240531,E1012,Pooja Venkatesh,Sales,2026-09-27,357.00,INR,Rapido,Local Transport,Cash,Chennai,Cab to client office,yes,RCP-692251,1500,pending
+TXN-240631,E1015,Manish Gupta,Sales,2026-09-27,469.00,INR,Ola Cabs,Local Transport,Corporate card,Bengaluru,Cab to client office,yes,RCP-431864,1500,approved
+TXN-240639,E1015,Manish Gupta,Sales,2026-09-27,1330.00,INR,Swiggy,Meals,Personal card,Bengaluru,Team lunch – sprint review,yes,RCP-446819,2500,approved
+TXN-240960,E1022,Abhishek Sinha,Marketing,2026-09-27,825.00,INR,Chai Point,Meals,Personal card,Pune,Team lunch – sprint review,yes,RCP-961994,2500,approved
+TXN-241343,E1030,Harish Chandran,Finance,2026-09-27,553.00,INR,Zomato,Meals,Personal card,Mumbai,Team lunch – sprint review,yes,RCP-621025,2500,approved
+TXN-241598,E1036,Bhavana Murthy,Operations,2026-09-27,941.00,INR,Zomato,Meals,Corporate card,New Delhi,Team lunch – sprint review,yes,RCP-791012,2500,approved
+TXN-242035,E1045,Mohit Bansal,Customer Success,2026-09-27,370.00,INR,Uber India,Local Transport,Personal card,Mumbai,Airport transfer,yes,RCP-428819,1500,approved
+TXN-242041,E1045,Mohit Bansal,Customer Success,2026-09-27,379.00,INR,Ola Cabs,Local Transport,Personal card,Mumbai,Airport transfer,yes,RCP-586330,1500,approved
+TXN-242114,E1047,Rajesh Iyer,Customer Success,2026-09-27,1360.00,INR,Vodafone Idea,Telecom & Internet,Corporate card,Hyderabad,Home broadband – remote work,yes,RCP-849363,3000,approved
+TXN-242175,E1048,Sunita Verma,Customer Success,2026-09-27,482.00,INR,Zomato,Meals,Personal card,New Delhi,Team lunch – sprint review,yes,RCP-438087,2500,approved
+TXN-240177,E1005,Sneha Kulkarni,Engineering,2026-09-28,5600.00,INR,Coursera,Training & Conferences,Corporate card,Mumbai,Certification exam fee,yes,RCP-752866,40000,approved
+TXN-240201,E1005,Sneha Kulkarni,Engineering,2026-09-28,424.00,INR,Saravana Bhavan,Meals,UPI,Mumbai,Team lunch – sprint review,yes,RCP-190358,2500,approved
+TXN-240488,E1011,Siddharth Rao,Sales,2026-09-28,4450.00,INR,The Leela Palace,Client Entertainment,Corporate card,Mumbai,Client lunch – renewal discussion,yes,RCP-885933,6000,approved
+TXN-240503,E1012,Pooja Venkatesh,Sales,2026-09-28,592.00,INR,Zomato,Meals,Cash,Chennai,Dinner during client visit,yes,RCP-403568,2500,approved
+TXN-240537,E1013,Aditya Joshi,Sales,2026-09-28,4650.00,INR,Taj Hotels,Accommodation,Cash,Bengaluru,Hotel stay for client visit,yes,RCP-992901,8000,approved
+TXN-240683,E1016,Shreya Pillai,Sales,2026-09-28,3730.00,INR,Barbeque Nation,Client Entertainment,UPI,Pune,Client lunch – renewal discussion,yes,RCP-615134,6000,approved
+TXN-240905,E1021,Tanvi Shah,Marketing,2026-09-28,7630.00,INR,Notion Labs,Software Subscription,Personal card,Chennai,Annual plan renewal,yes,RCP-972715,50000,pending
+TXN-240998,E1023,Lakshmi Prasad,Marketing,2026-09-28,1310.00,INR,Staples India,Office Supplies,Personal card,Pune,Keyboard and mouse,yes,RCP-912256,5000,approved
+TXN-241109,E1025,Deepa Raghavan,Finance,2026-09-28,368.00,INR,Rapido,Local Transport,UPI,Hyderabad,Office commute – late shift,yes,RCP-794884,1500,approved
+TXN-241125,E1026,Suresh Kumar,Finance,2026-09-28,1040.00,INR,Flipkart,Office Supplies,Corporate card,Hyderabad,Notebooks and stationery,yes,RCP-667224,5000,approved
+TXN-241199,E1027,Anjali Mehta,Finance,2026-09-28,1050.00,INR,Staples India,Office Supplies,Corporate card,Hyderabad,Printer cartridges,yes,RCP-559213,5000,approved
+TXN-241249,E1028,Gautam Iyengar,Finance,2026-09-28,1320.00,INR,Staples India,Office Supplies,Corporate card,Bengaluru,Keyboard and mouse,yes,RCP-635403,5000,approved
+TXN-241426,E1032,Prakash Hegde,Finance,2026-09-28,1150.00,INR,Zomato,Meals,Personal card,Bengaluru,Dinner during client visit,yes,RCP-202935,2500,approved
+TXN-242039,E1045,Mohit Bansal,Customer Success,2026-09-28,4450.00,INR,MakeMyTrip,Travel,Cash,Mumbai,Client visit,yes,RCP-942762,10000,pending
+TXN-240062,E1002,Karthik Subramanian,Engineering,2026-09-29,5360.00,INR,Atlassian,Software Subscription,UPI,Chennai,Monthly seat licence,yes,RCP-369752,50000,approved
+TXN-240094,E1003,Ananya Iyer,Engineering,2026-09-29,639.00,INR,Namma Metro,Local Transport,Cash,Pune,Office commute – late shift,no,,1500,approved
+TXN-240213,E1005,Sneha Kulkarni,Engineering,2026-09-29,486.00,INR,Ola Cabs,Local Transport,Personal card,Mumbai,Office commute – late shift,yes,RCP-647544,1500,pending
+TXN-240357,E1008,Vikram Bhat,Engineering,2026-09-29,5920.00,INR,Freshworks,Software Subscription,Cash,Mumbai,Annual plan renewal,yes,RCP-981923,50000,approved
+TXN-240516,E1012,Pooja Venkatesh,Sales,2026-09-29,305.00,INR,Namma Metro,Local Transport,UPI,Chennai,Airport transfer,yes,RCP-866257,1500,pending
+TXN-240719,E1016,Shreya Pillai,Sales,2026-09-29,263.00,INR,Ola Cabs,Local Transport,Corporate card,Pune,Cab to client office,no,,1500,approved
+TXN-240847,E1019,Meera Natarajan,Marketing,2026-09-29,646.00,INR,Zomato,Meals,Personal card,Kochi,Team lunch – sprint review,yes,RCP-924332,2500,approved
+TXN-240859,E1019,Meera Natarajan,Marketing,2026-09-29,3440.00,INR,The Leela Palace,Client Entertainment,UPI,Kochi,Dinner with client stakeholders,yes,RCP-851648,6000,pending
+TXN-240888,E1020,Varun Malhotra,Marketing,2026-09-29,3280.00,INR,Toit Brewpub,Client Entertainment,Personal card,Hyderabad,Dinner with client stakeholders,yes,RCP-440173,6000,approved
+TXN-240970,E1022,Abhishek Sinha,Marketing,2026-09-29,6140.00,INR,Figma,Software Subscription,Corporate card,Pune,Annual plan renewal,yes,RCP-487665,50000,approved
+TXN-241095,E1025,Deepa Raghavan,Finance,2026-09-29,574.00,INR,Zomato,Meals,Corporate card,Hyderabad,Working lunch with team,yes,RCP-158663,2500,approved
+TXN-241354,E1031,Nandini Rao,Finance,2026-09-29,760.00,INR,Haldiram's,Meals,UPI,Hyderabad,Working lunch with team,yes,RCP-848246,2500,pending
+TXN-241553,E1035,Imran Sheikh,Operations,2026-09-29,800.00,INR,Saravana Bhavan,Meals,Corporate card,Bengaluru,Dinner during client visit,yes,RCP-367200,2500,pending
+TXN-241555,E1035,Imran Sheikh,Operations,2026-09-29,356.00,INR,Ola Cabs,Local Transport,Corporate card,Bengaluru,Office commute – late shift,yes,RCP-948243,1500,approved
+TXN-241663,E1037,Sanjay Patil,Operations,2026-09-29,401.00,INR,Namma Metro,Local Transport,Cash,New Delhi,Office commute – late shift,no,,1500,pending
+TXN-241760,E1040,Revathi Sundaram,Operations,2026-09-29,1220.00,INR,Croma,Office Supplies,UPI,Mumbai,Notebooks and stationery,yes,RCP-145158,5000,approved
+TXN-241909,E1043,Shalini Menon,Customer Success,2026-09-29,1250.00,INR,Vodafone Idea,Telecom & Internet,UPI,Bengaluru,Home broadband – remote work,yes,RCP-510161,3000,approved
+TXN-241955,E1044,Kiran Jadhav,Customer Success,2026-09-29,741.00,INR,Haldiram's,Meals,UPI,Mumbai,Team lunch – sprint review,yes,RCP-686887,2500,approved
+TXN-240225,E1006,Arjun Nair,Engineering,2026-09-30,972.00,INR,Vodafone Idea,Telecom & Internet,Cash,Pune,Home broadband – remote work,yes,RCP-643426,3000,approved
+TXN-240269,E1007,Divya Krishnan,Engineering,2026-09-30,704.00,INR,Third Wave Coffee,Meals,UPI,New Delhi,Team lunch – sprint review,yes,RCP-681219,2500,approved
+TXN-240451,E1010,Neha Agarwal,Sales,2026-09-30,3330.00,INR,Toit Brewpub,Client Entertainment,Corporate card,Kochi,Client lunch – renewal discussion,yes,RCP-759237,6000,approved
+TXN-240640,E1015,Manish Gupta,Sales,2026-09-30,3840.00,INR,Barbeque Nation,Client Entertainment,UPI,Bengaluru,Client lunch – renewal discussion,yes,RCP-529887,6000,approved
+TXN-240679,E1016,Shreya Pillai,Sales,2026-09-30,602.00,INR,Zomato,Meals,Corporate card,Pune,Dinner during client visit,yes,RCP-497832,2500,approved
+TXN-240816,E1018,Nikhil Chawla,Marketing,2026-09-30,365.00,INR,Uber India,Local Transport,Corporate card,Mumbai,Airport transfer,yes,RCP-513660,1500,approved
+TXN-240850,E1019,Meera Natarajan,Marketing,2026-09-30,320.00,INR,Namma Metro,Local Transport,Personal card,Kochi,Airport transfer,yes,RCP-609629,1500,approved
+TXN-240898,E1020,Varun Malhotra,Marketing,2026-09-30,1080.00,INR,Swiggy,Meals,Cash,Hyderabad,Dinner during client visit,yes,RCP-744108,2500,pending
+TXN-240945,E1021,Tanvi Shah,Marketing,2026-09-30,3120.00,INR,Barbeque Nation,Client Entertainment,Cash,Chennai,Dinner with client stakeholders,yes,RCP-387195,6000,approved
+TXN-240979,E1022,Abhishek Sinha,Marketing,2026-09-30,408.00,INR,Zomato,Meals,Corporate card,Pune,Working lunch with team,yes,RCP-307974,2500,approved
+TXN-241056,E1024,Farhan Qureshi,Marketing,2026-09-30,409.00,INR,Ola Cabs,Local Transport,Corporate card,Hyderabad,Cab to client office,yes,RCP-260649,1500,pending
+TXN-241184,E1027,Anjali Mehta,Finance,2026-09-30,4150.00,INR,Coursera,Training & Conferences,Corporate card,Hyderabad,Workshop ticket,yes,RCP-319648,40000,approved
+TXN-241197,E1027,Anjali Mehta,Finance,2026-09-30,704.00,INR,Saravana Bhavan,Meals,Cash,Hyderabad,Team lunch – sprint review,yes,RCP-381283,2500,approved
+TXN-241560,E1035,Imran Sheikh,Operations,2026-09-30,370.00,INR,Ola Cabs,Local Transport,Corporate card,Bengaluru,Airport transfer,yes,RCP-741666,1500,approved
+TXN-241919,E1043,Shalini Menon,Customer Success,2026-09-30,962.00,INR,Vodafone Idea,Telecom & Internet,UPI,Bengaluru,Monthly mobile bill,yes,RCP-516551,3000,pending
+TXN-242083,E1046,Preethi Anand,Customer Success,2026-09-30,465.00,INR,Airtel,Telecom & Internet,Corporate card,Bengaluru,Monthly mobile bill,yes,RCP-915416,3000,approved
+TXN-242108,E1047,Rajesh Iyer,Customer Success,2026-09-30,431.00,INR,Namma Metro,Local Transport,Corporate card,Hyderabad,Cab to client office,yes,RCP-520688,1500,approved
+TXN-242156,E1048,Sunita Verma,Customer Success,2026-09-30,787.00,INR,Airtel,Telecom & Internet,Corporate card,New Delhi,Monthly mobile bill,yes,RCP-235542,3000,approved
+TXN-242294,E1007,Divya Krishnan,Engineering,2026-09-30,44490.00,INR,Freshworks,Software Subscription,Corporate card,New Delhi,Annual CRM plan,yes,RCP-468973,50000,pending
+TXN-240513,E1012,Pooja Venkatesh,Sales,2026-10-01,776.00,INR,Saravana Bhavan,Meals,UPI,Chennai,Working lunch with team,yes,RCP-778748,2500,approved
+TXN-240528,E1012,Pooja Venkatesh,Sales,2026-10-01,237.00,INR,Rapido,Local Transport,UPI,Chennai,Office commute – late shift,yes,RCP-778803,1500,approved
+TXN-240708,E1016,Shreya Pillai,Sales,2026-10-01,591.00,INR,Haldiram's,Meals,UPI,Pune,Working lunch with team,yes,RCP-806584,2500,approved
+TXN-240854,E1019,Meera Natarajan,Marketing,2026-10-01,1050.00,INR,Croma,Office Supplies,Corporate card,Kochi,Keyboard and mouse,yes,RCP-863240,5000,approved
+TXN-241009,E1023,Lakshmi Prasad,Marketing,2026-10-01,1850.00,INR,Amazon,Office Supplies,Personal card,Pune,Keyboard and mouse,yes,RCP-139192,5000,approved
+TXN-241019,E1023,Lakshmi Prasad,Marketing,2026-10-01,488.00,INR,Ola Cabs,Local Transport,UPI,Pune,Office commute – late shift,yes,RCP-311671,1500,approved
+TXN-241298,E1029,Ritu Saxena,Finance,2026-10-01,1490.00,INR,Croma,Office Supplies,Corporate card,Mumbai,Keyboard and mouse,yes,RCP-445280,5000,approved
+TXN-241480,E1034,Swati Mishra,Operations,2026-10-01,309.00,INR,Rapido,Local Transport,UPI,New Delhi,Cab to client office,yes,RCP-110445,1500,approved
+TXN-241864,E1042,Naveen Kumar,Customer Success,2026-10-01,432.00,INR,Saravana Bhavan,Meals,Corporate card,New Delhi,Team lunch – sprint review,yes,RCP-765977,2500,approved
+TXN-242034,E1045,Mohit Bansal,Customer Success,2026-10-01,735.00,INR,Jio,Telecom & Internet,Cash,Mumbai,Monthly mobile bill,yes,RCP-582384,3000,approved
+TXN-240026,E1001,Priya Raman,Engineering,2026-10-02,415.00,INR,Ola Cabs,Local Transport,Personal card,Mumbai,Cab to client office,yes,RCP-440312,1500,approved
+TXN-240037,E1001,Priya Raman,Engineering,2026-10-02,579.00,INR,Zomato,Meals,UPI,Mumbai,Working lunch with team,yes,RCP-676830,2500,approved
+TXN-240370,E1009,Rahul Menon,Sales,2026-10-02,241.00,INR,Namma Metro,Local Transport,Corporate card,Pune,Cab to client office,yes,RCP-355367,1500,approved
+TXN-240755,E1017,Ishita Banerjee,Marketing,2026-10-02,491.00,INR,Saravana Bhavan,Meals,Corporate card,Hyderabad,Working lunch with team,yes,RCP-819361,2500,approved
+TXN-240886,E1020,Varun Malhotra,Marketing,2026-10-02,916.00,INR,Chai Point,Meals,Corporate card,Hyderabad,Team lunch – sprint review,yes,RCP-407616,2500,approved
+TXN-240985,E1022,Abhishek Sinha,Marketing,2026-10-02,306.00,INR,Ola Cabs,Local Transport,Corporate card,Pune,Cab to client office,no,,1500,pending
+TXN-241077,E1024,Farhan Qureshi,Marketing,2026-10-02,718.00,INR,Chai Point,Meals,UPI,Hyderabad,Dinner during client visit,yes,RCP-749858,2500,approved
+TXN-241090,E1025,Deepa Raghavan,Finance,2026-10-02,698.00,INR,Third Wave Coffee,Meals,Corporate card,Hyderabad,Team lunch – sprint review,yes,RCP-677594,2500,pending
+TXN-241216,E1027,Anjali Mehta,Finance,2026-10-02,935.00,INR,ACT Fibernet,Telecom & Internet,Personal card,Hyderabad,Monthly mobile bill,yes,RCP-966158,3000,approved
+TXN-241296,E1029,Ritu Saxena,Finance,2026-10-02,1110.00,INR,Airtel,Telecom & Internet,Corporate card,Mumbai,Monthly mobile bill,yes,RCP-360477,3000,approved
+TXN-241388,E1031,Nandini Rao,Finance,2026-10-02,558.00,INR,Namma Metro,Local Transport,Corporate card,Hyderabad,Cab to client office,yes,RCP-567688,1500,approved
+TXN-241522,E1034,Swati Mishra,Operations,2026-10-02,5010.00,INR,IndiGo,Travel,Cash,New Delhi,Quarterly business review,yes,RCP-559840,10000,approved
+TXN-241539,E1035,Imran Sheikh,Operations,2026-10-02,5000.00,INR,Lemon Tree Hotels,Accommodation,Corporate card,Bengaluru,Hotel stay for client visit,yes,RCP-681795,8000,approved
+TXN-241626,E1037,Sanjay Patil,Operations,2026-10-02,313.00,INR,Namma Metro,Local Transport,Corporate card,New Delhi,Office commute – late shift,yes,RCP-753774,1500,approved
+TXN-241666,E1037,Sanjay Patil,Operations,2026-10-02,419.00,INR,Namma Metro,Local Transport,Cash,New Delhi,Office commute – late shift,yes,RCP-701891,1500,approved
+TXN-241940,E1044,Kiran Jadhav,Customer Success,2026-10-02,1110.00,INR,Vodafone Idea,Telecom & Internet,UPI,Mumbai,Monthly mobile bill,yes,RCP-606482,3000,approved
+TXN-242187,E1048,Sunita Verma,Customer Success,2026-10-02,4370.00,INR,IndiGo,Travel,Corporate card,New Delhi,Quarterly business review,yes,RCP-740146,10000,approved
+TXN-240219,E1006,Arjun Nair,Engineering,2026-10-03,658.00,INR,Chai Point,Meals,UPI,Pune,Team lunch – sprint review,yes,RCP-701859,2500,approved
+TXN-240507,E1012,Pooja Venkatesh,Sales,2026-10-03,3840.00,INR,IRCTC,Travel,Corporate card,Chennai,Site visit – Pune office,yes,RCP-437445,10000,pending
+TXN-240848,E1019,Meera Natarajan,Marketing,2026-10-03,237.00,INR,Uber India,Local Transport,Cash,Kochi,Airport transfer,no,,1500,approved
+TXN-240962,E1022,Abhishek Sinha,Marketing,2026-10-03,559.00,INR,Swiggy,Meals,Corporate card,Pune,Team lunch – sprint review,yes,RCP-444050,2500,approved
+TXN-241048,E1024,Farhan Qureshi,Marketing,2026-10-03,278.00,INR,Namma Metro,Local Transport,UPI,Hyderabad,Cab to client office,no,,1500,approved
+TXN-241183,E1027,Anjali Mehta,Finance,2026-10-03,345.00,INR,Uber India,Local Transport,Corporate card,Hyderabad,Office commute – late shift,no,,1500,approved
+TXN-241220,E1028,Gautam Iyengar,Finance,2026-10-03,798.00,INR,Third Wave Coffee,Meals,Personal card,Bengaluru,Working lunch with team,yes,RCP-382967,2500,approved
+TXN-241718,E1039,Ajay Thakur,Operations,2026-10-03,572.00,INR,Haldiram's,Meals,Corporate card,Chennai,Working lunch with team,yes,RCP-426449,2500,approved
+TXN-242049,E1046,Preethi Anand,Customer Success,2026-10-03,1020.00,INR,Airtel,Telecom & Internet,Corporate card,Bengaluru,Monthly mobile bill,yes,RCP-361759,3000,approved
+TXN-240193,E1005,Sneha Kulkarni,Engineering,2026-10-04,453.00,INR,Swiggy,Meals,UPI,Mumbai,Team lunch – sprint review,yes,RCP-910576,2500,approved
+TXN-240423,E1010,Neha Agarwal,Sales,2026-10-04,4810.00,INR,IRCTC,Travel,Corporate card,Kochi,Site visit – Pune office,yes,RCP-418801,10000,approved
+TXN-240511,E1012,Pooja Venkatesh,Sales,2026-10-04,1060.00,INR,Zomato,Meals,Cash,Chennai,Team lunch – sprint review,yes,RCP-276642,2500,approved
+TXN-240817,E1018,Nikhil Chawla,Marketing,2026-10-04,438.00,INR,Namma Metro,Local Transport,Corporate card,Mumbai,Office commute – late shift,yes,RCP-871394,1500,approved
+TXN-240923,E1021,Tanvi Shah,Marketing,2026-10-04,753.00,INR,Zomato,Meals,Corporate card,Chennai,Working lunch with team,yes,RCP-552832,2500,approved
+TXN-241515,E1034,Swati Mishra,Operations,2026-10-04,760.00,INR,Zomato,Meals,Personal card,New Delhi,Working lunch with team,yes,RCP-207329,2500,approved
+TXN-241575,E1036,Bhavana Murthy,Operations,2026-10-04,3690.00,INR,Treebo,Accommodation,Corporate card,New Delhi,Hotel stay for client visit,yes,RCP-214378,8000,approved
+TXN-241586,E1036,Bhavana Murthy,Operations,2026-10-04,4290.00,INR,OYO Townhouse,Accommodation,Personal card,New Delhi,Stay for vendor audit,yes,RCP-387438,8000,approved
+TXN-241768,E1040,Revathi Sundaram,Operations,2026-10-04,195.00,INR,Uber India,Local Transport,Corporate card,Mumbai,Airport transfer,no,,1500,pending
+TXN-241870,E1042,Naveen Kumar,Customer Success,2026-10-04,6640.00,INR,Vistara,Travel,UPI,New Delhi,Quarterly business review,yes,RCP-864028,10000,approved
+TXN-242004,E1045,Mohit Bansal,Customer Success,2026-10-04,561.00,INR,Haldiram's,Meals,Cash,Mumbai,Team lunch – sprint review,yes,RCP-505951,2500,approved
+TXN-242031,E1045,Mohit Bansal,Customer Success,2026-10-04,973.00,INR,ACT Fibernet,Telecom & Internet,UPI,Mumbai,Monthly mobile bill,yes,RCP-510412,3000,approved
+TXN-242148,E1048,Sunita Verma,Customer Success,2026-10-04,1030.00,INR,ACT Fibernet,Telecom & Internet,Corporate card,New Delhi,Home broadband – remote work,yes,RCP-452379,3000,approved
+TXN-240143,E1004,Rohan Deshpande,Engineering,2026-10-05,533.00,INR,Rapido,Local Transport,UPI,Hyderabad,Cab to client office,no,,1500,pending
+TXN-240189,E1005,Sneha Kulkarni,Engineering,2026-10-05,484.00,INR,Third Wave Coffee,Meals,Personal card,Mumbai,Dinner during client visit,yes,RCP-373845,2500,approved
+TXN-240686,E1016,Shreya Pillai,Sales,2026-10-05,532.00,INR,Swiggy,Meals,Corporate card,Pune,Dinner during client visit,yes,RCP-667977,2500,approved
+TXN-240727,E1017,Ishita Banerjee,Marketing,2026-10-05,5910.00,INR,Figma,Software Subscription,Corporate card,Hyderabad,Annual plan renewal,yes,RCP-393600,50000,pending
+TXN-240747,E1017,Ishita Banerjee,Marketing,2026-10-05,2100.00,INR,Amazon,Office Supplies,Cash,Hyderabad,Keyboard and mouse,yes,RCP-406139,5000,approved
+TXN-240823,E1018,Nikhil Chawla,Marketing,2026-10-05,1850.00,INR,Flipkart,Office Supplies,Corporate card,Mumbai,Notebooks and stationery,yes,RCP-960859,5000,approved
+TXN-240951,E1022,Abhishek Sinha,Marketing,2026-10-05,568.00,INR,Zomato,Meals,Corporate card,Pune,Team lunch – sprint review,yes,RCP-495153,2500,pending
+TXN-241012,E1023,Lakshmi Prasad,Marketing,2026-10-05,459.00,INR,Haldiram's,Meals,Corporate card,Pune,Team lunch – sprint review,yes,RCP-871744,2500,approved
+TXN-241173,E1026,Suresh Kumar,Finance,2026-10-05,523.00,INR,Swiggy,Meals,Corporate card,Hyderabad,Working lunch with team,yes,RCP-975384,2500,approved
+TXN-241483,E1034,Swati Mishra,Operations,2026-10-05,5750.00,INR,IRCTC,Travel,Personal card,New Delhi,Quarterly business review,yes,RCP-318347,10000,approved
+TXN-241662,E1037,Sanjay Patil,Operations,2026-10-05,928.00,INR,Saravana Bhavan,Meals,Corporate card,New Delhi,Team lunch – sprint review,yes,RCP-161579,2500,approved
+TXN-241675,E1038,Geetha Ramesh,Operations,2026-10-05,330.00,INR,Uber India,Local Transport,Corporate card,Bengaluru,Airport transfer,yes,RCP-376269,1500,approved
+TXN-241751,E1039,Ajay Thakur,Operations,2026-10-05,899.00,INR,Zomato,Meals,Cash,Chennai,Dinner during client visit,yes,RCP-492336,2500,pending
+TXN-241972,E1044,Kiran Jadhav,Customer Success,2026-10-05,3900.00,INR,IndiGo,Travel,Personal card,Mumbai,Site visit – Pune office,yes,RCP-186384,10000,approved
+TXN-241999,E1045,Mohit Bansal,Customer Success,2026-10-05,381.00,INR,Rapido,Local Transport,Corporate card,Mumbai,Cab to client office,yes,RCP-709099,1500,pending
+TXN-242126,E1047,Rajesh Iyer,Customer Success,2026-10-05,723.00,INR,Saravana Bhavan,Meals,Cash,Hyderabad,Working lunch with team,yes,RCP-557181,2500,approved
+TXN-242135,E1047,Rajesh Iyer,Customer Success,2026-10-05,384.00,INR,Ola Cabs,Local Transport,Corporate card,Hyderabad,Airport transfer,yes,RCP-758706,1500,approved
+TXN-242176,E1048,Sunita Verma,Customer Success,2026-10-05,3750.00,INR,Mainland China,Client Entertainment,UPI,New Delhi,Client lunch – renewal discussion,yes,RCP-663717,6000,approved
+TXN-242275,E1036,Bhavana Murthy,Operations,2026-10-05,4333.00,INR,OYO Townhouse,Accommodation,Corporate card,New Delhi,Stay for vendor audit,no,,8000,approved
+TXN-242297,E1002,Karthik Subramanian,Engineering,2026-10-05,38820.00,INR,Zoho Corporation,Software Subscription,UPI,Chennai,Zoho One – team plan,yes,RCP-712570,50000,pending
+TXN-242356,E1045,Mohit Bansal,Customer Success,2026-10-05,9470.00,INR,Vistara,Travel,Cash,Mumbai,Client visit,yes,RCP-446753,10000,approved
+TXN-251001,E1001,Priya Raman,Engineering,2026-10-05,18500.00,INR,IndiGo,Travel,Corporate card,Mumbai,Client visit – Mumbai,yes,RCP-531987,10000,pending
+TXN-240044,E1001,Priya Raman,Engineering,2026-10-06,1390.00,INR,Flipkart,Office Supplies,Personal card,Mumbai,Notebooks and stationery,yes,RCP-195519,5000,approved
+TXN-240058,E1002,Karthik Subramanian,Engineering,2026-10-06,420.00,INR,Ola Cabs,Local Transport,Corporate card,Chennai,Cab to client office,no,,1500,approved
+TXN-240363,E1009,Rahul Menon,Sales,2026-10-06,2820.00,INR,MakeMyTrip,Travel,Personal card,Pune,Client visit,yes,RCP-271429,10000,approved
+TXN-240416,E1010,Neha Agarwal,Sales,2026-10-06,410.00,INR,Ola Cabs,Local Transport,Cash,Kochi,Office commute – late shift,yes,RCP-223152,1500,approved
+TXN-240500,E1012,Pooja Venkatesh,Sales,2026-10-06,6130.00,INR,Lemon Tree Hotels,Accommodation,UPI,Chennai,Hotel stay for client visit,yes,RCP-220039,8000,approved
+TXN-240844,E1019,Meera Natarajan,Marketing,2026-10-06,722.00,INR,Zomato,Meals,Corporate card,Kochi,Dinner during client visit,yes,RCP-915195,2500,approved
+TXN-241026,E1023,Lakshmi Prasad,Marketing,2026-10-06,510.00,INR,Swiggy,Meals,Corporate card,Pune,Dinner during client visit,yes,RCP-958690,2500,pending
+TXN-241053,E1024,Farhan Qureshi,Marketing,2026-10-06,4050.00,INR,The Leela Palace,Client Entertainment,Cash,Hyderabad,Dinner with client stakeholders,yes,RCP-626807,6000,pending
+TXN-241458,E1033,Ravi Shankar,Operations,2026-10-06,484.00,INR,Chai Point,Meals,UPI,Bengaluru,Team lunch – sprint review,yes,RCP-280099,2500,approved
+TXN-241475,E1033,Ravi Shankar,Operations,2026-10-06,267.00,INR,Rapido,Local Transport,UPI,Bengaluru,Office commute – late shift,yes,RCP-168309,1500,approved
+TXN-241558,E1035,Imran Sheikh,Operations,2026-10-06,1150.00,INR,Flipkart,Office Supplies,Corporate card,Bengaluru,Printer cartridges,yes,RCP-528787,5000,approved
+TXN-241569,E1036,Bhavana Murthy,Operations,2026-10-06,401.00,INR,Namma Metro,Local Transport,UPI,New Delhi,Office commute – late shift,no,,1500,approved
+TXN-241624,E1037,Sanjay Patil,Operations,2026-10-06,737.00,INR,Chai Point,Meals,Corporate card,New Delhi,Team lunch – sprint review,yes,RCP-431315,2500,approved
+TXN-241644,E1037,Sanjay Patil,Operations,2026-10-06,768.00,INR,Third Wave Coffee,Meals,Corporate card,New Delhi,Dinner during client visit,yes,RCP-576386,2500,approved
+TXN-241687,E1038,Geetha Ramesh,Operations,2026-10-06,2600.00,INR,IRCTC,Travel,UPI,Bengaluru,Quarterly business review,yes,RCP-295134,10000,approved
+TXN-241931,E1043,Shalini Menon,Customer Success,2026-10-06,5030.00,INR,Vistara,Travel,Cash,Bengaluru,Client visit,yes,RCP-665846,10000,approved
+TXN-241937,E1043,Shalini Menon,Customer Success,2026-10-06,399.00,INR,Rapido,Local Transport,Cash,Bengaluru,Cab to client office,no,,1500,approved
+TXN-242009,E1045,Mohit Bansal,Customer Success,2026-10-06,360.00,INR,Uber India,Local Transport,Personal card,Mumbai,Office commute – late shift,no,,1500,approved
+TXN-242252,E1029,Ritu Saxena,Finance,2026-10-06,4590.00,INR,The Leela Palace,Meals,UPI,Mumbai,Dinner during client visit,yes,RCP-925989,2500,pending
+TXN-240080,E1002,Karthik Subramanian,Engineering,2026-10-07,1220.00,INR,Croma,Office Supplies,Personal card,Chennai,Keyboard and mouse,yes,RCP-883587,5000,approved
+TXN-240116,E1003,Ananya Iyer,Engineering,2026-10-07,589.00,INR,Saravana Bhavan,Meals,UPI,Pune,Working lunch with team,yes,RCP-106162,2500,approved
+TXN-240210,E1005,Sneha Kulkarni,Engineering,2026-10-07,411.00,INR,Rapido,Local Transport,Cash,Mumbai,Cab to client office,yes,RCP-380476,1500,pending
+TXN-240299,E1007,Divya Krishnan,Engineering,2026-10-07,260.00,INR,Ola Cabs,Local Transport,Personal card,New Delhi,Airport transfer,yes,RCP-381042,1500,approved
+TXN-240409,E1010,Neha Agarwal,Sales,2026-10-07,6960.00,INR,IndiGo,Travel,Cash,Kochi,Quarterly business review,yes,RCP-561358,10000,approved
+TXN-240621,E1014,Kavya Reddy,Sales,2026-10-07,502.00,INR,Saravana Bhavan,Meals,Personal card,Chennai,Dinner during client visit,yes,RCP-192728,2500,pending
+TXN-240965,E1022,Abhishek Sinha,Marketing,2026-10-07,872.00,INR,Flipkart,Office Supplies,Corporate card,Pune,Notebooks and stationery,yes,RCP-242602,5000,pending
+TXN-240974,E1022,Abhishek Sinha,Marketing,2026-10-07,1640.00,INR,Staples India,Office Supplies,Corporate card,Pune,Notebooks and stationery,yes,RCP-577021,5000,approved
+TXN-240977,E1022,Abhishek Sinha,Marketing,2026-10-07,493.00,INR,Uber India,Local Transport,UPI,Pune,Office commute – late shift,no,,1500,approved
+TXN-241305,E1030,Harish Chandran,Finance,2026-10-07,884.00,INR,Staples India,Office Supplies,UPI,Mumbai,Keyboard and mouse,yes,RCP-793019,5000,approved
+TXN-241529,E1035,Imran Sheikh,Operations,2026-10-07,375.00,INR,Namma Metro,Local Transport,Corporate card,Bengaluru,Office commute – late shift,no,,1500,approved
+TXN-242132,E1047,Rajesh Iyer,Customer Success,2026-10-07,1740.00,INR,Airtel,Telecom & Internet,Corporate card,Hyderabad,Monthly mobile bill,yes,RCP-227851,3000,approved
+TXN-242273,E1003,Ananya Iyer,Engineering,2026-10-07,589.00,INR,Saravana Bhavan,Meals,UPI,Pune,Working lunch with team,yes,RCP-746246,2500,approved
+TXN-251002,E1009,Rahul Menon,Sales,2026-10-07,5400.00,INR,Amazon,Office Supplies,Corporate card,Pune,Laptop docking station,yes,RCP-989009,5000,pending
+TXN-251003,E1009,Rahul Menon,Sales,2026-10-07,5400.00,INR,Amazon,Office Supplies,Corporate card,Pune,Laptop docking station,yes,RCP-291581,5000,pending
